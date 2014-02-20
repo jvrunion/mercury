@@ -14,7 +14,7 @@ Install Dependancies
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
 
-###If you do not already have npm or ruby you will need them.
+###If You Do Not Already Have NPM Or Ruby You Will Need Them.
 
 - [Node](http://nodejs.org/)
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
