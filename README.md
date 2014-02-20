@@ -25,7 +25,7 @@ Install Dependancies
 
 #####Clone this repo:
 
-``git clone https://github.com/jvrunion/jvrunion.github.com.git``
+``git clone https://github.com/jvrunion/mercury.git``
 
 #####Node Package Manager Install:
 
