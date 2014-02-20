@@ -1,0 +1,8 @@
+name: John V Runion - Senior UI Engineer / UX Designer / Front End Architect
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title.html
+exclude: ["README.md", "Gruntfile.js", "node_modules", "config.rb", "package.json", "LICENSE-MIT", "bower.json"]
+gems:
+- jekyll-compass
+- compass

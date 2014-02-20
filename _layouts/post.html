@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article class="hybrid-combo-article">
+  <div class="pure-u-1">
+    <section class="content">
+      <section class="post">
+        <header class = "post-header">
+          <h2 class="post-title">
+           <i class="fa fa-bookmark"></i>
+           {{ page.title }}</h2>
+           <p class = "post-meta">
+            Post at 
+            <i class="fa fa-calendar"></i>
+            {{ page.date | date:"%Y-%m-%d" }}
+          </p>
+        </header>
+        <div class = "post-description">
+          {{ content }}
+        </div>
+      </section>
+    </section>
+  </div>
+  {% if page.previous or page.next %}
+  <section>
+    {% if page.previous %}
+    <a href='{{page.previous.url}}'>
+      <i class="fa fa-arrow-circle-o-left"></i>
+      Previous
+    </a>
+    {% endif %}
+    {% if page.next %}
+    <a href='{{page.next.url}}'>
+      Next
+      <i class="fa fa-arrow-circle-o-right"></i>
+    </a>
+    {% endif %}
+  </section>
+  {% endif %}  
+</article>
+

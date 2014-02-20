@@ -1,0 +1,24 @@
+{
+    "name": "jvrunion.github.com",
+    "version": "0.2.13",
+    "homepage": "https://github.com/jvrunion/jvrunion.github.com",
+    "authors": [
+        "dc_coder <jvrunion@gmail.com>"
+    ],
+    "description": "Jekyll, Pure Based Blog",
+    "main": "_config.yml",
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "~2.1.0",
+        "pure": "~0.4.1",
+        "sizzle": "1.10.16"
+    }
+}
