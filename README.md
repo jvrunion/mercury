@@ -58,3 +58,9 @@ Install Dependancies
 #####You are now up and running:
 
 ``=> Now browse to http://localhost:4000``
+
+Based upon
+==========
+
+- [Jekyll Grunt](https://github.com/dannygarcia/grunt-jekyll)
+- [Jekyll Pure](https://github.com/brickgao/jekyll-pure)
