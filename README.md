@@ -27,6 +27,8 @@ Install Dependancies
 
 ``git clone https://github.com/jvrunion/mercury.git``
 
+``cd mercury``
+
 #####Node Package Manager Install:
 
 ``npm install``
