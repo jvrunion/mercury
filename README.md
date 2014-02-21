@@ -62,7 +62,9 @@ Install Dependancies
 Based upon
 ==========
 
-- [Pure](http://purecss.io/)
-- [Jekyll](http://jekyllrb.com/)
-- [Jekyll Grunt](https://github.com/dannygarcia/grunt-jekyll)
-- [Jekyll Pure](https://github.com/brickgao/jekyll-pure)
+- Pure Docs at (http://purecss.io/base/)
+- Jekyll Docs at (http://jekyllrb.com/docs/home/)
+- Grunt Docs at (http://gruntjs.com/getting-started)
+- Compass Docs at http://compass-style.org/reference/compass/)
+- Jekyll Grunt - GitHub Account (https://github.com/dannygarcia/grunt-jekyll)
+- Jekyll Pure - GitHub Account (https://github.com/brickgao/jekyll-pure)
