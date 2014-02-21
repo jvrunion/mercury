@@ -8,25 +8,29 @@
     {% else %}
     <title>{{ site.name }}</title>
     {% endif %}
+    <!-- css sheets are compiled via sass and compass from _sass/ and put in the _site/css/ dir -->
     <link rel="stylesheet" href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <link rel="stylesheet" href="/css/font-awesome.css" type="text/css">       
     <link rel="stylesheet" href="/css/style.css" type="text/css">       
 </head>
 <body class="pure-hybrid" id="layout">
+    <!-- hidden small device trigger -->
     <a href="#menu" id="menuLink" class="menu-link">
         <span></span>
     </a>    
     <div id="menu" class="combo-respond-left">
         <div class="pure-menu pure-menu-open">
+            <!-- add your own brand here -->
             <a class="pure-menu-heading" href="https://github.com/jvrunion"><i class="fa fa-github"></i> GitHub</a>
             <ul>
                 <li>
+                    <!-- active class manual for display but add your own logic if you choose -->
                     <a class="active" href="/index.html">
-                       <i class="fa fa-tachometer"></i>
-                       Dashboard
-                   </a>
-               </li>
-               <li>
+                     <i class="fa fa-tachometer"></i>
+                     Dashboard
+                 </a>
+             </li>
+             <li>
                 <a href="#">
                     <i class="fa fa-laptop"></i>
                     Expertise
@@ -58,6 +62,7 @@
             Social
         </h3>    
     </div>
+    <!-- insert your own social networks and links in this listm-->
     <ul class="footer-list">
         <li>
             <a href="mailto:jvrunion@gmail.com"><i class="fa fa-google-plus-square"></i></a>
@@ -74,6 +79,7 @@
     </ul>
 </footer>   
 </body>
+<!-- add your script dependancies here for quicker page loads -->
 <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="/js/pure-responsive.js" type="text/javascript"></script> <!--/script load--> 
 </html>
