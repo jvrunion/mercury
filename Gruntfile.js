@@ -69,7 +69,7 @@ module.exports = function(grunt) {
         },
         watch: {
             jekyll: {
-                files: ['_layouts/*', '/*.md'],
+                files: ['_layouts/*', '*.md'],
                 tasks: ['exec:build'],
                 options: {
                     livereload: true

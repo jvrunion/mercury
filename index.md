@@ -4,7 +4,7 @@ layout: default
 
 <div class="splash-container splash-combo-respond">
     <div class="splash">
-        <h1 class="splash-head">I make things for the Interwebs</h1>
+        <h1 class="splash-head">I make things for Interwebs</h1>
         <p class="splash-subhead">
             by turning concepts into meaningful experiences...
         </p>
