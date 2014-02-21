@@ -62,5 +62,7 @@ Install Dependancies
 Based upon
 ==========
 
+- [Pure](https://pure.io)
+- [Jekyll](http://jekyllrb.com/)
 - [Jekyll Grunt](https://github.com/dannygarcia/grunt-jekyll)
 - [Jekyll Pure](https://github.com/brickgao/jekyll-pure)
