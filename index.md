@@ -10,6 +10,7 @@ layout: default
         </p>
         <p>
             <a href="https://twitter.com/dc_coder" class="pure-button pure-button-primary" title="Follow Me on Twitter!">
+                <!-- add your twitter handle here -->
                 @dc_coder
                 <i class="fa fa-twitter"></i>
             </a>
@@ -19,49 +20,57 @@ layout: default
 <div class="content">
     <div class="content-wrapper">
         <h1 class="content-head is-center">
+            <!-- hero statement -->
             Areas of Expertise
         </h1>
         <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
-
+            <div class="l-box pure-u-1 pure-u-med-1-2">
+                <!-- spotlight items -->
                 <h3 class="content-subhead">
                     <i class="fa fa-rocket teaser-more"></i>
                     Rapid Prototyping
                 </h3>
                 <p>
-                    Prototyping can fall into several different categories.  First you can prototype a concept of an idea.</br>
-<!--                     <i class="fa fa-terminal"></i> 
+                    Prototyping can fall into several different categories.  First you can prototype a concept of an idea.  Ideas need to be backed by tangable and actionable requiremnts set down from a business need.  The ability to visualize these ideas into a working model helps you gain insight into the operation of the product and can cut down on stop gaps that arise down the line in development.</br>
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
                     <a href="/rapid-prototyping.html">continue</a> -->
                 </p>
             </div>
-            <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
+            <div class="l-box pure-u-1 pure-u-med-1-2">
                 <h3 class="content-subhead">
                     <i class="fa fa-mobile teaser-more"></i>
                     Responsive Layouts
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</br>
+                    Responsive design is built upon the premise that you site will re-adjust the scaling and size of elements based on media queeries that are defined for different device resolutions. Mobile first concepts ensure that your content is delivered as a stable mobile app then worked backward for delivery on stadard laptop and desktop resolutions.</br>
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
+                    <a href="/rapid-prototyping.html">continue</a> -->                    
                 </p>
             </div>
-            <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
+            <div class="l-box pure-u-1 pure-u-med-1-2">
                 <h3 class="content-subhead">
                     <i class="fa fa-th-large teaser-more"></i>
                     Modular Code
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</br>
+                    By building out your assets in a templatized manner, you can re-use certain global aspects of your site in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular blocks of code</br>
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
+                    <a href="/rapid-prototyping.html">continue</a> -->                    
                 </p>
             </div>
-            <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
+            <div class="l-box pure-u-1 pure-u-med-1-2">
                 <h3 class="content-subhead">
                     <i class="fa fa-check-square-o teaser-more"></i>
                     Modern Workflow
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</br>
+                    Modern javaScript based task runners such as Grunt.js and Yeoman make the job of the Front End Engineer much simpler and less cumbersome.  By defining iterative tasks such as compilation into a seamlessly updated environment that streamlines the engineers local development environment</br>
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
+                    <a href="/rapid-prototyping.html">continue</a> -->                    
                 </p>
             </div>
         </div>   
+        <!-- css3 animated data attribute list template -->
         <div class="pure-service-list">
             <h1 class="content-head is-center">
                 Proven Skills With
@@ -119,6 +128,7 @@ layout: default
                 </a>          
             </ul>
         </div> 
+        <!-- shoutout to your own peeps! -->
         <div class="pure-g pure-g-power">
             <a href="#" data-event="label"><h1 class="power">
                 Crafted with Care:
@@ -132,7 +142,8 @@ layout: default
             <li class="power-image"><a  data-provider="pure" href="http://purecss.io/"><img class="grey-scale ghost img-pure" src="img/pure.png" alt="Pure"></a></li>
             <li class="power-image"><a data-provider="node" href="http://nodejs.org/"><img class="grey-scale ghost img-node" src="img/node-bg.png" alt="Node"></a></li>
         </ul>
-    </div>        
+    </div> 
+    <!-- your most recently created posts are delivered here -->       
     <div class="pure-u-1">
         <div class="posts">
             <div class = "content">
@@ -141,9 +152,9 @@ layout: default
                 <section class = "post">
                     <header class = "post-header">
                         <h2 class="post-title">
-                         <i class="fa fa-bookmark"></i>
-                         <a href="{{ post.url }}">{{ post.title }}</a></h2>
-                         <p class = "post-meta">
+                           <i class="fa fa-bookmark"></i>
+                           <a href="{{ post.url }}">{{ post.title }}</a></h2>
+                           <p class = "post-meta">
                             <i class="fa fa-calendar"></i>
                             {{ post.date | date:"%Y-%m-%d" }}
                         </p>
