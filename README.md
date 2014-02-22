@@ -41,7 +41,7 @@ Install Dependancies
 
 ``npm install grunt-contrib-connect --save``
 
-``npm install grunt-contrib.compass --save``
+``npm install grunt-contrib-compass --save``
 
 #####Then A Bower Install:
 
