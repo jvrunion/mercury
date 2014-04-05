@@ -47,17 +47,13 @@ Install Dependancies
 
 ``bower install --save-dev``
 
-#####Update
-
-``npm update --save-dev``
-
 #####Start the Jekyll server locally with Grunt:
 
 ``grunt``
 
 #####You are now up and running:
 
-``=> Now browse to http://localhost:4000``
+``=> Now point to http://localhost:4000``
 
 Based upon
 ==========
