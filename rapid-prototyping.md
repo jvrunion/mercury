@@ -10,4 +10,4 @@ tags: [Prototyping]
 
 * First you can prototype a concept or idea.  This requires little else than having the idea and having a need or desire to implement it into existence.  
 
-* Secondly, once you get past the inital concept phase, you have entered into the realistic realm of Conceptualization.  During the Conceptualization pahse is when things actually get interesting.	
+* Secondly, once you get past the initial concept phase, you have entered into the realistic realm of Conceptualization.  During the Conceptualization phase is when things actually get interesting.
