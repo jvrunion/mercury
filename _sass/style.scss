@@ -222,6 +222,7 @@ a.pure-data-service:hover li.data-hidden-service {
     text-shadow: 1px 1px rgb(221, 221, 221);
     font-weight: 700;
     font-size: 1.25em;
+    font-family: Montserrat;
 }
 
 .pure-hybrid #menu a.pure-menu-heading:hover {
@@ -262,7 +263,7 @@ a.pure-data-service:hover li.data-hidden-service {
     position: relative;
     border-top: 1px transparent;
     text-transform: uppercase;
-    font-size: .7em;
+    font-size: .8em;
 }
 
 .pure-hybrid #menu .pure-menu li a:hover,
@@ -364,8 +365,9 @@ h1.content-subhead {
 }
 
 .hybrid-combo-article {
-    margin: 0 auto;
-    padding: 0 25px;
+  margin: 0 auto;
+  padding: 0 25px;
+  width: 80%;
 }
 
     .hybrid-combo-article .content {
@@ -373,7 +375,6 @@ h1.content-subhead {
     }
 
     .hybrid-combo-article a {
-//        margin-left: 2.55em;
         font-weight: 700;
         font-size: 1.27em;
         font-family: "Oxygen";
@@ -434,7 +435,7 @@ h1.content-subhead {
 }
 
 #layout.pure-hybrid #menu {
-    width: 13%;
+    width: 20%;
 }
 
 #layout.pure-hybrid {
@@ -477,10 +478,10 @@ h1.content-subhead {
 }
 
 .splash-container.splash-combo-respond {
-    left: 13%;
+    left: 20%;
     margin: 0 auto;
     padding: 0;
-    width: 87%;
+    width: 80%;
     height: 65%;
 }
 
@@ -527,10 +528,10 @@ h1.content-subhead {
 #layout.pure-hybrid .content .content-wrapper {
     position: absolute;
     top: 65%;
-    left: 13%;
+    left: 20%;
     z-index: 2;
     min-height: 50%;
-    width: 87%;
+    width: 80%;
     background: rgb(255, 255, 255);
     box-shadow: 10px 0 35px rgba(0, 0, 0, 0.5);
 }
@@ -538,7 +539,7 @@ h1.content-subhead {
 .hybrid-no-left-panel {
     position: fixed;
     top: 45%;
-    left: 13.1%;
+    left: 20.1%;
     z-index: 2000;
     margin-left: -37px;
     padding: 1px 10px;
@@ -701,7 +702,7 @@ section.post {
 footer {
     position: fixed;
     bottom: 0;
-    left: 13%;
+    left: 20%;
     z-index: 1000;
     display: block;
     padding: 20px;
@@ -769,7 +770,7 @@ footer .social-shout-out {
     margin: -1px auto 0;
     padding-top: 0;
     width: 165px;
-    height: 33px;
+    height: 25px;
     border-radius: 4px 4px 0 0;
     background: rgb(24, 55, 70);
     text-transform: uppercase;
@@ -793,7 +794,7 @@ footer .social-shout-out:hover {
 }
 
 footer {
-    bottom: -88px;
+    bottom: -136px;
 }
 
 footer.active-toggle {
@@ -802,9 +803,9 @@ footer.active-toggle {
 
 .footer-toggle-control {
     position: absolute;
-    bottom: 88px;
+    bottom: 136px;
     left: 0;
-    width: 87%;
+    width: 80%;
     cursor: pointer;
 }
 
