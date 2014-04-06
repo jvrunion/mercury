@@ -306,7 +306,8 @@ a.pure-data-service:hover li.data-hidden-service {
   font-size: .8em;
 }
 
-.pure-hybrid #menu .pure-menu li a:hover, .pure-hybrid #menu .pure-menu li a:focus {
+.pure-hybrid #menu .pure-menu li a:hover,
+.pure-hybrid #menu .pure-menu li a:focus {
   background: rgb(255, 255, 255);
   color: rgb(245, 50, 23);
   text-shadow: 1px 1px rgb(255, 255, 255);
@@ -315,11 +316,12 @@ a.pure-data-service:hover li.data-hidden-service {
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  padding: 3% 0 3% 20%;
-  font-size: 1.55em;
+  padding: 3% 0 3% 15%;
   box-shadow: inset 0 15px 25px rgb(219, 219, 219);
   border-top: 1px solid rgb(204, 204, 204);
   border-bottom: 1px solid rgb(228, 228, 228);
+  line-height: 2em;
+  font-size: 1.1em;
 }
 
 .pure-hybrid .splash-container {
@@ -440,20 +442,6 @@ h1.content-subhead {
 .posts .content {
   top: 95%;
 }
-
-//.post-description h1 {
-//  border: 1px solid rgb(56, 64, 73);
-//  border-bottom: 1px solid rgb(59, 83, 100);
-//  border-radius: 0;
-//  background: rgba(53, 66, 78, 0.8);
-//  box-shadow: inset 0 10px 35px rgb(16, 27, 37);
-//  height: 100px;
-//  color: rgb(255, 255, 255);
-//  padding: 1em;
-//  margin: 0 auto;
-//  text-align: center;
-//  margin-top: -50px;
-//}
 
 .post-description a {
   text-transform: uppercase;
@@ -769,7 +757,7 @@ section.post {
 
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: 50%;
   left: 20%;
   z-index: 1000;
   display: block;
@@ -867,16 +855,17 @@ footer .social-shout-out:hover {
 }
 
 footer {
-  bottom: -104px;
+  bottom: -13.5%;
 }
 
 footer.active-toggle {
   bottom: 0;
+  height: 50%;
 }
 
 .footer-toggle-control {
   position: absolute;
-  bottom: 104px;
+  bottom: 100%;
   left: 0;
   width: 80%;
   cursor: pointer;
