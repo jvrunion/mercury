@@ -43,37 +43,31 @@ var dataEvent = document.querySelectorAll("[data-event]");
 var dataService = document.querySelectorAll("[data-service]");
 
 for (var i = dataProvider.length - 1; i >= 0; i--) {
-    dataProvider[i];
-    console.log(dataProvider[i]);
     dataProvider[i].addEventListener('click', function(e) {
         e.preventDefault();
         var makeProviderDynamic = this.innerHTML;
         alert("I have logged this elements innerHTML in console as " + makeProviderDynamic);
         console.log(makeProviderDynamic);
     });
-};
+}
 
 for (var i = dataEvent.length - 1; i >= 0; i--) {
-    dataEvent[i];
-    console.log(dataEvent[i]);
     dataEvent[i].addEventListener('click', function(e) {
         e.preventDefault();
         var makeEventDynamic = this.innerHTML;
         alert("I have logged this elements innerHTML in console as " + makeEventDynamic);
         console.log(makeEventDynamic);
     });
-};
+}
 
 for (var i = dataService.length - 1; i >= 0; i--) {
-    dataService[i];
-    console.log(dataService[i]);
     dataService[i].addEventListener('click', function(e) {
         e.preventDefault();
         var makeServiceDynamic = this.innerHTML;
         alert("I have logged this elements innerHTML in console as " + makeServiceDynamic);
         console.log(makeServiceDynamic);
     });
-};
+}
 
 // Menu Builders
 
@@ -98,7 +92,6 @@ var Y = YUI({
     });
 
 });
-
 
 // jQuery selectors
 

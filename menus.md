@@ -4,7 +4,7 @@ title: Menus
 tags: [Menus]
 ---
 
-#MENUS TEST
+<h1 class="page-header">Menus</h1>
 
 ##HORIZONTAL MENU
 
