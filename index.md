@@ -4,9 +4,9 @@ layout: default
 
 <div class="splash-container splash-combo-respond">
     <div class="splash">
-        <h1 class="splash-head">I make things for Interwebs</h1>
+        <h1 class="splash-head">Mercury Asset Pipeline</h1>
         <p class="splash-subhead">
-            by turning concepts into meaningful experiences...
+            turning concepts into meaningful experiences...
         </p>
         <p>
             <a href="https://twitter.com/dc_coder" class="pure-button pure-button-primary" title="Follow Me on Twitter!">
@@ -32,7 +32,7 @@ layout: default
                 </h3>
                 <p>
                     Prototyping can fall into several different categories.  First you can prototype a concept of an idea.  Ideas need to be backed by tangable and actionable requiremnts set down from a business need.  The ability to visualize these ideas into a working model helps you gain insight into the operation of the product and can cut down on stop gaps that arise down the line in development.</br>
-                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i>
                     <a href="/rapid-prototyping.html">continue</a> -->
                 </p>
             </div>
@@ -43,8 +43,8 @@ layout: default
                 </h3>
                 <p>
                     Responsive design is built upon the premise that you site will re-adjust the scaling and size of elements based on media queeries that are defined for different device resolutions. Mobile first concepts ensure that your content is delivered as a stable mobile app then worked backward for delivery on stadard laptop and desktop resolutions.</br>
-                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
-                    <a href="/rapid-prototyping.html">continue</a> -->                    
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i>
+                    <a href="/rapid-prototyping.html">continue</a> -->
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-med-1-2">
@@ -54,8 +54,8 @@ layout: default
                 </h3>
                 <p>
                     By building out your assets in a templatized manner, you can re-use certain global aspects of your site in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular blocks of code</br>
-                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
-                    <a href="/rapid-prototyping.html">continue</a> -->                    
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i>
+                    <a href="/rapid-prototyping.html">continue</a> -->
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-med-1-2">
@@ -65,16 +65,16 @@ layout: default
                 </h3>
                 <p>
                     Modern javaScript based task runners such as Grunt.js and Yeoman make the job of the Front End Engineer much simpler and less cumbersome.  By defining iterative tasks such as compilation into a seamlessly updated environment that streamlines the engineers local development environment</br>
-                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i> 
-                    <a href="/rapid-prototyping.html">continue</a> -->                    
+                    <!--   formatted link to new md page  <i class="fa fa-terminal"></i>
+                    <a href="/rapid-prototyping.html">continue</a> -->
                 </p>
             </div>
-        </div>   
+        </div>
         <!-- css3 animated data attribute list template -->
         <div class="pure-service-list">
             <h1 class="content-head is-center">
                 Proven Skills With
-            </h1>            
+            </h1>
             <ul class="pure-data-list">
                 <a href="#" data-service="ember" class="pure-data-service">
                     <li>Ember</li>
@@ -125,9 +125,9 @@ layout: default
                     <li class="data-hidden-service">
                         <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
                     </li>
-                </a>          
+                </a>
             </ul>
-        </div> 
+        </div>
         <!-- shoutout to your own peeps! -->
         <div class="pure-g pure-g-power">
             <a href="#" data-event="label"><h1 class="power">
@@ -135,38 +135,18 @@ layout: default
             </h1>
         </a>
         <ul class="pure-power-list">
-            <li class="power-image"><a data-provider="bower" href="http://bower.io/"><img class="grey-scale ghost img-bower" src="img/bower-logo.png" alt="Bower"></a></li>            
+            <li class="power-image"><a data-provider="bower" href="http://bower.io/"><img class="grey-scale ghost img-bower" src="img/bower-logo.png" alt="Bower"></a></li>
             <li class="power-image"><a  data-provider="jekyll" href="http://jekyllrb.com/"><img class="grey-scale ghost img-jekyll" src="img/jekyll.png" alt="Jekyll"></a></li>
-            <li class="power-image"><a data-provider="sass" href="http://sass-lang.com/"><img class="grey-scale ghost img-sass" src="img/sass-logo.png" alt="Jekyll"></a></li>                
-            <li class="power-image"><a  data-provider="github"href="https://github.com/"><img class="grey-scale ghost img-git" src="img/git-original.png" alt="GitHub"></a></li>                
+            <li class="power-image"><a data-provider="sass" href="http://sass-lang.com/"><img class="grey-scale ghost img-sass" src="img/sass-logo.png" alt="Jekyll"></a></li>
+            <li class="power-image"><a  data-provider="github"href="https://github.com/"><img class="grey-scale ghost img-git" src="img/git-original.png" alt="GitHub"></a></li>
             <li class="power-image"><a  data-provider="pure" href="http://purecss.io/"><img class="grey-scale ghost img-pure" src="img/pure.png" alt="Pure"></a></li>
             <li class="power-image"><a data-provider="node" href="http://nodejs.org/"><img class="grey-scale ghost img-node" src="img/node-bg.png" alt="Node"></a></li>
         </ul>
-    </div> 
-    <!-- your most recently created posts are delivered here -->       
+    </div>
+    <!-- your most recently created posts are delivered here -->
     <div class="pure-u-1">
         <div class="posts">
-            <div class = "content">
-                <h1 class="content-subhead is-center">Front End Matters</h1>
-                {% for post in site.posts limit: 5 %}
-                <section class = "post">
-                    <header class = "post-header">
-                        <h2 class="post-title">
-                           <i class="fa fa-bookmark"></i>
-                           <a href="{{ post.url }}">{{ post.title }}</a></h2>
-                           <p class = "post-meta">
-                            <i class="fa fa-calendar"></i>
-                            {{ post.date | date:"%Y-%m-%d" }}
-                        </p>
-                    </header>
-                    <div class = "post-description">
-                        {{ post.content | split:'<!--more-->'| first }}
-                        <i class="fa fa-terminal"></i> 
-                        <a href="{{ post.url }}">continue</a></h2>
-                    </div>
-                </section>
-                {% endfor %}
-            </div>
+
         </div>
     </div>
 </div>

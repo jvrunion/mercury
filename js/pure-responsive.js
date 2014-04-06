@@ -75,6 +75,31 @@ for (var i = dataService.length - 1; i >= 0; i--) {
     });
 };
 
+// Menu Builders
+
+
+var Y = YUI({
+    fetchCSS: false,
+    classNamePrefix: 'pure'
+}).use('gallery-sm-menu', 'event-tap', 'node-base', function (Y) {
+
+    var horizontalMenu = new Y.Menu({
+        container: '#horizontal-menu',
+        sourceNode: '#std-menu-items',
+        orientation: 'horizontal',
+        hideOnOutsideClick: false
+    });
+
+    horizontalMenu.render();
+    horizontalMenu.show();
+
+    Y.one('#showFixedMenuBtn').on('tap', function (e) {
+        Y.one('#fixed-menu').toggleClass('pure-menu-open');
+    });
+
+});
+
+
 // jQuery selectors
 
 $(document).ready(function() {

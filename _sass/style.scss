@@ -328,7 +328,7 @@ h1.content-subhead {
     }
 
     .hybrid-combo-article a {
-        margin-left: 2.55em;
+//        margin-left: 2.55em;
         font-weight: 700;
         font-size: 1.27em;
         font-family: "Oxygen";
@@ -1989,6 +1989,16 @@ label {
 
 .is-center {
     text-align: center;
+}
+
+.pure-g [class *="pure-u"] {
+    font-family: sans-serif;
+}
+
+.grids-hybrid.pure-g [class*="pure-u"] {
+  background: rgb(153, 153, 153);
+  border-right: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .pure-form label {

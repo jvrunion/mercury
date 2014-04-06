@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Rapid Prototyping</title>
+    <title>Base</title>
     
     <!-- css sheets are compiled via sass and compass from _sass/ and put in the _site/css/ dir -->
     <link rel="stylesheet" href="/css/screen.css" media="screen, projection" type="text/css" />
@@ -29,15 +29,21 @@
                  </a>
              </li>
              <li>
-                <a href="#">
+                 <a class="dash-link" href="/grids.html">
                     <i class="fa fa-laptop"></i>
-                    Expertise
+                    Grids
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a class="dash-link" href="/menus.html">
                     <i class="fa fa-google-plus-square"></i>
-                    Gmail
+                    Menus
+                </a>
+            </li>
+            <li>
+                <a class="dash-link" href="/base.html">
+                    <i class="fa fa-google-plus-square"></i>
+                    Base
                 </a>
             </li>
             <li>
@@ -52,7 +58,7 @@
 <div class="hybrid-no-left-panel">
     <i class="fa fa-chevron-down"></i>
 </div>  
-<article class="hybrid-combo-article hybrid-page">
+    <article class="hybrid-combo-article hybrid-page">
     <div class="pure-u-1">
         <section class="content">
             <section class="post">
@@ -62,15 +68,107 @@
                     
                 </header>
                 <div class = "post-description">
-                    <h2 class="page-title"><i class="fa fa-cogs"></i> Rapid Prototyping </h2>
+                    <h1>Base</h1>
 
+<h2>Typography</h2>
 
-<h3>Prototyping can fall into several different categories.</h3>
+<p>To keep Pure lean and extensible, we do not add any typographic styles over the foundational layer provided by Normalize. This means that you get headings with different sizes, blockquotes, lists, definition lists, and more, but their styles are minimal and easy to override.</p>
+
+<h2>Headings</h2>
+
+<p>Headings run from 1 to 6 in decreasing size. Font sizes are defined in <code>em</code>.</p>
+
+<h1>Heading 1</h1>
+
+<h2>Heading 2</h2>
+
+<h3>Heading 3</h3>
+
+<h4>Heading 4</h4>
+
+<h5>Heading 5</h5>
+
+<h6>Heading 6</h6>
+
+<h2>Lists</h2>
+
+<p>Lists come in different forms. There are unordered lists, ordered lists, and definition lists. Normalize provides basic styling and cross-browser consistency for these lists. You can style these further in your specific application. If you're looking to use lists to make menus, check out <a href="/menus/">Menu CSS</a>.</p>
 
 <ul>
-<li><p>First you can prototype a concept or idea.  This requires little else than having the idea and having a need or desire to implement it into existence.</p></li>
-<li><p>Secondly, once you get past the initial concept phase, you have entered into the realistic realm of Conceptualization.  During the Conceptualization phase is when things actually get interesting.</p></li>
+    <li>list item 1</li>
+    <li>list item 1
+        <ul>
+            <li>list item 2</li>
+            <li>list item 2
+                <ul>
+                    <li>list item 3</li>
+                    <li>list item 3</li>
+                </ul>
+            </li>
+            <li>list item 2</li>
+            <li>list item 2</li>
+        </ul>
+    </li>
+    <li>list item 1</li>
+    <li>list item 1</li>
 </ul>
+
+
+
+
+<ol>
+    <li>list item 1</li>
+    <li>list item 1
+        <ol>
+            <li>list item 2</li>
+            <li>list item 2
+                <ol>
+                    <li>list item 3</li>
+                    <li>list item 3</li>
+                </ol>
+            </li>
+            <li>list item 2</li>
+            <li>list item 2</li>
+        </ol>
+    </li>
+    <li>list item 1</li>
+    <li>list item 1</li>
+</ol>
+
+
+<h3>Definition Lists</h3></h3>
+
+<dl>
+    <dt>Definition term</dt>
+    <dd>Definition description</dd>
+
+    <dt>Definition term</dt>
+    <dd>Definition description</dd>
+    <dd>Definition description</dd>
+
+    <dt>Definition term</dt>
+    <dt>Definition term</dt>
+    <dd>Definition description</dd>
+</dl>
+
+
+<h2>Blockquotes</h2>
+
+<p>Blockquotes encompass text that is meant to represent a quotation. By default, blockquotes look like regular text, except that they are indented. This gives you the freedom to set your own styles on top. Here's a default one:</p>
+
+<blockquote>
+    One small step for man, one giant leap for mankind.
+</blockquote>
+
+
+<h2>Addresses</h2>
+
+<address>
+    <a href="https://github.com/tilomitra">Tilo Mitra</a><br>
+    <a href="https://github.com/ericf">Eric Ferraiuolo</a><br>
+    <a href="https://github.com/msweeney">Matt Sweeney</a><br>
+    <a href="https://github.com/jconniff">Jeff Conniff</a><br>
+</address>
 
 
                 </div>
@@ -78,7 +176,7 @@
         </section>
     </div>
 </article>
- <!--/content block-->  
+ <!--/content block-->
 <footer>
     <div class="footer-toggle-control">
         <h3 class="social-shout-out is-center">
@@ -105,5 +203,6 @@
 </body>
 <!-- add your script dependencies here for quicker page loads -->
 <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="http://yui.yahooapis.com/3.12.0/build/yui/yui-min.js"></script>
 <script src="/js/pure-responsive.js" type="text/javascript"></script> <!--/script load--> 
 </html>
