@@ -6,29 +6,29 @@ tags: [Grids]
 
 #GRID TESTS
 
-###BASE GRID
+####BASE GRID
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
-        <div class="content">1/2</div>
+        <div class="content"><span class="grid-label">1/2</span> - Music doesn’t cheerfully understand any self — but the karma is what eases.</div>
     </div>
     <div class="pure-u-1-2">
-        <div class="content">1/2</div>
+        <div class="content"><span class="grid-label">1/2</span> - Shame is the only courage, the only guarantee of living.</div>
     </div>
 </div>
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-4">
-        <div class="content">1/4</div>
+        <div class="content"><span class="grid-label">1/4</span> Ho-ho-ho! madness of urchin.</div>
     </div>
     <div class="pure-u-1-4">
-        <div class="content">1/4</div>
+        <div class="content"><span class="grid-label">1/4</span> Arrr, yer not commanding me without a treasure!</div>
     </div>
     <div class="pure-u-1-4">
-        <div class="content">1/4</div>
+        <div class="content"><span class="grid-label">1/4</span> Belay, yuck.</div>
     </div>
     <div class="pure-u-1-4">
-        <div class="content">1/4</div>
+        <div class="content"><span class="grid-label">1/4</span> Ah, ye cloudy seashell- set sails for power!</div>
     </div>
 </div>
 
@@ -249,7 +249,7 @@ tags: [Grids]
 </div>
 
 
-###CUSTOM FONT GRIDS
+####CUSTOM FONT GRIDS
 
 <div class="serif">
     <p>
@@ -332,7 +332,7 @@ tags: [Grids]
 </div>
 
 
-###WRAPPING GRIDS
+####WRAPPING GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -346,7 +346,7 @@ tags: [Grids]
     </div>
 </div>
 
-###RESPONSIVE GRIDS
+####RESPONSIVE GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
@@ -363,7 +363,7 @@ tags: [Grids]
     </div>
 </div>
 
-###NESTED RESPONSIVE GRIDS
+####NESTED RESPONSIVE GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-md-1-2">
@@ -399,7 +399,7 @@ tags: [Grids]
     </div>
 </div>
 
-###IMAGES
+####IMAGES
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">

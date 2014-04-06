@@ -6,11 +6,11 @@ tags: [Base]
 
 #BASE
 
-##TYPOGRAPHY
+####TYPOGRAPHY
 
 To keep Pure lean and extensible, we do not add any typographic styles over the foundational layer provided by Normalize. This means that you get headings with different sizes, blockquotes, lists, definition lists, and more, but their styles are minimal and easy to override.
 
-##HEADINGS
+####HEADINGS
 
 Headings run from 1 to 6 in decreasing size. Font sizes are defined in <code>em</code>.
 
@@ -19,11 +19,13 @@ Headings run from 1 to 6 in decreasing size. Font sizes are defined in <code>em<
 ###Heading 3
 ####Heading 4
 #####Heading 5
-######Heading 6
+#######Heading 6
 
-##LISTS
+####LISTS
 
 Lists come in different forms. There are unordered lists, ordered lists, and definition lists. Normalize provides basic styling and cross-browser consistency for these lists. You can style these further in your specific application. If you're looking to use lists to make menus, check out <a href="/menus/">Menu CSS</a>.
+
+#####UNORDERED LIST
 
 <ul>
     <li>list item 1</li>
@@ -44,6 +46,8 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
     <li>list item 1</li>
 </ul>
 
+#####ORDERED LIST
+
 <ol>
     <li>list item 1</li>
     <li>list item 1
@@ -63,7 +67,7 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
     <li>list item 1</li>
 </ol>
 
-###DEFINITION LISTS
+####DEFINITION LISTS
 
 <dl>
     <dt>Definition term</dt>
@@ -78,15 +82,15 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
     <dd>Definition description</dd>
 </dl>
 
-###BOCKQUOTES
+####BOCKQUOTES
 
 Blockquotes encompass text that is meant to represent a quotation. By default, blockquotes look like regular text, except that they are indented. This gives you the freedom to set your own styles on top. Here's a default one:
 
 <blockquote>
-One small step for man, one giant leap for mankind.
+    "The definition of insanity is dong the same thing over and over again expecting different results" - <span class="quote-from">Albert Einstein</span>
 </blockquote>
 
-###ADDRESSES
+####ADDRESSES
 
 <address>
     <a href="https://github.com/tilomitra">Tilo Mitra</a><br>

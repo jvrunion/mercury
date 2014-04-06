@@ -111,4 +111,11 @@ $(document).ready(function() {
         $('footer').toggleClass('active');
         $('.footer-toggle-control').toggleClass('active');
     });
+
+    var setActive = $('title');
+
+//    if ($(setActive).has('Base')) {
+//        alert($(setActive));
+//    }
+
 });

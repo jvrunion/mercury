@@ -10,11 +10,16 @@ blockquote {
   background: rgba(204, 204, 204, 0.14);
   padding: 1em;
   text-shadow: 1px 1px rgb(255, 255, 255);
-  border: 1px solid rgb(226, 226, 226);
+  border: 1px solid rgba(228, 52, 25, 0.32);
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.12);
   border-radius: 0 8px 8px;
   border-top-color: rgb(255, 255, 255);
   border-left-color: rgb(255, 255, 255);
+  color: rgb(245, 50, 23);
+  .quote-from {
+    color: rgb(140, 134, 134);
+    font-weight: 400;
+  }
 }
 
 menu, ol, ul {
@@ -46,17 +51,16 @@ menu, ol, ul {
 }
 
 dl {
-  margin: 1em 0;
-  padding: 1em;
-  background: rgb(244, 244, 244);
-  border: 1px solid rgb(231, 231, 231);
+  margin: 0;
+  padding: 0;
   text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 dt {
   background: rgb(204, 204, 204);
   padding: .5em;
-  border-bottom: 1px solid rgb(179, 179, 179);
+  border-bottom: 1px solid rgb(230, 230, 230);
+  color: rgb(0, 0, 0);
 }
 
 dd {
@@ -80,6 +84,10 @@ a:hover,
 a:focus {
   color: rgb(218, 82, 48);
   text-decoration: none;
+}
+
+.post-description h4 {
+  color: rgb(245, 50, 23);
 }
 
 .pure-service-list {
@@ -224,15 +232,35 @@ a.pure-data-service:hover li.data-hidden-service {
   padding: 1em;
 }
 
+.pure-menu .pure-menu-heading {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 90%;
+  margin-top: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+  background: rgba(112, 112, 112, 0.89);
+  width: 100%;
+  text-shadow: 1px 1px rgb(63, 62, 62);
+}
+
 .pure-hybrid #menu a.pure-menu-heading {
   margin: 0;
-  margin-left: -8px;
+  margin-left: 0;
   border-bottom: 1px solid rgb(219, 219, 219);
   color: rgb(131, 131, 131);
   text-shadow: 1px 1px rgb(221, 221, 221);
   font-weight: 700;
   font-size: 1.25em;
   font-family: Montserrat;
+  letter-spacing: .2em;
+}
+
+.grid-label {
+  color: #000;
+  font-weight: 700;
+  text-shadow: 1px 1px rgba(222, 220, 220, 0.7);
 }
 
 .pure-hybrid #menu a.pure-menu-heading:hover {
@@ -541,12 +569,13 @@ h1.content-subhead {
 }
 
 .pure-hybrid p.splash-subhead {
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px rgb(71, 71, 71);
-  letter-spacing: 0.05em;
-  font-weight: 100;
+  color: rgb(39, 44, 46);
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  font-weight: 300;
   font-size: 1.1em;
   opacity: 0.8;
+  font-family: "Montserrat";
+  letter-spacing: 0.2em;
 }
 
 .fa.fa-chevron-circle-right.teaser-more {
@@ -593,6 +622,13 @@ h1.content-subhead {
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+
+.pure-hybrid .pure-menu.pure-menu-open.pure-menu-fixed {
+  z-index: 4;
+  border-bottom: none;
+  left: 20%;
+  background: rgb(243, 243, 243);
 }
 
 #layout.pure-hybrid #menu.combo-respond-left.combo-hide,
@@ -2047,9 +2083,29 @@ label {
 }
 
 .grids-hybrid.pure-g [class*="pure-u"] {
-  background: rgba(153, 153, 153, 0.25);
   border-right: 1px solid rgb(255, 255, 255);
   border-bottom: 1px solid rgb(255, 255, 255);
+  .content {
+    top: 60%;
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 100%;
+    background: rgb(182, 182, 182);
+    line-height: 1.6em;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    min-height: 100px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(103, 103, 103);
+  }
+}
+
+.pure-hybrid .pure-button {
+  padding: 0.5em 2em;
+  border-radius: 5px;
+  background-color: rgb(238, 49, 15);
+  color: rgb(255, 255, 255);
 }
 
 .pure-paginator .pure-button {
@@ -2080,11 +2136,11 @@ label {
   color: white;
 }
 
-a.pure-button-primary {
-  border-radius: 5px;
-  background: white;
-  color: #1f8dd6;
-  font-size: 120%;
+.pure-hybrid a.pure-button-primary {
+  color: rgb(133, 133, 133);
+  text-transform: lowercase;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  background: rgb(244, 244, 244);
 }
 
 .home-menu {
