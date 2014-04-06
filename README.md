@@ -33,16 +33,6 @@ Install Dependancies
 
 ``npm install``
 
-#####Connect, Compass, Grunt Contribute Modules For Jekyll Grunt Functionality:
-
-``npm install connect --save-dev``
-
-``npm install compass --save-dev``
-
-``npm install grunt-contrib-connect --save-dev``
-
-``npm install grunt-contrib-compass --save-dev``
-
 #####Then A Bower Install:
 
 ``bower install --save-dev``
