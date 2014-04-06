@@ -1,10 +1,10 @@
-Mercury Asset Package Pipeline
+Mercury Asset Pipeline
 ===============================
 
 Front End Modern Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, HTML5 pre built front end asset bundle for rapid prototyping and mobile first design and delivery concepts.  Responsive out of the box and scalable, it is a lighting fast UX/UI assembly that coverts into a deployable front end package that is easily integrated with any back end.
 
 
-Install Dependancies
+Install Dependencies
 ====================
 
 - [Node](http://nodejs.org/)
@@ -14,7 +14,7 @@ Install Dependancies
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
 
-###If You Do Not Already Have NPM Or Ruby You Will Need Them.
+#####If You Do Not Already Have NPM Or Ruby You Will Need Them.
 
 - [Node](http://nodejs.org/)
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
@@ -31,7 +31,7 @@ Install Dependancies
 
 #####Node Package Manager Install:
 
-``npm install``
+``npm install --save-dev``
 
 #####Then A Bower Install:
 
