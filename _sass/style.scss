@@ -354,9 +354,10 @@ h5 {
 .pure-hybrid .content-head {
   margin: 2.5em auto 1.5em;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.35em;
   font-weight: 700;
-  line-height: 1.1em;
+  line-height: 2.15em;
+  font-size: 1.75em;
 }
 
 h2.post-title,
@@ -537,7 +538,7 @@ h1.content-subhead {
 
 .splash-container.splash-combo-respond .splash-head {
   margin: 0 auto;
-  padding: 1.75em;
+  padding: .25em .55em;
   width: 100%;
   height: auto;
   border: 1px solid rgb(56, 64, 73);
@@ -546,8 +547,8 @@ h1.content-subhead {
   background: rgba(53, 66, 78, 0.8);
   box-shadow: inset 0 10px 35px rgb(16, 27, 37);
   text-shadow: 1px 1px rgb(11, 43, 71);
-  font-size: 2.25em;
-  line-height: 1.1em;
+  font-size: 2.75em;
+  line-height: 2.85em;
 }
 
 .splash-combo-respond .splash {
@@ -565,11 +566,13 @@ h1.content-subhead {
 .pure-hybrid p.splash-subhead {
   color: rgb(39, 44, 46);
   text-shadow: 1px 1px rgb(255, 255, 255);
-  font-weight: 300;
-  font-size: 1.1em;
+  font-weight: 700;
+  font-size: 1.35em;
   opacity: 0.8;
   font-family: "Montserrat";
-  letter-spacing: 0.2em;
+  padding: 0 27%;
+  line-height: 1.25em;
+  letter-spacing: 0.15em;
 }
 
 .fa.fa-chevron-circle-right.teaser-more {
@@ -2112,9 +2115,10 @@ label {
 
 .pure-paginator .pure-button {
   border-radius: 0;
-  padding: .8em 1.4em;
+  padding: .35em 2em;
   vertical-align: top;
-  height: 3em;
+  height: 2em;
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 .pure-form label {
@@ -2215,11 +2219,11 @@ label {
   line-height: 1em;
 }
 
-.splash-subhead {
-  color: white;
-  letter-spacing: 0.05em;
-  opacity: 0.8;
-}
+//.splash-subhead {
+//  color: white;
+//  letter-spacing: 0.05em;
+//  opacity: 0.8;
+//}
 
 .content-wrapper {
   position: absolute;

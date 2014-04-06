@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Index
-tags: [Index]
+title: Mercury
+tags: [Mercury]
 ---
 <div class="splash-container splash-combo-respond">
     <div class="splash">
         <h1 class="splash-head">Mercury</h1>
         <p class="splash-subhead">
-            turning concepts into meaningful experiences...
+            turning concepts into meaningful experiences
         </p>
         <p>
             <a href="https://twitter.com/dc_coder" class="pure-button pure-button-primary" title="Follow Me on Twitter!">
