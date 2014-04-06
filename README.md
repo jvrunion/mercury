@@ -4,8 +4,7 @@ Mercury Asset Pipeline
 Front End Modern Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, HTML5 pre built front end asset bundle for rapid prototyping and mobile first design and delivery concepts.  Responsive out of the box and scalable, it is a lighting fast UX/UI assembly that coverts into a deployable front end package that is easily integrated with any back end.
 
 
-Install Dependencies
-====================
+####Install Dependencies
 
 - [Node](http://nodejs.org/)
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
@@ -48,9 +47,9 @@ Install Dependencies
 Based upon
 ==========
 
-- Pure Docs at (http://purecss.io/base/)
-- Jekyll Docs at (http://jekyllrb.com/docs/home/)
-- Grunt Docs at (http://gruntjs.com/getting-started)
-- Compass Docs at http://compass-style.org/reference/compass/)
+- Pure - Docs at (http://purecss.io/base/)
+- Jekyll - Docs at (http://jekyllrb.com/docs/home/)
+- Grunt - Docs at (http://gruntjs.com/getting-started)
+- Compass - Docs at http://compass-style.org/reference/compass/)
 - Jekyll Grunt - GitHub Account (https://github.com/dannygarcia/grunt-jekyll)
 - Jekyll Pure - GitHub Account (https://github.com/brickgao/jekyll-pure)
