@@ -4,7 +4,7 @@ layout: default
 
 <div class="splash-container splash-combo-respond">
     <div class="splash">
-        <h1 class="splash-head">Mercury Asset Pipeline</h1>
+        <h1 class="splash-head">Mercury</h1>
         <p class="splash-subhead">
             turning concepts into meaningful experiences...
         </p>

@@ -4,9 +4,9 @@ title: Grids
 tags: [Grids]
 ---
 
-<h1>Grids Tests</h1>
+#Grids Tests
 
-<h2>Base Grid</h2>
+##Base Grid
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -249,7 +249,7 @@ tags: [Grids]
 </div>
 
 
-<h2>Custom Font and Grids</h2>
+##Custom Font and Grids
 
 <div class="serif">
     <p>
@@ -332,7 +332,7 @@ tags: [Grids]
 </div>
 
 
-<h2>Wrapping Grids</h2>
+##Wrapping Grids
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -346,7 +346,8 @@ tags: [Grids]
     </div>
 </div>
 
-<h2>Responsive Grids</h2>
+##Responsive Grids
+
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
         <div class="content">1 -> 1/2 -> 1/4</div>
@@ -362,7 +363,8 @@ tags: [Grids]
     </div>
 </div>
 
-<h2>Nested Responsive Grids</h2>
+##Nested Responsive Grids
+
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-md-1-2">
         <div class="content">
@@ -397,7 +399,8 @@ tags: [Grids]
     </div>
 </div>
 
-<h2><code>.pure-img</code> Images</h2>
+##Images
+
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
         <img class="pure-img" src="http://placehold.it/350x200">
