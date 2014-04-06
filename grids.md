@@ -4,9 +4,9 @@ title: Grids
 tags: [Grids]
 ---
 
-#Grids Tests
+#GRID TESTS
 
-##Base Grid
+##BASE GRID
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -249,7 +249,7 @@ tags: [Grids]
 </div>
 
 
-##Custom Font and Grids
+##CUSTOM FONT GRIDS
 
 <div class="serif">
     <p>
@@ -332,7 +332,7 @@ tags: [Grids]
 </div>
 
 
-##Wrapping Grids
+##WRAPPING GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -346,7 +346,7 @@ tags: [Grids]
     </div>
 </div>
 
-##Responsive Grids
+##RESPONSIVE GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
@@ -363,7 +363,7 @@ tags: [Grids]
     </div>
 </div>
 
-##Nested Responsive Grids
+##NESTED RESPONSIVE GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-md-1-2">
@@ -399,7 +399,7 @@ tags: [Grids]
     </div>
 </div>
 
-##Images
+##IMAGES
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
