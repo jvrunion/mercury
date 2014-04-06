@@ -4,9 +4,9 @@ title: Menus
 tags: [Menus]
 ---
 
-<h1>Menus Tests</h1>
+#MENUS TEST
 
-<h2>Horizontal Menu</h2>
+##HORIZONTAL MENU
 
 <div class="pure-menu pure-menu-open pure-menu-horizontal">
     <a href="#" class="pure-menu-heading">Site Title</a>
@@ -20,7 +20,7 @@ tags: [Menus]
     </ul>
 </div>
 
-<h2>Horizontal Menu (Custom)</h2>
+##HORIZONTAL MENU (CUSTOM)
 
 <div id="menu-1" class="pure-menu pure-menu-open pure-menu-horizontal">
     <a href="#" class="pure-menu-heading">Site Title</a>
@@ -34,7 +34,7 @@ tags: [Menus]
     </ul>
 </div>
 
-<h2>Vertical Menu</h2>
+##VERTICAL MENU
 
 <div class="pure-menu pure-menu-open">
     <a href="#" class="pure-menu-heading">Site Title</a>
@@ -63,7 +63,7 @@ tags: [Menus]
 </div>
 
 
-<h2>Add Dropdowns to Menus</h2>
+##ADD DROPDOWNS to MENUS
 
 <p>
     Adding dropdowns to menus requires the use of JavaScript. The <code>Y.Menu</code> module adds dropdown functionality and the ability to create JavaScript menus. It uses <code>csslist</code> to style these menus, so they look identical.
@@ -100,7 +100,7 @@ tags: [Menus]
 </div>
 
 
-<h2>Fixed Menus</h2>
+##FIXED MENUS
 
 <p>
     Fixed menus can be created by adding the <code>pure-menu-fixed</code> class name to the wrapper. This will fix a menu to the top of the page.
@@ -119,7 +119,7 @@ tags: [Menus]
     </ul>
 </div>
 
-<h2>Paginator</h2>
+##PAGINATOR
 
 <ul class="pure-paginator">
     <li><a class="pure-button prev" href="#">&#171;</a></li>

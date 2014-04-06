@@ -2,6 +2,51 @@
 
 @import url(../bower_components/pure/pure-min.css);
 
+blockquote {
+  margin: 1em 40px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+menu, ol, ul {
+  border: 1px solid rgb(244, 244, 244);
+  background: rgba(223, 223, 223, 0.26);
+  margin: 1em 0;
+  padding: 1em 2em;
+  box-shadow: 0 0 25px 10px rgba(210, 210, 210, 0);
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+ul.footer-list {
+  border: none;
+  background: transparent;
+  margin: 1em 0;
+  padding: 1em 2em;
+  box-shadow: none;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+dl {
+  margin: 1em 0;
+  padding: 1em;
+  background: rgb(244, 244, 244);
+  border: 1px solid rgb(231, 231, 231);
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+dt {
+  background: rgb(204, 204, 204);
+  padding: .5em;
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+dd {
+  margin: 0 0 0 0;
+  background: rgba(221, 221, 221, 0.33);
+  padding: 10px 0 10px 40px;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -235,7 +280,7 @@ a.pure-data-service:hover li.data-hidden-service {
 }
 
 .pure-hybrid .splash-container {
-    background: rgb(44, 65, 80);
+  background: rgb(198, 198, 198);
 }
 
 h1,
@@ -467,8 +512,8 @@ h1.content-subhead {
 }
 
 .pure-hybrid p.splash-subhead {
-    color: rgb(189, 189, 189);
-    text-shadow: 1px 1px rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(71, 71, 71);
     letter-spacing: 0.05em;
     font-weight: 100;
     font-size: 1.1em;
@@ -800,7 +845,6 @@ footer.active-toggle {
     a.pure-data-service:hover {
         min-height: 100px;
         height: 135px;
-/*        max-height: 100px;*/
     }
 
     .pure-hybrid .data-hidden-service p {
@@ -890,8 +934,6 @@ footer.active-toggle {
     }
 }
 
-/* ===[ Side Menu ]=== */
-
 body {
     color: #777;
 }
@@ -900,8 +942,6 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-/* ===[ Add transition to containers so they can push in and out. ]=== */
 
 #layout,
 #menu,
@@ -912,8 +952,6 @@ body {
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
-
-/* ===[ This is the parent `<div>` that contains the menu and the content area. ]=== */
 
 #layout {
     position: relative;
@@ -941,8 +979,6 @@ body {
 #layout.active .menu-link {
     left: 150px;
 }
-
-/* ===[ The content `<div>` is where all your content goes. ]=== */
 
 .header {
     margin: 0;
@@ -1953,10 +1989,6 @@ body {
     box-sizing: border-box;
 }
 
-/* * -- BASE STYLES --
- * Most of these are inherited from Base, but I want to change a few.
-   ================================================== */
-
 body {
     color: #7f8c8d;
     font-size: 13px;
@@ -2094,7 +2126,6 @@ a.pure-button-primary {
     border: 3px solid white;
     border-radius: 5px;
     color: white;
-    font-weight: bold;
     font-weight: 100;
     font-size: 20px;
     line-height: 1em;
@@ -2148,10 +2179,6 @@ a.pure-button-primary {
     body {
         font-size: 16px;
     }
-
-/*    .content {
-        padding: 1em;
-    }*/
 
     .home-menu {
         text-align: left;
