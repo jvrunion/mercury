@@ -83,7 +83,7 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
 Blockquotes encompass text that is meant to represent a quotation. By default, blockquotes look like regular text, except that they are indented. This gives you the freedom to set your own styles on top. Here's a default one:
 
 <blockquote>
-    One small step for man, one giant leap for mankind.
+One small step for man, one giant leap for mankind.
 </blockquote>
 
 ##ADDRESSES
