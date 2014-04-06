@@ -275,6 +275,7 @@ a.pure-data-service:hover li.data-hidden-service {
   text-shadow: 1px 1px rgb(103, 103, 103);
   border-bottom: 1px solid rgb(254, 254, 254);
   border-top: 1px solid rgb(101, 101, 101);
+  font-size: 1.25em;
 }
 
 #menu ul li a {
@@ -305,10 +306,8 @@ a.pure-data-service:hover li.data-hidden-service {
   font-size: .8em;
 }
 
-.pure-hybrid #menu .pure-menu li a:hover,
-.pure-hybrid #menu .pure-menu li a:focus {
+.pure-hybrid #menu .pure-menu li a:hover, .pure-hybrid #menu .pure-menu li a:focus {
   background: rgb(255, 255, 255);
-  box-shadow: inset 0 5px 0 rgb(233, 233, 233);
   color: rgb(245, 50, 23);
   text-shadow: 1px 1px rgb(255, 255, 255);
   -webkit-transition: all 0.2s ease-in;
@@ -316,6 +315,11 @@ a.pure-data-service:hover li.data-hidden-service {
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  padding: 3% 0 3% 20%;
+  font-size: 1.55em;
+  box-shadow: inset 0 15px 25px rgb(219, 219, 219);
+  border-top: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .pure-hybrid .splash-container {
@@ -771,8 +775,8 @@ footer {
   display: block;
   padding: 20px;
   width: 100%;
-  background: rgb(38, 50, 61);
-  box-shadow: inset 0 10px 35px rgb(16, 27, 37);
+  background: rgb(172, 172, 172);
+  box-shadow: inset 0 10px 35px rgb(54, 54, 54);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -817,6 +821,13 @@ footer .fa {
 
 footer .fa:hover {
   color: rgb(255, 255, 255);
+}
+
+i.fa-github {
+  font-size: 1.95em;
+  left: 80%;
+  position: absolute;
+  top: 3px;
 }
 
 .fa.fa-chevron-up,
@@ -992,7 +1003,7 @@ footer.active-toggle {
 }
 
 body {
-  color: #777;
+  color: rgb(161, 161, 161);
 }
 
 .pure-img-responsive {
@@ -2047,7 +2058,7 @@ body {
 }
 
 body {
-  color: #7f8c8d;
+  color: rgb(161, 161, 161);
   font-size: 13px;
   line-height: 1.7em;
 }
