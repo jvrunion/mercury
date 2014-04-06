@@ -270,9 +270,11 @@ a.pure-data-service:hover li.data-hidden-service {
 }
 
 .pure-hybrid #menu a.active {
-  background: rgb(0, 0, 0);
-  color: rgb(112, 111, 111);
-  text-shadow: 1px 1px rgb(0, 0, 0);
+  background: rgba(18, 27, 34, 0.5);
+  color: rgb(244, 244, 244);
+  text-shadow: 1px 1px rgb(103, 103, 103);
+  border-bottom: 1px solid rgb(254, 254, 254);
+  border-top: 1px solid rgb(101, 101, 101);
 }
 
 #menu ul li a {
