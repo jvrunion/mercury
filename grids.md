@@ -6,7 +6,7 @@ tags: [Grids]
 
 #GRID TESTS
 
-##BASE GRID
+###BASE GRID
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -249,7 +249,7 @@ tags: [Grids]
 </div>
 
 
-##CUSTOM FONT GRIDS
+###CUSTOM FONT GRIDS
 
 <div class="serif">
     <p>
@@ -332,7 +332,7 @@ tags: [Grids]
 </div>
 
 
-##WRAPPING GRIDS
+###WRAPPING GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-2">
@@ -346,7 +346,7 @@ tags: [Grids]
     </div>
 </div>
 
-##RESPONSIVE GRIDS
+###RESPONSIVE GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
@@ -363,7 +363,7 @@ tags: [Grids]
     </div>
 </div>
 
-##NESTED RESPONSIVE GRIDS
+###NESTED RESPONSIVE GRIDS
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-md-1-2">
@@ -399,7 +399,7 @@ tags: [Grids]
     </div>
 </div>
 
-##IMAGES
+###IMAGES
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">

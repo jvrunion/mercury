@@ -20,20 +20,6 @@ tags: [Menus]
     </ul>
 </div>
 
-##HORIZONTAL MENU (CUSTOM)
-
-<div id="menu-1" class="pure-menu pure-menu-open pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading">Site Title</a>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li class="pure-menu-selected"><a href="#">Flickr</a></li>
-        <li><a href="#">Messenger</a></li>
-        <li><a href="#">Sports</a></li>
-        <li><a href="#">Finance</a></li>
-        <li class="pure-menu-disabled"><a href="#">Disabled</a></li>
-    </ul>
-</div>
-
 ##VERTICAL MENU
 
 <div class="pure-menu pure-menu-open">
@@ -49,25 +35,9 @@ tags: [Menus]
     </ul>
 </div>
 
-<div class="pure-menu pure-menu-open">
-    <ul>
-        <li class="pure-menu-heading">Site Title</li>
-        <li class="pure-menu-selected"><a href="#">Home</a></li>
-        <li><a href="#">Flickr</a></li>
-        <li><a href="#">Messenger</a></li>
-        <li class="pure-menu-heading">Yahoo! Sites</li>
-        <li><a href="#">Sports</a></li>
-        <li><a href="#">Finance</a></li>
-        <li class="pure-menu-disabled"><a href="#">Disabled</a></li>
-    </ul>
-</div>
-
-
 ##ADD DROPDOWNS to MENUS
 
-<p>
-    Adding dropdowns to menus requires the use of JavaScript. The <code>Y.Menu</code> module adds dropdown functionality and the ability to create JavaScript menus. It uses <code>csslist</code> to style these menus, so they look identical.
-</p>
+Adding dropdowns to menus requires the use of JavaScript. The <code>Y.Menu</code> module adds dropdown functionality and the ability to create JavaScript menus. It uses <code>csslist</code> to style these menus, so they look identical.
 
 <div id="horizontal-menu">
     <a href="#" class="pure-menu-heading">Site Title</a>
@@ -102,13 +72,11 @@ tags: [Menus]
 
 ##FIXED MENUS
 
-<p>
-    Fixed menus can be created by adding the <code>pure-menu-fixed</code> class name to the wrapper. This will fix a menu to the top of the page.
-</p>
+Fixed menus can be created by adding the <code>pure-menu-fixed</code> class name to the wrapper. This will fix a menu to the top of the page.
 
-<p>
-    <button class="pure-button" id="showFixedMenuBtn">Toggle Fixed Menu</button>
-</p>
+<button class="pure-button" id="showFixedMenuBtn">
+    Toggle Fixed Menu
+</button>
 
 <div id="fixed-menu" class="pure-menu pure-menu-horizontal pure-menu-fixed">
     <ul>
@@ -122,7 +90,9 @@ tags: [Menus]
 ##PAGINATOR
 
 <ul class="pure-paginator">
-    <li><a class="pure-button prev" href="#">&#171;</a></li>
+    <li>
+        <a class="pure-button prev" href="#">&#171;</a>
+    </li>
     <li><a class="pure-button" href="#">1</a></li>
     <li><a class="pure-button pure-button-active" href="#">2</a></li>
     <li><a class="pure-button" href="#">3</a></li>

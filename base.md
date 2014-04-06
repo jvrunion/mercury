@@ -78,7 +78,7 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
     <dd>Definition description</dd>
 </dl>
 
-##BOCKQUOTES
+###BOCKQUOTES
 
 Blockquotes encompass text that is meant to represent a quotation. By default, blockquotes look like regular text, except that they are indented. This gives you the freedom to set your own styles on top. Here's a default one:
 
@@ -86,7 +86,7 @@ Blockquotes encompass text that is meant to represent a quotation. By default, b
 One small step for man, one giant leap for mankind.
 </blockquote>
 
-##ADDRESSES
+###ADDRESSES
 
 <address>
     <a href="https://github.com/tilomitra">Tilo Mitra</a><br>
