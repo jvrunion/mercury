@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tables</title>
+    
+    <link rel="stylesheet" href="/css/screen.css" media="screen, projection" type="text/css" />
+    <link rel="stylesheet" href="/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="/css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">       
+</head>
+<body class="pure-hybrid" id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>    
+    <div id="menu" class="combo-respond-left">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="https://github.com/jvrunion/mercury"><i class="fa fa-github"></i> MERCURY</a>
+            <ul>
+                <li>
+                    <a class="dash-link dashboard active" href="/index.html">
+                         <i class="fa fa-tachometer"></i>
+                         Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a class="dash-link grids" href="/grids.html">
+                        <i class="fa fa-desktop"></i>
+                        Grids
+                    </a>
+                </li>
+                <li>
+                    <a class="dash-link menus" href="/menus.html">
+                        <i class="fa fa-bars"></i>
+                        Menus
+                    </a>
+                </li>
+                <li>
+                    <a class="dash-link base" href="/base.html">
+                        <i class="fa fa-html5"></i>
+                        Base
+                    </a>
+                </li>
+                <li>
+                    <a class="dash-link forms" href="/forms.html">
+                        <i class="fa fa-check-square"></i>
+                        Forms
+                    </a>
+                </li>
+                <li>
+                    <a class="dash-link tables" href="/tables.html">
+                        <i class="fa fa-table"></i>
+                        Tables
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hybrid-no-left-panel">
+        <i class="fa fa-chevron-down"></i>
+    </div>
+    <article class="hybrid-combo-article hybrid-page">
+    <div class="pure-u-1">
+        <section class="content">
+            <section class="post">
+                <header class = "post-header">
+                    
+                    <h2 class="post-title"></h2>
+                    
+                </header>
+                <div class = "post-description">
+                    <h1>TABLES <i class="fa fa-table"></i></h1>
+
+<div id="main">
+    <div class="content">
+        <h2 id="default-table" class="tables-header">Default Table<a href="#default-table" class="content-link"></a></h2>
+        <p>
+            To style an HTML table, add the <code>pure-table</code> classname. This class adds padding and borders to table elements, and emphasizes the header.
+        </p>
+        <table class="pure-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Honda</td>
+                    <td>Accord</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Toyota</td>
+                    <td>Camry</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Hyundai</td>
+                    <td>Elantra</td>
+                    <td>2010</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="bordered-table" class="tables-header">Bordered Table<a href="#bordered-table" class="content-link"></a></h2>
+        <p>
+            To add horizontal and vertical borders to all cells, add the <code>pure-table-bordered</code> classname to the <code>&lt;table&gt;</code> element.
+        </p>
+        <table class="pure-table pure-table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Honda</td>
+                    <td>Accord</td>
+                    <td>2009</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Toyota</td>
+                    <td>Camry</td>
+                    <td>2012</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Hyundai</td>
+                    <td>Elantra</td>
+                    <td>2010</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="table-with-horizontal-borders" class="tables-header">Table with Horizontal Borders<a href="#table-with-horizontal-borders" class="content-link"></a></h2>
+        <p>
+            If you prefer horizontal lines only, add the <code>pure-table-horizontal</code> classname to the <code>&lt;table&gt;</code> element.
+        </p>
+        <table class="pure-table pure-table-horizontal">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Honda</td>
+                    <td>Accord</td>
+                    <td>2009</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Toyota</td>
+                    <td>Camry</td>
+                    <td>2012</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Hyundai</td>
+                    <td>Elantra</td>
+                    <td>2010</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="striped-table" class="tables-header">Striped Table<a href="#striped-table" class="content-link"></a></h2>
+        <p>
+            Large tables are easier to parse visually if rows are easily distinguishable. Adding the <code>pure-table-odd</code> class name to every other <code>&lt;tr&gt;</code> element changes the background of the row and creates a zebra-styled effect.
+        </p>
+        <p>
+            <b>Note:</b> In browsers which support the CSS3 <a href="http://caniuse.com/#search=nth-child"><code>nth-child</code> pseudo selector</a> a simpler approach can be used. The <code>pure-table-striped</code> classname can be added to the <code>&lt;table&gt;</code> element and the zebra-styled striping will happen automatically. This approach will <em>not</em> work in Internet Explorer 8 or lower.
+        </p>
+        <table class="pure-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pure-table-odd">
+                    <td>1</td>
+                    <td>Honda</td>
+                    <td>Accord</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Toyota</td>
+                    <td>Camry</td>
+                    <td>2012</td>
+                </tr>
+                <tr class="pure-table-odd">
+                    <td>3</td>
+                    <td>Hyundai</td>
+                    <td>Elantra</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ford</td>
+                    <td>Focus</td>
+                    <td>2008</td>
+                </tr>
+                <tr class="pure-table-odd">
+                    <td>5</td>
+                    <td>Nissan</td>
+                    <td>Sentra</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>BMW</td>
+                    <td>M3</td>
+                    <td>2009</td>
+                </tr>
+                <tr class="pure-table-odd">
+                    <td>7</td>
+                    <td>Honda</td>
+                    <td>Civic</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Kia</td>
+                    <td>Soul</td>
+                    <td>2010</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+                </div>
+            </section>
+        </section>
+    </div>
+</article>
+
+    <footer>
+        <div class="footer-toggle-control">
+            <h3 class="social-shout-out is-center">
+                <i class="fa fa-chevron-up"></i>
+                Panel
+            </h3>
+        </div>
+        <ul class="footer-list">
+            <li class="terminal-footer">
+
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="http://yui.yahooapis.com/3.12.0/build/yui/yui-min.js"></script>
+<script src="/js/pure-responsive.js" type="text/javascript"></script> <!--/script load--> 
+</html>

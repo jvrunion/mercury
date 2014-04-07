@@ -4,7 +4,7 @@ title: Grids
 tags: [Grids]
 ---
 
-#GRIDS <i class="fa fa-table"></i>
+#GRIDS <i class="fa fa-desktop"></i>
 
 ####BASE GRID
 

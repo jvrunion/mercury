@@ -1,7 +1,7 @@
-/*
- *  set active left panel tabs
- *  using window location to determine
- *  active state
+
+/*  Pure script to assign variables to
+ *  floating left panel to mimic IOS
+ *  style navigation
  */
 
 (function(window, document) {
@@ -40,10 +40,8 @@
 
 }(this, this.document));
 
-/*
- *  set active left panel tabs
- *  using window location to determine
- *  active state
+/*  setting data attributes to
+ *  be used late with a data store
  */
 
 var dataProvider = document.querySelectorAll("[data-provider]");
@@ -76,6 +74,11 @@ for (var i = dataService.length - 1; i >= 0; i--) {
         console.log(makeServiceDynamic);
     });
 }
+
+/*  YUI menu constructor scripts
+ *  @ TODO: need to make call only from
+ *  the menus page
+ */
 
 var Y = YUI({
     fetchCSS: false,

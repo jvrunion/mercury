@@ -361,6 +361,7 @@ h2 {
   font-size: 2em;
   margin: 1.45em 0;
   color: rgb(245, 50, 23);
+  line-height: 1.2em;
 }
 
 h3 {
@@ -619,6 +620,14 @@ h1.content-subhead {
 .list-label {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.75);
+}
+
+.pure-hybrid .pure-form input[type] {
+  margin-bottom: 1em;
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: none;
+  font-size: 100%;
 }
 
 .pure-hybrid p {
