@@ -4,7 +4,7 @@ title: Forms
 tags: [Forms]
 ---
 
-#FORMS <i class="fa fa-check-square"></i>
+#FORMS <i class="fa fa-check-square fade-in page-heading"></i>
 
 <div id="main">
     <div class="content">

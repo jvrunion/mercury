@@ -4,7 +4,7 @@ title: Base
 tags: [Base]
 ---
 
-#BASE <i class="fa fa-html5"></i>
+#BASE <i class="fa fa-html5 fade-in page-heading"></i>
 
 ####TYPOGRAPHY
 

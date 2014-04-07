@@ -5,7 +5,7 @@ tags: [Mercury]
 ---
 <div class="splash-container splash-combo-respond">
     <div class="splash">
-        <h1 class="splash-head">Mercury</h1>
+        <h1 class="splash-head fade-in header">Mercury</h1>
         <p class="splash-subhead">
             turning concepts into meaningful experiences
         </p>
@@ -27,7 +27,7 @@ tags: [Mercury]
                 <h3 class="content-subhead">
                     Prototyping
                 </h3>
-                <i class="fa fa-rocket teaser-more"></i>
+                <i class="fa fa-rocket teaser-more box fade-in one"></i>
                 <p>
                     Prototyping can fall into several different categories.  First you can prototype a concept of an
                     idea.  Ideas need to be backed by tangible and actionable requirements set down from a business
@@ -40,7 +40,7 @@ tags: [Mercury]
                 <h3 class="content-subhead">
                     Responsive
                 </h3>
-                <i class="fa fa-mobile teaser-more"></i>
+                <i class="fa fa-mobile teaser-more box fade-in two"></i>
                 <p>
                     Responsive design is built upon the premise that your site will re-adjust the scaling and size of
                      elements based on media queries that are defined for different device resolutions. Mobile first
@@ -53,7 +53,7 @@ tags: [Mercury]
                 <h3 class="content-subhead">
                     Modular
                 </h3>
-                <i class="fa fa-th-large teaser-more"></i>
+                <i class="fa fa-th-large teaser-more box fade-in three"></i>
                 <p>
                     By building out your assets in a templatized manner, you can re-use certain global aspects of your
                     site
@@ -66,7 +66,7 @@ tags: [Mercury]
                 <h3 class="content-subhead">
                     Workflows
                 </h3>
-                <i class="fa fa-check-square-o teaser-more"></i>
+                <i class="fa fa-check-square-o teaser-more box fade-in four"></i>
                 <p>
                     Modern javaScript based tools such as Grunt.js and Yeoman make the job of the Front End
                     Engineer much simpler and less cumbersome.  By defining iterative tasks such as compilation into a

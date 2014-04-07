@@ -4,7 +4,7 @@ title: Menus
 tags: [Menus]
 ---
 
-#MENUS <i class="fa fa-bars"></i>
+#MENUS <i class="fa fa-bars fade-in page-heading"></i>
 
 ####HORIZONTAL MENU
 
