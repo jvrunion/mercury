@@ -112,10 +112,13 @@ $(document).ready(function() {
         $('.footer-toggle-control').toggleClass('active');
     });
 
-    var setActive = $('title');
-
-//    if ($(setActive).has('Base')) {
-//        alert($(setActive));
-//    }
+    function checkAttr (){
+        var attr = window.location.pathname;
+        console.log(attr);
+        if (attr == '/base.html') {
+            console.log('checked');
+            document.getElementsByClassName('.base').addClass('active');
+        }
+    } checkAttr();
 
 });

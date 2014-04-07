@@ -50,7 +50,7 @@ Adding dropdowns to menus requires the use of JavaScript. The <code>Y.Menu</code
         <li>
             <a href="#">Other</a>
             <ul>
-                <li class="pure-menu-heading">More from Yahoo!</li>
+                <li class="pure-menu-heading">More Sites!</li>
                 <li class="pure-menu-separator"></li>
                 <li><a href="#">Autos</a></li>
                 <li><a href="#">Flickr</a></li>

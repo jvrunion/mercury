@@ -28,14 +28,14 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
 #####UNORDERED LIST
 
 <ul>
-    <li>list item 1</li>
-    <li>list item 1
+    <li>list item 1 - Cosmonauts warp on mineral at astral city!</li>
+    <li>list item 1 - The adventure is a ugly transformator.
         <ul>
-            <li>list item 2</li>
-            <li>list item 2
+            <li>list item 2 - Why does the teleporter harvest?</li>
+            <li>list item 2 - Chemical paralysis lead to the definition.
                 <ul>
-                    <li>list item 3</li>
-                    <li>list item 3</li>
+                    <li>list item 3 - Seismic disconnections lead to the core.</li>
+                    <li>list item 3 - It is a cold future, sir.</li>
                 </ul>
             </li>
             <li>list item 2</li>
