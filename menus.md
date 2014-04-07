@@ -4,7 +4,7 @@ title: Menus
 tags: [Menus]
 ---
 
-<h1 class="page-header">MENUS</h1>
+#MENUS <i class="fa fa-bars"></i>
 
 ####HORIZONTAL MENU
 

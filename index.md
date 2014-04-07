@@ -34,6 +34,7 @@ tags: [Mercury]
                     need.
                     The ability to visualize these ideas into a working model helps you gain insight into the operation of the product and can cut down on stop gaps that arise down the line in development.</br>
                 </p>
+                <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
             <div class="l-box pure-u-1 pure-u-med-1-2">
                 <h3 class="content-subhead">
@@ -46,6 +47,7 @@ tags: [Mercury]
                      concepts ensure that your content is delivered as a stable mobile app then worked backward for
                      delivery on standard laptop and desktop resolutions.</br>
                 </p>
+                <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
                 <div class="l-box pure-u-1 pure-u-med-1-2">
                 <h3 class="content-subhead">
@@ -58,6 +60,7 @@ tags: [Mercury]
                      in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular
                      blocks of code</br>
                 </p>
+                <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
             <div class="l-box pure-u-1 pure-u-med-1-2">
                 <h3 class="content-subhead">
@@ -69,6 +72,7 @@ tags: [Mercury]
                     Engineer much simpler and less cumbersome.  By defining iterative tasks such as compilation into a
                     seamlessly updated environment that streamlines the engineers local development environment</br>
                 </p>
+                <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
         </div>
         <div class="pure-g pure-g-power">

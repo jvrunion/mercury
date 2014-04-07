@@ -1,4 +1,8 @@
-// pure.io js script for the left panel 
+/*
+ *  set active left panel tabs
+ *  using window location to determine
+ *  active state
+ */
 
 (function(window, document) {
 
@@ -17,7 +21,7 @@
                 break;
             }
         }
-        // the className is not found
+
         if (length === classes.length) {
             classes.push(className);
         }
@@ -36,7 +40,11 @@
 
 }(this, this.document));
 
-// data attribute logic
+/*
+ *  set active left panel tabs
+ *  using window location to determine
+ *  active state
+ */
 
 var dataProvider = document.querySelectorAll("[data-provider]");
 var dataEvent = document.querySelectorAll("[data-event]");
@@ -69,9 +77,6 @@ for (var i = dataService.length - 1; i >= 0; i--) {
     });
 }
 
-// Menu Builders
-
-
 var Y = YUI({
     fetchCSS: false,
     classNamePrefix: 'pure'
@@ -93,19 +98,30 @@ var Y = YUI({
 
 });
 
-// jQuery selectors
-
 $(document).ready(function() {
 
+    /*
+     *  set active left panel tabs
+     *  using window location to determine
+     *  active state
+     */
+
     var lowerTrigger = $('.footer-toggle-control');
-    var footerNode = $('footer');
-    var activeNodeTrigger = $('active-toggle');
-    // footer panel controls
+
     $(lowerTrigger).on('click', function() {
-        $(footerNode).toggleClass(activeNodeTrigger);
-        $('.footer-toggle-control i').toggleClass('fa-chevron-down');
+        var footerNode = $('footer');
+        var footerControlIcon = $('.footer-toggle-control i');
+
+        $(footerNode).toggleClass('active-toggle');
+        $(footerControlIcon).toggleClass('fa-chevron-down');
     });
-    // left panel controls
+
+    /*
+     *  set active left panel tabs
+     *  using window location to determine
+     *  active state
+     */
+
     $('.hybrid-no-left-panel').on('click', function() {
         $('.hybrid-no-left-panel i').toggleClass('fa-chevron-up');
         $('.combo-respond-left').toggleClass('combo-hide');
@@ -116,6 +132,7 @@ $(document).ready(function() {
         $('.footer-toggle-control').toggleClass('active');
         $('#layout').toggleClass('full-width');
         $('.hybrid-combo-article').toggleClass('full-width');
+
     });
 
     /*
@@ -123,6 +140,7 @@ $(document).ready(function() {
      *  using window location to determine
      *  active state
      */
+
     function checkAttr (){
 
         var attr = window.location.pathname;

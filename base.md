@@ -4,7 +4,7 @@ title: Base
 tags: [Base]
 ---
 
-#BASE
+#BASE <i class="fa fa-html5"></i>
 
 ####TYPOGRAPHY
 
@@ -28,43 +28,43 @@ Lists come in different forms. There are unordered lists, ordered lists, and def
 #####UNORDERED LIST
 
 <ul>
-    <li>list item 1 - Cosmonauts warp on mineral at astral city!</li>
-    <li>list item 1 - The adventure is a ugly transformator.
+    <li><span class="list-label">list item 1</span> - Cosmonauts warp on mineral at astral city!</li>
+    <li><span class="list-label">list item 1</span> - The adventure is a ugly transformator.
         <ul>
-            <li>list item 2 - Why does the teleporter harvest?</li>
-            <li>list item 2 - Chemical paralysis lead to the definition.
+            <li><span class="list-label">list item 2</span> - Why does the teleporter harvest?</li>
+            <li><span class="list-label">list item 2</span> - Chemical paralysis lead to the definition.
                 <ul>
-                    <li>list item 3 - Seismic disconnections lead to the core.</li>
-                    <li>list item 3 - It is a cold future, sir.</li>
+                    <li><span class="list-label">list item 3</span> - Seismic disconnections lead to the core.</li>
+                    <li><span class="list-label">list item 3</span> - It is a cold future, sir.</li>
                 </ul>
             </li>
-            <li>list item 2</li>
-            <li>list item 2</li>
+            <li><span class="list-label">list item 2</span></li>
+            <li><span class="list-label">list item 2</span></li>
         </ul>
     </li>
-    <li>list item 1</li>
-    <li>list item 1</li>
+    <li><span class="list-label">list item 1</span></li>
+    <li><span class="list-label">list item 1</span></li>
 </ul>
 
 #####ORDERED LIST
 
 <ol>
-    <li>list item 1</li>
-    <li>list item 1
+    <li><span class="list-label">list item 1</span></li>
+    <li><span class="list-label">list item 1</span>
         <ol>
-            <li>list item 2</li>
-            <li>list item 2
+            <li><span class="list-label">list item 2</span></li>
+            <li><span class="list-label">list item 2</span>
                 <ol>
-                    <li>list item 3</li>
-                    <li>list item 3</li>
+                    <li><span class="list-label">list item 3</span></li>
+                    <li><span class="list-label">list item 3</span></li>
                 </ol>
             </li>
-            <li>list item 2</li>
-            <li>list item 2</li>
+            <li><span class="list-label">list item 2</span></li>
+            <li><span class="list-label">list item 2</span></li>
         </ol>
     </li>
-    <li>list item 1</li>
-    <li>list item 1</li>
+    <li><span class="list-label">list item 1</span></li>
+    <li><span class="list-label">list item 1</span></li>
 </ol>
 
 ####DEFINITION LISTS

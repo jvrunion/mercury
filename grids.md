@@ -4,7 +4,7 @@ title: Grids
 tags: [Grids]
 ---
 
-#GRID TESTS
+#GRIDS <i class="fa fa-table"></i>
 
 ####BASE GRID
 
@@ -248,7 +248,6 @@ tags: [Grids]
     </div>
 </div>
 
-
 ####CUSTOM FONT GRIDS
 
 <div class="serif">
@@ -330,7 +329,6 @@ tags: [Grids]
         </div>
     </div>
 </div>
-
 
 ####WRAPPING GRIDS
 

@@ -61,6 +61,7 @@ dt {
   padding: .5em;
   border-bottom: 1px solid rgb(230, 230, 230);
   color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 
 dd {
@@ -82,10 +83,6 @@ a {
     color: rgb(218, 82, 48);
     text-decoration: none;
   }
-}
-
-.post-description h4 {
-  color: rgb(245, 50, 23);
 }
 
 .pure-service-list {
@@ -196,15 +193,15 @@ a.pure-data-service {
 }
 
 .grey-scale {
-  -webkit-filter: grayscale(100);
-  -ms-filter: grayscale(100);
-  filter: grayscale(100);
-  -moz-filter: grayscale(100);
-  -o-filter: grayscale(100);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }
 
 .ghost {
-  opacity: 0.35;
+  opacity: 0.15;
 }
 
 .pure-hybrid {
@@ -233,15 +230,14 @@ a.pure-data-service {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(215, 215, 215);
-  background: rgba(112, 112, 112, 0.89);
+  background: rgba(235, 50, 20, 0.95);
   width: 100%;
-  text-shadow: 1px 1px rgb(63, 62, 62);
+  text-shadow: 1px 1px rgb(185, 52, 28);
 }
 
 .pure-hybrid #menu a.pure-menu-heading {
   margin: 0;
   margin-left: 0;
-  border-bottom: 1px solid rgb(219, 219, 219);
   color: rgb(131, 131, 131);
   text-shadow: 1px 1px rgb(221, 221, 221);
   font-weight: 700;
@@ -257,18 +253,21 @@ a.pure-data-service {
 }
 
 .pure-hybrid #menu a {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
   &.pure-menu-heading:hover {
     background: rgb(248, 247, 247);
     color: rgb(247, 29, 9);
     text-shadow: 1px 1px rgb(255, 255, 255);
   }
   &.active {
-    background: rgba(18, 27, 34, 0.5);
-    color: rgb(244, 244, 244);
-    text-shadow: 1px 1px rgb(103, 103, 103);
-    border-bottom: 1px solid rgb(254, 254, 254);
-    border-top: 1px solid rgb(101, 101, 101);
+    background: rgba(7, 17, 26, 0.8);
+    color: rgb(237, 92, 63);
+    border-bottom: 1px solid rgba(254, 254, 254, 0);
+    border-top: 1px solid rgba(101, 101, 101, 0);
     font-size: 1em;
+    line-height: 1.35em;
+    text-shadow: 1px 1px rgb(0, 0, 0);
   }
 }
 
@@ -338,7 +337,6 @@ footer.active-toggle .footer-toggle-control {
       box-shadow: inset 0 15px 25px rgb(219, 219, 219);
       border-top: 1px solid rgb(204, 204, 204);
       border-bottom: 1px solid rgb(228, 228, 228);
-      line-height: 1.35em;
       font-size: 1em;
     }
   }
@@ -354,15 +352,47 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 2.35em;
+  margin: 1.45em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1.45em 0;
+  color: rgb(245, 50, 23);
+}
+
+h3 {
+  font-size: 1.75em;
+  margin: 1.45em 0;
+}
+
 h4 {
+  font-size: 1.55em;
+  margin: 1.45em 0;
+}
+
+h5 {
   font-size: 1.25em;
-  margin: 1.55em 0;
+  margin: 1.45em 0;
 }
 
 .pure-hybrid {
+  h1 {
+    color: rgba(7, 17, 26, 0.8);
+  }
   h2 {
-    letter-spacing: 0.2em;
-    font-size: 1.45em;
+
+  }
+  h3 {
+
+  }
+  h4 {
+
+  }
+  h5 {
+
   }
   p {
     position: relative;
@@ -372,13 +402,13 @@ h4 {
     line-height: 1.55em;
   }
   .content-head {
-    margin: 2.5em auto 1.5em;
+    margin: 1.5em auto 1em;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.45em;
     font-weight: 700;
-    line-height: 2.15em;
-    font-size: 1.75em;
-    color: rgb(216, 216, 216);
+    line-height: 2.25em;
+    font-size: 2em;
+    color: rgb(235, 55, 16);
     text-shadow: 1px 1px rgb(255, 255, 255);
   }
 }
@@ -472,6 +502,10 @@ h1.content-subhead {
   font-family: "Montserrat";
 }
 
+.post-description h1 i {
+  color: rgb(233, 36, 16);
+}
+
 .l-box a {
   display: inline-block;
   margin-top: 1.51em;
@@ -481,8 +515,13 @@ h1.content-subhead {
 }
 
 .teaser-more {
-  color: rgb(245, 50, 23);
+  color: rgb(37, 83, 117);
   font-size: 3.5em;
+  -webkit-transition: all 1.2s ease-in;
+  -moz-transition: all 1.2s ease-in;
+  -ms-transition: all 1.2s ease-in;
+  -o-transition: all 1.2s ease-in;
+  transition: all 1.2s ease-in;
 }
 
 .pure-g .l-box {
@@ -531,7 +570,7 @@ h1.content-subhead {
 
 .pure-hybrid .splash {
   position: absolute;
-  top: 76px;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
@@ -556,17 +595,19 @@ h1.content-subhead {
   height: 65%;
   .splash-head {
     margin: 0 auto;
-    padding: .25em .55em;
+    padding: 1em .55em;
     width: 100%;
     height: auto;
     border: 1px solid rgb(56, 64, 73);
     border-bottom: 1px solid rgb(59, 83, 100);
     border-radius: 0;
-    background: rgba(53, 66, 78, 0.8);
-    box-shadow: inset 0 10px 35px rgb(16, 27, 37);
+    background: rgba(7, 17, 26, 0.8);
+    box-shadow: inset 0 10px 35px rgb(0, 0, 0);
     text-shadow: 1px 1px rgb(11, 43, 71);
     font-size: 2.75em;
-    line-height: 2.85em;
+    line-height: 2.25em;
+    color: rgb(255, 255, 255);
+    letter-spacing: .35em;
   }
 }
 
@@ -575,11 +616,9 @@ h1.content-subhead {
   height: 100%;
 }
 
-.splash-subhead {
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px rgb(82, 82, 82);
-  letter-spacing: 0.05em;
-  opacity: 0.8;
+.list-label {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .pure-hybrid p {
@@ -593,13 +632,14 @@ h1.content-subhead {
     padding: 0 27%;
     line-height: 1.25em;
     letter-spacing: 0.15em;
-    margin: .75em 0 1.55em 0;
+    margin: .55em 0 1.55em 0;
   }
   position: relative;
   top: 5%;
   font-size: .9em;
   font-family: "Arial";
   line-height: 1.55em;
+  margin-bottom: 35px;
 }
 
 .fa.fa-chevron-circle-right.teaser-more {
@@ -608,13 +648,12 @@ h1.content-subhead {
 
 #layout.pure-hybrid .content .content-wrapper {
   position: absolute;
-  top: 65%;
+  top: 80%;
   left: 20%;
   z-index: 2;
   min-height: 50%;
   width: 80%;
   background: rgb(255, 255, 255);
-  box-shadow: 10px 0 35px rgba(0, 0, 0, 0.5);
 }
 
 .hybrid-no-left-panel {
@@ -622,7 +661,7 @@ h1.content-subhead {
   top: 45%;
   left: 20.1%;
   z-index: 2000;
-  margin-left: -37px;
+  margin-left: -38px;
   padding: 1px 10px;
   width: 100px;
   height: 26px;
@@ -638,6 +677,7 @@ h1.content-subhead {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   opacity: .90;
+  border-bottom: 1px solid rgb(0, 0, 0);
   &:hover {
     background: rgb(0, 1, 2);
     -webkit-transition: all 0.2s ease-in;
@@ -954,7 +994,7 @@ footer {
   }
 
   footer {
-    bottom: -79px;
+    bottom: -110px;
     left: 0;
     .active-toggle {
       bottom: 0;
@@ -1690,8 +1730,8 @@ body {
   line-height: 1.7em;
 }
 
-h1, h2, h3, h4, h5, h6, label {
-  color: rgba(116, 140, 152, 0.74);
+h1, h3, h4, h5, h6, label {
+  color: rgba(9, 52, 74, 0.85);
 }
 
 .pure-img-responsive {
@@ -1725,13 +1765,13 @@ h1, h2, h3, h4, h5, h6, label {
     margin: 0 auto;
     margin-bottom: 50px;
     width: 100%;
-    background: rgb(242, 242, 242);
+    background: rgba(55, 64, 77, 0.33);
     line-height: 1.6em;
     border: 1px solid rgba(0, 0, 0, 0.15);
     min-height: 100px;
     padding: 5px;
-    color: rgb(247, 27, 4);
-    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(113, 113, 113);
   }
 }
 
@@ -1836,16 +1876,6 @@ h1, h2, h3, h4, h5, h6, label {
   height: 50%;
   text-align: center;
   text-transform: uppercase;
-}
-
-.splash-head {
-  padding: 1em 1.6em;
-  border: 3px solid white;
-  border-radius: 5px;
-  color: white;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 1em;
 }
 
 .terminal-font {
