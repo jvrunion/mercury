@@ -336,6 +336,7 @@ h5 {
   font-weight: 700;
   font-family: "Montserrat";
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 .pure-hybrid h2 {
@@ -354,10 +355,12 @@ h5 {
 .pure-hybrid .content-head {
   margin: 2.5em auto 1.5em;
   text-transform: uppercase;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.15em;
   font-weight: 700;
   line-height: 2.15em;
   font-size: 1.75em;
+  color: rgb(216, 216, 216);
+  text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 h2.post-title,
@@ -396,6 +399,7 @@ h2.post-title a:focus {
   margin: 20px 0;
   color: rgb(245, 50, 23);
   text-transform: uppercase;
+  text-align: center;
 }
 
 .pure-hybrid h2.content-head {
@@ -564,8 +568,8 @@ h1.content-subhead {
 }
 
 .pure-hybrid p.splash-subhead {
-  color: rgb(39, 44, 46);
-  text-shadow: 1px 1px rgb(255, 255, 255);
+  color: rgba(39, 44, 46, 0.5);
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
   font-weight: 700;
   font-size: 1.35em;
   opacity: 0.8;
@@ -573,7 +577,17 @@ h1.content-subhead {
   padding: 0 27%;
   line-height: 1.25em;
   letter-spacing: 0.15em;
+  margin: .75em 0 1.55em 0;
 }
+
+.pure-hybrid p {
+  position: relative;
+  top: 5%;
+  font-size: .9em;
+  font-family: "Arial";
+  line-height: 1.55em;
+}
+
 
 .fa.fa-chevron-circle-right.teaser-more {
   font-size: .9em;
@@ -600,7 +614,7 @@ h1.content-subhead {
   width: 100px;
   height: 26px;
   border-radius: 4px 4px 0 0;
-  background: rgb(121, 121, 121);
+  background: rgb(42, 42, 42);
   box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.17);
   color: rgb(241, 45, 8);
   text-align: center;
@@ -610,6 +624,7 @@ h1.content-subhead {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  opacity: .90;
 }
 
 .hybrid-no-left-panel:hover {
@@ -750,12 +765,9 @@ section.post {
 }
 
 .content-subhead i {
-  float: left;
-  margin-right: 7px;
-  margin-left: -37px;
-  padding-top: 2px;
-  height: 40px;
-  font-size: 1.63em;
+  left: 0;
+  position: relative;
+  top: 0;
 }
 
 footer {
@@ -825,7 +837,7 @@ i.fa-github {
 .fa.fa-chevron-down {
   position: relative;
   left: 2px;
-  color: rgb(255, 255, 255);
+  color: rgb(227, 54, 26);
 }
 
 .hybrid-no-left-panel i.fa.fa-chevron-down.fa-chevron-up:before {
@@ -836,12 +848,13 @@ footer .social-shout-out {
   margin: -1px auto 0;
   padding-top: 0;
   height: 25px;
-  background: rgb(119, 119, 119);
+  background: rgb(42, 42, 42);
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: 700;
   font-size: .75em;
   font-family: "Oxygen";
+  border: 1px rgba(0, 0, 0, 0);
 }
 
 
@@ -858,12 +871,15 @@ footer .social-shout-out:hover {
 }
 
 footer {
-  bottom: -13.5%;
+  bottom: -18%;
 }
 
 footer.active-toggle {
   bottom: 0;
   height: 50%;
+  opacity: 0.90;
+  background: rgb(0, 0, 0);
+  box-shadow: none;
 }
 
 .footer-toggle-control {
@@ -876,6 +892,8 @@ footer.active-toggle {
     color: rgb(255, 255, 255);
   }
 }
+
+
 
 @media (max-width: 767px) {
   .pure-hybrid #menu a {
@@ -2219,11 +2237,12 @@ label {
   line-height: 1em;
 }
 
-//.splash-subhead {
-//  color: white;
-//  letter-spacing: 0.05em;
-//  opacity: 0.8;
-//}
+.terminal-font {
+  font-family: "Menlo";
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
 
 .content-wrapper {
   position: absolute;
@@ -2247,10 +2266,6 @@ label {
 
 .content-subhead {
   color: #1f8dd6;
-}
-
-.content-subhead i {
-  margin-right: 7px;
 }
 
 .ribbon {
