@@ -341,7 +341,7 @@ a.pure-data-service {
 h1, h2, h3, h4, h5 {
   font-weight: 700;
   font-family: "Montserrat";
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -406,9 +406,10 @@ h2 {
   }
   h3.content-subhead {
     margin: 20px 0;
-    color: rgb(245, 50, 23);
+    color: rgb(134, 134, 134);
     text-transform: uppercase;
     text-align: center;
+    font-size: 1.55em;
   }
   h2.content-head {
     color: rgb(70, 70, 70);
@@ -471,7 +472,7 @@ h1.content-subhead {
 }
 
 .teaser-more {
-  color: rgb(28, 154, 194);
+  color: rgb(245, 50, 23);
   font-size: 3.5em;
 }
 
@@ -877,6 +878,19 @@ footer {
 @media (max-width: 767px) {
   .pure-hybrid #menu a {
     font-size: 1.3em;
+  }
+
+  .footer-toggle-control {
+    width: 100%;
+  }
+
+  .content-wrapper .pure-g {
+    padding: 10px;
+  }
+
+  .pure-hybrid .l-box {
+    padding: 10px 5px;
+    width: 100%;
   }
 
   .splash-combo-respond .splash {
@@ -1702,13 +1716,13 @@ h1, h2, h3, h4, h5, h6, label {
     margin: 0 auto;
     margin-bottom: 50px;
     width: 100%;
-    background: rgb(182, 182, 182);
+    background: rgb(242, 242, 242);
     line-height: 1.6em;
     border: 1px solid rgba(0, 0, 0, 0.15);
     min-height: 100px;
     padding: 5px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px rgb(103, 103, 103);
+    color: rgb(247, 27, 4);
+    text-shadow: 1px 1px rgb(255, 255, 255);
   }
 }
 

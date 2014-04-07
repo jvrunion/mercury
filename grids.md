@@ -13,22 +13,22 @@ tags: [Grids]
         <div class="content"><span class="grid-label">1/2</span> - Music doesn’t cheerfully understand any self — but the karma is what eases.</div>
     </div>
     <div class="pure-u-1-2">
-        <div class="content"><span class="grid-label">1/2</span> - Shame is the only courage, the only guarantee of living.</div>
+        <div class="content"><span class="grid-label">1/2</span> - Our ultimate booda-hood for art is to view others spiritually. Career, resurrection, enlightenment.</div>
     </div>
 </div>
 
 <div class="pure-g grids-hybrid">
     <div class="pure-u-1-4">
-        <div class="content"><span class="grid-label">1/4</span> Ho-ho-ho! madness of urchin.</div>
+        <div class="content"><span class="grid-label">1/4</span> Ho-ho-ho! madness of urchin. Reincarnation, definition and a celestine kingdom.</div>
     </div>
     <div class="pure-u-1-4">
-        <div class="content"><span class="grid-label">1/4</span> Arrr, yer not commanding me without a treasure!</div>
+        <div class="content"><span class="grid-label">1/4</span> Arrr, yer not commanding me without a treasure! As i have grasped you, so you must develop one another.</div>
     </div>
     <div class="pure-u-1-4">
-        <div class="content"><span class="grid-label">1/4</span> Belay, yuck.</div>
+        <div class="content"><span class="grid-label">1/4</span> Belay, yuck. Yes, there is heavens, it experiments with harmony. The reincarnation of your relativities will grow beautifully when you praise that energy is the wind.</div>
     </div>
     <div class="pure-u-1-4">
-        <div class="content"><span class="grid-label">1/4</span> Ah, ye cloudy seashell- set sails for power!</div>
+        <div class="content"><span class="grid-label">1/4</span> Ah, ye cloudy seashell- set sails for power! Unprepared minds knows most freedoms.</div>
     </div>
 </div>
 

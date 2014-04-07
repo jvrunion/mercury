@@ -20,7 +20,7 @@ tags: [Mercury]
 <div class="content">
     <div class="content-wrapper">
         <h1 class="content-head is-center">
-            Benefits of Mercury
+            Quicksilver Results
         </h1>
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-med-1-2">
@@ -29,7 +29,10 @@ tags: [Mercury]
                 </h3>
                 <i class="fa fa-rocket teaser-more"></i>
                 <p>
-                    Prototyping can fall into several different categories.  First you can prototype a concept of an idea.  Ideas need to be backed by tangable and actionable requiremnts set down from a business need.  The ability to visualize these ideas into a working model helps you gain insight into the operation of the product and can cut down on stop gaps that arise down the line in development.</br>
+                    Prototyping can fall into several different categories.  Firsy you can prototype a concept of an
+                    idea.  Ideas need to be backed by tangible and actionable requirements set down from a business
+                    need.
+                    The ability to visualize these ideas into a working model helps you gain insight into the operation of the product and can cut down on stop gaps that arise down the line in development.</br>
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-med-1-2">
@@ -38,7 +41,10 @@ tags: [Mercury]
                 </h3>
                 <i class="fa fa-mobile teaser-more"></i>
                 <p>
-                    Responsive design is built upon the premise that you site will re-adjust the scaling and size of elements based on media queeries that are defined for different device resolutions. Mobile first concepts ensure that your content is delivered as a stable mobile app then worked backward for delivery on stadard laptop and desktop resolutions.</br>
+                    Responsive design is built upon the premise that your site will re-adjust the scaling and size of
+                     elements based on media queries that are defined for different device resolutions. Mobile first
+                     concepts ensure that your content is delivered as a stable mobile app then worked backward for
+                     delivery on standard laptop and desktop resolutions.</br>
                 </p>
             </div>
                 <div class="l-box pure-u-1 pure-u-med-1-2">
@@ -47,7 +53,10 @@ tags: [Mercury]
                 </h3>
                 <i class="fa fa-th-large teaser-more"></i>
                 <p>
-                    By building out your assets in a templatized manner, you can re-use certain global aspects of your site in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular blocks of code</br>
+                    By building out your assets in a templatized manner, you can re-use certain global aspects of your
+                    site
+                     in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular
+                     blocks of code</br>
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-med-1-2">
@@ -56,7 +65,9 @@ tags: [Mercury]
                 </h3>
                 <i class="fa fa-check-square-o teaser-more"></i>
                 <p>
-                    Modern javaScript based task runners such as Grunt.js and Yeoman make the job of the Front End Engineer much simpler and less cumbersome.  By defining iterative tasks such as compilation into a seamlessly updated environment that streamlines the engineers local development environment</br>
+                    Modern javaScript based tools such as Grunt.js and Yeoman make the job of the Front End
+                    Engineer much simpler and less cumbersome.  By defining iterative tasks such as compilation into a
+                    seamlessly updated environment that streamlines the engineers local development environment</br>
                 </p>
             </div>
         </div>
@@ -67,12 +78,36 @@ tags: [Mercury]
                 </h1>
             </a>
             <ul class="pure-power-list">
-                <li class="power-image"><a data-provider="bower" href="http://bower.io/"><img class="grey-scale ghost img-bower" src="img/bower-logo.png" alt="Bower"></a></li>
-                <li class="power-image"><a  data-provider="jekyll" href="http://jekyllrb.com/"><img class="grey-scale ghost img-jekyll" src="img/jekyll.png" alt="Jekyll"></a></li>
-                <li class="power-image"><a data-provider="sass" href="http://sass-lang.com/"><img class="grey-scale ghost img-sass" src="img/sass-logo.png" alt="Jekyll"></a></li>
-                <li class="power-image"><a  data-provider="github"href="https://github.com/"><img class="grey-scale ghost img-git" src="img/git-original.png" alt="GitHub"></a></li>
-                <li class="power-image"><a  data-provider="pure" href="http://purecss.io/"><img class="grey-scale ghost img-pure" src="img/pure.png" alt="Pure"></a></li>
-                <li class="power-image"><a data-provider="node" href="http://nodejs.org/"><img class="grey-scale ghost img-node" src="img/node-bg.png" alt="Node"></a></li>
+                <li class="power-image">
+                    <a data-provider="bower" href="http://bower.io/">
+                        <img class="grey-scale ghost img-bower" src="img/bower-logo.png" alt="Bower">
+                    </a>
+                </li>
+                <li class="power-image">
+                    <a  data-provider="jekyll" href="http://jekyllrb.com/">
+                        <img class="grey-scale ghost img-jekyll" src="img/jekyll.png" alt="Jekyll">
+                    </a>
+                </li>
+                <li class="power-image">
+                    <a data-provider="sass" href="http://sass-lang.com/">
+                        <img class="grey-scale ghost img-sass" src="img/sass-logo.png" alt="Jekyll">
+                    </a>
+                </li>
+                <li class="power-image">
+                    <a  data-provider="github"href="https://github.com/">
+                        <img class="grey-scale ghost img-git" src="img/git-original.png" alt="GitHub">
+                    </a>
+                </li>
+                <li class="power-image">
+                    <a  data-provider="pure" href="http://purecss.io/">
+                        <img class="grey-scale ghost img-pure" src="img/pure.png" alt="Pure">
+                    </a>
+                </li>
+                <li class="power-image">
+                    <a data-provider="node" href="http://nodejs.org/">
+                        <img class="grey-scale ghost img-node" src="img/node-bg.png" alt="Node">
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="pure-u-1">
