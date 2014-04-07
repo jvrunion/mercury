@@ -622,6 +622,28 @@ h1.content-subhead {
   color: rgba(0, 0, 0, 0.75);
 }
 
+#editor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.ace-tm .ace_gutter {
+  background: rgb(100, 100, 100);
+  color: rgb(51, 51, 51);
+  box-shadow: inset 5px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ace-tm .ace_cursor {
+  color: rgb(237, 37, 15);
+}
+
 .pure-hybrid .pure-form input[type] {
   margin-bottom: 1em;
   width: 100%;
@@ -926,7 +948,7 @@ footer {
   bottom: -18%;
   &.active-toggle {
     bottom: 0;
-    height: 50%;
+    height: 65%;
     opacity: 0.90;
     background: rgb(0, 0, 0);
     box-shadow: none;
