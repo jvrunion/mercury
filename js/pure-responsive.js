@@ -117,7 +117,10 @@ $(document).ready(function() {
         console.log(attr);
         if (attr == '/base.html') {
             console.log('checked');
-            document.getElementsByClassName('.base').addClass('active');
+            if ($('.dash-link').hasClass('active')) {
+                $(this).removeClass('active');
+            }
+            $('.base').addClass('active');
         }
     } checkAttr();
 
