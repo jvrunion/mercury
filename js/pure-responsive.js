@@ -96,9 +96,13 @@ var Y = YUI({
 // jQuery selectors
 
 $(document).ready(function() {
+
+    var lowerTrigger = $('.footer-toggle-control');
+    var footerNode = $('footer');
+    var activeNodeTrigger = $('active-toggle');
     // footer panel controls
-    $('.footer-toggle-control').on('click', function() {
-        $('footer').toggleClass('active-toggle');
+    $(lowerTrigger).on('click', function() {
+        $(footerNode).toggleClass(activeNodeTrigger);
         $('.footer-toggle-control i').toggleClass('fa-chevron-down');
     });
     // left panel controls
@@ -110,9 +114,17 @@ $(document).ready(function() {
         $('.hybrid-no-left-panel').toggleClass('combo-pin');
         $('footer').toggleClass('active');
         $('.footer-toggle-control').toggleClass('active');
+        $('#layout').toggleClass('full-width');
+        $('.hybrid-combo-article').toggleClass('full-width');
     });
 
+    /*
+     *  set active left panel tabs
+     *  using window location to determine
+     *  active state
+     */
     function checkAttr (){
+
         var attr = window.location.pathname;
         var dashNode = '.dash-link';
         var dashContext = 'active';
