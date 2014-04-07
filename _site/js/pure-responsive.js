@@ -114,14 +114,34 @@ $(document).ready(function() {
 
     function checkAttr (){
         var attr = window.location.pathname;
-        console.log(attr);
-        if (attr == '/base.html') {
-            console.log('checked');
-            if ($('.dash-link').hasClass('active')) {
-                $(this).removeClass('active');
+        var dashNode = '.dash-link';
+        var dashContext = 'active';
+
+        if (attr === '/base.html') {
+            if ($(dashNode).hasClass(dashContext)) {
+                $(dashNode).removeClass(dashContext);
             }
-            $('.base').addClass('active');
+            $('.base').addClass(dashContext);
         }
+        if (attr === '/grids.html') {
+            if ($(dashNode).hasClass(dashContext)) {
+                $(dashNode).removeClass(dashContext);
+            }
+            $('.grids').addClass(dashContext);
+        }
+        if (attr === '/menus.html') {
+            if ($(dashNode).hasClass(dashContext)) {
+                $(dashNode).removeClass(dashContext);
+            }
+            $('.menus').addClass(dashContext);
+        }
+        if (attr === '/index.html') {
+            if ($(dashNode).hasClass(dashContext)) {
+                $(dashNode).removeClass(dashContext);
+            }
+            $('.dashboard').addClass(dashContext);
+        }
+
     } checkAttr();
 
 });
