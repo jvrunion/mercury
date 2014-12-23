@@ -24,11 +24,11 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 
 ``cd mercury``
 
-#####Node Package Manager Install:
+#####NPM Install:
 
 ``npm install``
 
-#####Start the Jekyll server locally with Grunt:
+#####Start Jekyll with Grunt:
 
 ``grunt``
 
@@ -39,9 +39,9 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 Based upon
 ==========
 
-- Pure: (http://purecss.io/base/)
-- Jekyll: (http://jekyllrb.com/docs/home/)
-- Grunt: (http://gruntjs.com/getting-started)
-- Compass: http://compass-style.org/reference/compass/)
-- Jekyll Grunt: (https://github.com/dannygarcia/grunt-jekyll)
-- Jekyll Pure: (https://github.com/brickgao/jekyll-pure)
+- [Pure](http://purecss.io/base/)
+- [Jekyll](http://jekyllrb.com/docs/home/)
+- [Grunt](http://gruntjs.com/getting-started)
+- [Compass](http://compass-style.org/reference/compass/)
+- [Jekyll Grunt](https://github.com/dannygarcia/grunt-jekyll)
+- [Jekyll Pure](https://github.com/brickgao/jekyll-pure)

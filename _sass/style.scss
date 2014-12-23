@@ -206,9 +206,10 @@ a.pure-data-service {
 
 .pure-hybrid {
   a.pure-button-primary {
-    color: rgb(133, 133, 133);
+/*    color: rgb(133, 133, 133);*/
+    color: rgb(255, 255, 255);
     text-transform: lowercase;
-    text-shadow: 1px 1px rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(133, 133, 133);
   }
   #menu {
     .pure-menu {
@@ -217,7 +218,7 @@ a.pure-data-service {
       }
     }
     .pure-menu-selected, .pure-menu-heading {
-      background: rgb(199, 199, 199);
+      background: rgba(7, 17, 26, 0.8);
     }
   }
 }
@@ -1215,7 +1216,7 @@ body {
   overflow-y: auto;
   margin-left: -150px;
   width: 150px;
-  background: #191818;
+  background: rgb(255, 255, 255);
   -webkit-overflow-scrolling: touch;
   a {
     padding: 0.6em 0 0.6em 0.6em;
