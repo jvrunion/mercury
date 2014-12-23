@@ -51,20 +51,20 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ##### Set this to the root of your project when deployed:
 
-Application Path: 
-*http_path = "/"
+**Application Path:**
+- http_path = "/"
 
-CSS Deployed Directory: 
-*css_dir = "/css"
+**CSS Deployed Directory:**
+- css_dir = "/css"
 
-SASS Deployed Directory: 
-*sass_dir = "/_sass"
+**SASS Deployed Directory:**
+- sass_dir = "/_sass"
 
-IMAGES Deployed: 
-*images_dir = "img"
+**IMAGES Deployed:**
+- images_dir = "img"
 
-JS Deployed: 
-*javascripts_dir = "js"
+**JS Deployed:**
+- javascripts_dir = "js"
 
 ####Based upon
 
