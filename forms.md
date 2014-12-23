@@ -6,8 +6,8 @@ tags: [Forms]
 
 #FORMS <i class="fa fa-check-square fade-in page-heading"></i>
 
-<div id="main">
-    <div class="content">
+<div>
+    <div>
         <h2 id="default-form" class="forms-heading">Default Form
             <a href="#default-form" class="content-link"></a>
         </h2>

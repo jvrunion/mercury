@@ -6,8 +6,8 @@ tags: [Tables]
 
 #TABLES <i class="fa fa-table"></i>
 
-<div id="main">
-    <div class="content">
+<div>
+    <div>
         <h2 id="default-table" class="tables-header">Default Table<a href="#default-table" class="content-link"></a></h2>
         <p>
             To style an HTML table, add the <code>pure-table</code> classname. This class adds padding and borders to table elements, and emphasizes the header.

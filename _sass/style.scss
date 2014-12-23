@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 2.35em;
-  margin: 1.45em 0;
+/*  margin: 1.45em 0;*/
 }
 
 h2 {
@@ -1175,7 +1175,7 @@ body {
 }
 
 .pure-hybrid.active {
-  width: 60%;
+  width: 100%;
 }
 
 #layout.active {
@@ -1195,7 +1195,7 @@ body {
   color: #333;
   text-align: center;
   h1 {
-    margin: 0.2em 0;
+/*    margin: 0.2em 0;*/
     font-weight: 300;
     font-size: 3em;
   }
