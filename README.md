@@ -40,21 +40,23 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ``=> Now point to http://localhost:4000``
 
-### Require any additional compass plugins here.
+Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler that you will fall in love with.
+
+###Require any additional compass plugins here.
 
 ``config/compass.rb''
 
 ####Options:
 
-####Add Bower:
+######Add Bower:
 
-**add_import_path "bower_components"**
+``add_import_path "bower_components"``
 
-####Add Google Fonts:
+######Add Google Fonts:
 
-**add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"**
+``add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"``
 
-##### Set this to the root of your project when deployed:
+####Set this to the root of your project when deployed:
 
 **Application Path:**
 ``http_path = "/"``
@@ -71,7 +73,7 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 **JS Deployed:**
 ``javascripts_dir = "js"``
 
-####Based upon
+####Based upon the following open source projects:
 
 - [Pure](http://purecss.io/base/)
 - [Jekyll](http://jekyllrb.com/docs/home/)
