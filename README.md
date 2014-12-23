@@ -46,22 +46,25 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ####Options:
 
-``add_import_path "bower_components"``
-``add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"``
+*add_import_path "bower_components"
+*add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"
 
 ##### Set this to the root of your project when deployed:
 
-``
-http_path = "/"
+Application Path: 
+*http_path = "/"
 
-css_dir = "/css"
+CSS Deployed Directory: 
+*css_dir = "/css"
 
-sass_dir = "/_sass"
+SASS Deployed Directory: 
+*sass_dir = "/_sass"
 
-images_dir = "img"
+IMAGES Deployed: 
+*images_dir = "img"
 
-javascripts_dir = "js"
-``
+JS Deployed: 
+*javascripts_dir = "js"
 
 ####Based upon
 
