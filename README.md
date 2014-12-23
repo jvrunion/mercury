@@ -58,19 +58,15 @@ Add Google Fonts:
 
 ###Set this to the root of your project when deployed:
 
-Application Path:
+- Application Path:
 ``http_path = "/"``
-
-CSS Deployed Directory:
+- CSS Deployed Directory:
 ``css_dir = "/css"``
-
-SASS Deployed Directory:
+- SASS Deployed Directory:
 ``sass_dir = "/_sass"``
-
-IMAGES Deployed:
+- IMAGES Deployed: 
 ``images_dir = "img"``
-
-**JS Deployed:**
+- JS Deployed:
 ``javascripts_dir = "js"``
 
 ###Based upon the following open source projects:
