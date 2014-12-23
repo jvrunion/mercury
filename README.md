@@ -129,23 +129,23 @@ Declares an area that exists as contstant to another area.
 
 This class uses units of 1-5.
 
-    Calculation = $base-width: percentage(64/320);
+    Calculation: $base-width: percentage(64/320);
     
-    Example = .swatch-two { width: $base-width * 2 }
+    Example: .swatch-two { width: $base-width * 2 }
  
 ####Set
 
 This class uses units of 1-8.
 
-    Calculation = $base-height: percentage(100/500);
+    Calculation: $base-height: percentage(80/480);
     
-    Example = .fill-two { height: $base-height * 2 }
+    Example: .fill-two { height: $base-height * 2 }
 
 ####Edge
 
 This make a standard presentation box with paddings and margins.
 
-###Brand
+####Brand
 
 Delivers a package to decorate the swatch
 
