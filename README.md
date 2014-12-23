@@ -44,6 +44,7 @@ Mercury is mainly built on the Jekyll platform and integrates easily into a Git 
 
 ##Basic Jekyll Structure:
 
+<code>
 ├── _config.yml
 ├── _drafts
 |   ├── begin-with-the-crazy-ideas.textile
@@ -61,6 +62,7 @@ Mercury is mainly built on the Jekyll platform and integrates easily into a Git 
 |   └── members.yml
 ├── _site
 └── index.html
+</code>
 
 ##Require any additional compass plugins here.
 
