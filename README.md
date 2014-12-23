@@ -113,6 +113,42 @@ Add Google Fonts:
 
 ``javascripts_dir = "js"``
 
+##Swatcher
+
+A swatch refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
+
+####Boundary
+
+Declares an area that exists as contstant to another area.
+
+	<section class="boundary">
+		You new swatch.
+	</section>
+
+####Fill 
+
+This class uses units of 1-5.
+
+    Calculation = $base-width: percentage(64/320);
+    
+    Example = .swatch-two { width: $base-width * 2 }
+ 
+####Set
+
+This class uses units of 1-8.
+
+    Calculation = $base-height: percentage(100/500);
+    
+    Example = .fill-two { height: $base-height * 2 }
+
+####Edge
+
+This make a standard presentation box with paddings and margins.
+
+###Brand
+
+Delivers a package to decorate the swatch
+
 ###Based upon the following open source projects:
 
 - [Pure](http://purecss.io/base/)
