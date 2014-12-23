@@ -77,7 +77,7 @@ If you are comfortable with Git as well as NPM, Bower and SASS this project can 
 
 ``config/compass.rb``
 
-#####Options:
+###Options:
 
 Bower:
 
@@ -101,7 +101,7 @@ SASS:
 
 	sass_dir = "/_sass"
 
-IMAGES: 
+Images: 
 
 	images_dir = "img"
 
