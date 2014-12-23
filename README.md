@@ -44,41 +44,24 @@ Mercury is mainly built on the Jekyll platform and integrates easily into a Git 
 
 ##Basic Jekyll Structure:
 
-<code>
+<code class="language-bash" data-lang="bash">.
 ├── _config.yml
-
 ├── _drafts
-
-|   ├── begin-with-the-crazy-ideas.textile
-
-|   └── on-simplicity-in-technology.markdown
-
+<span class="p">|</span>   ├── begin-with-the-crazy-ideas.textile
+<span class="p">|</span>   └── on-simplicity-in-technology.markdown
 ├── _includes
-
-|   ├── footer.html
-
-|   └── header.html
-
+<span class="p">|</span>   ├── footer.html
+<span class="p">|</span>   └── header.html
 ├── _layouts
-
-|   ├── default.html
-
-|   └── post.html
-
+<span class="p">|</span>   ├── default.html
+<span class="p">|</span>   └── post.html
 ├── _posts
-
-|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
-
-|   └── 2009-04-26-barcamp-boston-4-roundup.textile
-
+<span class="p">|</span>   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+<span class="p">|</span>   └── 2009-04-26-barcamp-boston-4-roundup.textile
 ├── _data
-
-|   └── members.yml
-
+<span class="p">|</span>   └── members.yml
 ├── _site
-
-└── index.html
-</code>
+└── index.html</code>
 
 ##Require any additional compass plugins here.
 
