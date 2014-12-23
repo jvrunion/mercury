@@ -24,23 +24,23 @@ If you are interested in the future of the web and want to contribute feel free 
 
 ##Install Gems
 
-	gem install jekyll
-	gem install jekyll-compass
-	gem install rdsicount
-	compass init
+	$ gem install jekyll
+	$ gem install jekyll-compass
+	$ gem install rdsicount
+	$ compass init
 
 ###Clone Repo
 
-	git clone https://github.com/jvrunion/mercury.git
-	cd mercury
+	$ git clone https://github.com/jvrunion/mercury.git
+	$ cd mercury
 
 ###NPM Install
 
-	npm install
+	$ npm install
 
 ###Start with Grunt:
 
-	grunt
+	$ grunt
 
 ###You are now up and running!:
 
@@ -79,11 +79,11 @@ If you are comfortable with Git as well as NPM, Bower and SASS this project can 
 
 #####Options:
 
-Add Bower:
+Bower:
 
 ``add_import_path "bower_components"``
 
-Add Google Fonts:
+Google Fonts:
 
 ``add_import_path "http://fonts.googleapis.com/css?"``
 
@@ -118,7 +118,7 @@ A swatch refers to a block that is at the highest level in the DOM tree.  All of
 Declares an area that exists as contstant to another area.
 
 	<section class="boundary">
-		You new swatch.
+		You're new swatch area.
 	</section>
 
 ####Fill 
