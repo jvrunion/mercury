@@ -14,7 +14,7 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
 
-##If you already have Ruby
+##If you already have Ruby ==== >
 
 ``gem install jekyll``
 
@@ -42,6 +42,26 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler that you will fall in love with.
 
+##Basic Jekyll Structure:
+
+├── _config.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── _data
+|   └── members.yml
+├── _site
+└── index.html
+
 ##Require any additional compass plugins here.
 
 ``config/compass.rb``
@@ -59,14 +79,23 @@ Add Google Fonts:
 ###Set this to the root of your project when deployed:
 
 - Application Path:
+
 ``http_path = "/"``
+
 - CSS Deployed Directory:
+
 ``css_dir = "/css"``
+
 - SASS Deployed Directory:
+
 ``sass_dir = "/_sass"``
+
 - IMAGES Deployed: 
+
 ``images_dir = "img"``
+
 - JS Deployed:
+
 ``javascripts_dir = "js"``
 
 ###Based upon the following open source projects:
