@@ -555,7 +555,7 @@ body, html {
   font-size: 13.3px;
   font-weight: 300;
   line-height: 1.65em;
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 
 a {
@@ -567,7 +567,6 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "museo-sans-rounded", "helvetica neue", "arial";
   font-weight: 200;
   letter-spacing: -0.535;
 /*  text-transform: uppercase;*/

@@ -238,8 +238,9 @@ a.pure-data-service {
 .pure-hybrid #menu a.pure-menu-heading {
   margin: 0;
   margin-left: 0;
-  color: rgb(131, 131, 131);
-  text-shadow: 1px 1px rgb(221, 221, 221);
+  background-color: #000;
+  color: #666;
+  text-shadow: 1px 1px #232323;
   font-weight: 700;
   font-size: 1.25em;
   font-family: Montserrat;
@@ -262,7 +263,7 @@ a.pure-data-service {
   }
   &.active {
     background: rgba(7, 17, 26, 0.8);
-    color: rgb(237, 92, 63);
+    color: #E02C2C;
     border-bottom: 1px solid rgba(254, 254, 254, 0);
     border-top: 1px solid rgba(101, 101, 101, 0);
     font-size: 1em;
@@ -998,7 +999,7 @@ footer {
       transition: all 0.2s ease-in;
     }
   }
-  bottom: -18%;
+  bottom: -112px;
   &.active-toggle {
     bottom: 0;
     height: 24%;
@@ -1078,7 +1079,7 @@ footer {
   }
 
   footer {
-    bottom: -110px;
+    bottom: -112px;
     left: 0;
     .active-toggle {
       bottom: 0;

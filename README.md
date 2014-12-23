@@ -5,9 +5,9 @@ Mercury
 
 Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5. 
 
-Pre built for rapid prototyping and mobile first design it takes the pain and frustration out of starting out a project for rapid deployment.  
+Pre built for rapid prototyping and mobile first design it takes the pain and frustration out of starting out a project for blazing deployments.  
 
-Responsive out of the box and scalable, i's' lighting fast UI (based on PURE) converts static assets into a deployable front end package that is easily integrated with any back end.
+Responsive out of the box and scalable, it's lighting fast UI (based on yahoo's PURE.io framework) converts static assets into a deployable front end package that is easily integrated with any back end.
 
 If you are interested in the future of the web and want to contribute feel free to fork away!
 
