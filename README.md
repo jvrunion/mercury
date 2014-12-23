@@ -18,9 +18,11 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 - [Node](http://nodejs.org/)
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
 
-#####Install Jekyll:
+#####Install Dependancies:
 
 ``gem install jekyll``
+``gem install jekyll-compass``
+``gem install rdsicount``
 
 #####Clone this repo:
 
@@ -30,11 +32,7 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 
 #####Node Package Manager Install:
 
-``npm install --save-dev``
-
-#####Then A Bower Install:
-
-``bower install --save-dev``
+``npm install``
 
 #####Start the Jekyll server locally with Grunt:
 
@@ -47,9 +45,9 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 Based upon
 ==========
 
-- Pure - Docs at (http://purecss.io/base/)
-- Jekyll - Docs at (http://jekyllrb.com/docs/home/)
-- Grunt - Docs at (http://gruntjs.com/getting-started)
-- Compass - Docs at http://compass-style.org/reference/compass/)
-- Jekyll Grunt - GitHub Account (https://github.com/dannygarcia/grunt-jekyll)
-- Jekyll Pure - GitHub Account (https://github.com/brickgao/jekyll-pure)
+*Pure - Docs at (http://purecss.io/base/)
+*Jekyll - Docs at (http://jekyllrb.com/docs/home/)
+*Grunt - Docs at (http://gruntjs.com/getting-started)
+*Compass - Docs at http://compass-style.org/reference/compass/)
+*Jekyll Grunt - GitHub Account (https://github.com/dannygarcia/grunt-jekyll)
+*Jekyll Pure - GitHub Account (https://github.com/brickgao/jekyll-pure)
