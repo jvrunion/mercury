@@ -28,7 +28,7 @@ menu, ol, ul {
   margin: 1em 0;
   padding: 1em 2em;
   box-shadow: 0 0 25px 10px rgba(210, 210, 210, 0);
-  text-shadow: 1px 1px rgb(255, 255, 255);
+/*  text-shadow: 1px 1px rgb(255, 255, 255);*/
   &.footer-list {
     border: none;
     background: transparent;
@@ -53,7 +53,7 @@ menu, ol, ul {
 dl {
   margin: 0;
   padding: 0;
-  text-shadow: 1px 1px rgb(255, 255, 255);
+/*  text-shadow: 1px 1px rgb(255, 255, 255);*/
 }
 
 dt {
@@ -302,7 +302,7 @@ footer.active-toggle .footer-toggle-control {
 
 .footer-toggle-control {
   position: absolute;
-  bottom: 120%;
+  bottom: 95%;
   left: 0;
   width: 80%;
   cursor: pointer;
@@ -466,9 +466,9 @@ h1.content-subhead {
 }
 
 .hybrid-combo-article {
-  margin: 0 0 0 10%;
   padding: 0;
   width: 90%;
+  margin-left: 10%;
   .content {
     position: relative;
   }
@@ -711,7 +711,7 @@ h1.content-subhead {
   }
   position: relative;
   top: 5%;
-  font-size: .9em;
+  font-size: 1.35em;
   font-family: "Arial";
   line-height: 1.55em;
   margin-bottom: 35px;
@@ -928,6 +928,9 @@ footer {
     display: table-cell;
     width: 27.9%;
     font-size: 2.0em;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 500;    
   }
 }
 
@@ -1011,7 +1014,7 @@ footer {
 
 @media (max-width: 767px) {
   .pure-hybrid #menu a {
-    font-size: 1.3em;
+/*    font-size: 1.3em;*/
   }
 
   .footer-toggle-control {
@@ -1079,7 +1082,7 @@ footer {
   }
 
   footer {
-    bottom: -112px;
+    bottom: -25.5%;
     left: 0;
     .active-toggle {
       bottom: 0;
@@ -1104,6 +1107,9 @@ footer {
     display: table-cell;
     width: 31.5%;
     font-size: 2.0em;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 500;    
   }
 
   .hybrid-no-left-panel {

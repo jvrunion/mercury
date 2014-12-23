@@ -13,8 +13,8 @@ module.exports = function(grunt) {
                 middleware: function(connect) {
 
                     return [
-                        connect.static('_site'),
-                        connect.directory('_site')
+                    connect.static('_site'),
+                    connect.directory('_site')
                     ];
                 }
             },
@@ -24,17 +24,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-//        pure_grids: {
-//            responsive : 'css/grunt-hybrid.css',
-//            options: {
-//                units: 6, //6-column grid,
-//                mediaQueries: {
-//                    md: 'screen and (min-width: 48em)', //768px
-//                    lg: 'screen and (min-width: 60em)'  //960px
-//                },
-//                selectorPrefix: '.col-'
-//            }
-//        },
         copy: {
             css: {
                 files: [{
@@ -117,12 +106,11 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-compass');
-    grunt.loadNpmTasks('grunt-exec');
-//    grunt.loadNpmTasks('grunt-pure-grids');
-    grunt.registerTask('default', ['connect', 'exec:build', 'compass', 'watch', 'copy']);
+grunt.loadNpmTasks('grunt-contrib-copy');
+grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-connect');
+grunt.loadNpmTasks('grunt-contrib-compass');
+grunt.loadNpmTasks('grunt-exec');
+grunt.registerTask('default', ['connect', 'exec:build', 'compass', 'watch', 'copy']);
 
 };

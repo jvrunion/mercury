@@ -17,14 +17,14 @@ tags: [Mercury]
         </p>
     </div>
 </div>
-<div class="content">
-    <div class="content-wrapper">
-        <h1 class="content-head is-center">
+<div class="content boundary">
+    <div class="content-wrapper is-center">
+        <h1 class="content-head">
             Quicksilver Results
         </h1>
-        <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-med-1-2">
-                <h3 class="content-subhead">
+        <div class="fill edge is-center">
+            <div class="swatch-five edge">
+                <h3>
                     Prototyping
                 </h3>
                 <i class="fa fa-rocket teaser-more box fade-in one"></i>
@@ -36,34 +36,34 @@ tags: [Mercury]
                 </p>
                 <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
-            <div class="l-box pure-u-1 pure-u-med-1-2">
-                <h3 class="content-subhead">
+            <div class="swatch-five">
+                <h3>
                     Responsive
                 </h3>
                 <i class="fa fa-mobile teaser-more box fade-in two"></i>
                 <p>
                     Responsive design is built upon the premise that your site will re-adjust the scaling and size of
-                     elements based on media queries that are defined for different device resolutions. Mobile first
-                     concepts ensure that your content is delivered as a stable mobile app then worked backward for
-                     delivery on standard laptop and desktop resolutions.</br>
+                    elements based on media queries that are defined for different device resolutions. Mobile first
+                    concepts ensure that your content is delivered as a stable mobile app then worked backward for
+                    delivery on standard laptop and desktop resolutions.</br>
                 </p>
                 <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
-                <div class="l-box pure-u-1 pure-u-med-1-2">
-                <h3 class="content-subhead">
+            <div class="swatch-five">
+                <h3>
                     Modular
                 </h3>
                 <i class="fa fa-th-large teaser-more box fade-in three"></i>
                 <p>
                     By building out your assets in a templatized manner, you can re-use certain global aspects of your
                     site
-                     in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular
-                     blocks of code</br>
+                    in a logical and modular way.  Things like Handlebars and Mustache are great for creating modular
+                    blocks of code</br>
                 </p>
                 <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
-            <div class="l-box pure-u-1 pure-u-med-1-2">
-                <h3 class="content-subhead">
+            <div class="swatch-five">
+                <h3>
                     Workflows
                 </h3>
                 <i class="fa fa-check-square-o teaser-more box fade-in four"></i>
@@ -75,13 +75,13 @@ tags: [Mercury]
                 <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
         </div>
-        <div class="pure-g pure-g-power">
+        <div class="fill edge is-center">
             <a href="#" data-event="label">
                 <h1 class="power">
-                    Crafted with Care:
+                    crafted from:
                 </h1>
             </a>
-            <ul class="pure-power-list">
+            <ul class="pure-power-list fill edge">
                 <li class="power-image">
                     <a data-provider="bower" href="http://bower.io/">
                         <img class="grey-scale ghost img-bower" src="img/bower-logo.png" alt="Bower">
