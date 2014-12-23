@@ -93,25 +93,25 @@ Add Google Fonts:
 
 #####Set this to the root of your project when deployed:
 
-- Application Path:
+Path:
 
-``http_path = "/"``
+	http_path = "/"
 
-- CSS Deployed:
+CSS:
 
-``css_dir = "/css"``
+	css_dir = "/css"
 
-- SASS Deployed:
+SASS:
 
-``sass_dir = "/_sass"``
+	sass_dir = "/_sass"
 
-- IMAGES Deployed: 
+IMAGES: 
 
-``images_dir = "img"``
+	images_dir = "img"
 
-- JS Deployed:
+JS:
 
-``javascripts_dir = "js"``
+	javascripts_dir = "js"
 
 ##Swatcher
 
