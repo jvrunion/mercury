@@ -1,7 +1,22 @@
-@mixin brand-font {
-  font-family: "museo-sans-rounded", "helvetica neue", "arial";
+
+@mixin trim {
+  margin: 3% 0 3% 0;
+  padding: 0 5% 0 5%;
 }
-// ***** ------ [ POSITION MIXINS ] ------ ******************* //
+
+@mixin dark-shade {
+  background-color: #343434;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(233, 233, 233, 0.57));
+  border: 1px solid rgba(98, 98, 98, 0.75);
+  position: relative;
+  @include color-carbon;
+  @include light-text;
+  @include brand-font;
+  input {
+    @include color-rust;
+  }
+}
+
 @mixin inline {
   display: block;
   float: left;
@@ -23,45 +38,96 @@
   margin: 0
 }
 
-@mixin zero-margin { margin: 0;
+@mixin zero-margin {
+  margin: 0
 }
 
 @mixin zero-padding {
-  padding: 0;
+  padding: 0
 }
 
 @mixin float-left {
   float: left
 }
 
-@mixin break-float {  
-  clear: both;
+@mixin break-float {
+  clear: both
 }
 
+@mixin max-up {
+  height: 100;
+}
 
+@mixin max-right {
+  width: 100;
+}
 
-// ***** ------ [ PADDING MIXINS ] ------ ******************** //
+@mixin simple-shade {
+  box-shadow: -5px 15px 85px 10px rgba(54, 54, 54, 0.67);
+}
 
+@mixin right-shade {
+  box-shadow: 30px 45px 55px 10px rgba(0, 0, 0, 0.27); 
+}
 
+@mixin simple-scale {
+  -webkit-transform: matrix(1.606,0,0,1.492,0,0);
+  -moz-transform: matrix(1.606,0,0,1.492,0px,0px);
+  -ms-transform: matrix(1.606,0,0,1.492,0,0);
+  -o-transform: matrix(1.606,0,0,1.492,0,0);
+  transform: matrix(1.606,0,0,1.492,0,0); 
+}
 
+//- SASS CUSTOM PACKAGES FOR SELF IDENTIFY -/
+
+@mixin sass-pack {
+  text-shadow: 1px 1px #B75438;
+  font-size: 1em;  
+  letter-spacing: normal;
+}
+
+@mixin brand-pack {
+  text-shadow: 1px 1px #4C925D;
+  text-transform: none;
+  font-size: 1em;  
+  letter-spacing: normal;  
+}
+
+@mixin angular-pack {
+  background-color: #45939F;;
+  text-shadow: 1px 1px #45939F;
+  text-transform: none;  
+  padding: 1.15em;
+  font-size: 1em;
+  line-height: 1.75em;  
+  letter-spacing: normal;
+}
+
+// *** ------ [ PADDING MIXINS ] ------ *** //
 
 @mixin root-padding {
-  padding: 15px;
+  padding: 15px
 }
 
 @mixin btn-padding {
-  padding: 5px 15px;
+  padding: 5px 15px
 }
 
 @mixin common-padding {
-  padding: 20px;
+  padding: 20px
 }
 
 @mixin large-padding {
   padding: 35px
 }
 
-// margin //
+@mixin hero-padding {
+  padding: 5%
+}
+
+@mixin search-padding {
+  padding: 15px 0 10px 0;
+}
 
 @mixin root-margin {
   margin: 15px;
@@ -75,72 +141,271 @@
   margin: 35px
 }
 
-@mixin curb {
+@mixin fill {
   box-sizing: border-box;
-  width: 90%;
-  margin: 0 0 0 5%;
-  padding-top: 5%;
+  margin: 0 5% 0 5%;
+  padding: 2% 0 2% 0;
+  line-height: 1.5em;
 }
 
-// ************************************************************************ //
-// ***** ------ [ FORM MIXINS ] ------ *********************** //
-// ********************************************************** //
+@mixin no-pad-top {
+  padding-top: 0
+}
 
-@mixin field {
-  margin: 3% 5%;
-  padding: 2%;
-  border-radius: 6px;
-  box-sizing: border-box; 
-  &.brand {
-    background-color: #5cb85c;
-    border: 1px solid transparent;
+@mixin no-margin-top {
+  margin-top: 0
+}
+
+// **** [ SWATCH COLORS ] ------ *** //
+
+$color-brand: #45939F;
+$color-light: #dedede;
+$color-chrome: #d0d0d0;
+$color-chrome-dark: #757575;
+$color-mid: #757575;
+$color-dark: #232323;
+$color-black: #081f02;
+$color-carbon: #3b3b3b;
+$color-rust: #db473d;
+$color-action: #f53b2e;
+$color-base: #ffffff;
+$color-dark: #232323;
+$color-light: #dedede;
+$color-brand: #45939F;
+$color-cool: #45939F;
+
+@mixin color-hover($color) {
+  &:hover {
+    background-color: darken($color, 75%);
+    @include fade;
+    cursor: pointer;
   }
 }
 
-@mixin text-box {
-  width: 55%;
-  height: 25px;
-  padding: 2px 8px;
-  margin: 0 0 2%;
-  font-size: 13px;
-  border-radius: 4px;
-  border: 1px solid #FFFFFF;  
-  background-color: #e0e0e0;
-  background-image: -webkit-linear-gradient(top, #e0e0e0, #f5f5f5); 
-  background-image: linear-gradient(to bottom, #e0e0e0, #f5f5f5);  
-  &.small-field {
-    width: 20%;
-  }
-  &.large-field {
-    width:75%
-  }
+@mixin color-def($color) {
+  background-color: $color;
+  @include color-hover($color);
 }
 
-@mixin form-label {
-  color: #000;
-  margin: 2% 1% 1%;
-  font-weight: 600;
-  &.sign-in {
+@mixin back-dark {
+  @include color-def($color-dark)
+}
+
+@mixin back-mid {
+  @include color-def($color-mid)
+}
+
+@mixin back-brand {
+  @include color-def($color-brand)
+}
+
+@mixin back-light {
+  @include color-def($color-light)
+}
+
+@mixin back-rust {
+  @include color-def($color-rust)
+}
+
+@mixin back-chrome {
+  background-color: #d0d0d0
+}
+
+@mixin back-chrome-dark {
+  background-color: #757575
+}
+
+@mixin back-black {
+  background-color: #081f02
+}
+
+@mixin back-rust {
+  background-color: #db473d
+}
+
+@mixin back-action {
+  background-color: #f53b2e
+}
+
+@mixin back-carbon {
+  background-color: #222222;
+  background-image: -webkit-linear-gradient(top, #222222, #313131); 
+  background-image: linear-gradient(to bottom, #222222, #313131);
+}
+
+@mixin back-carbon-brand {
+  background-color: #439940
+}
+
+@mixin back-brand-switch {
+  background-color: #5bce58
+}
+
+@mixin core-image {
+  background-repeat: no-repeat;
+  background-size: 300% auto;
+  background-position: 33% 20%;
+}
+
+// ***** ------ [ COLOR MIXINS ] ------ *** //
+
+@mixin color-brand {
+  color: #45939F
+}
+
+@mixin color-light {
+  color: #dedede
+}
+
+@mixin color-chrome {
+  color: #d0d0d0
+}
+
+@mixin color-chrome-dark {
+  color: #757575
+}
+
+@mixin color-mid {
+  color: #757575
+}
+
+@mixin color-dark {
+  color: #232323
+}
+
+@mixin color-black {
+  color: #081f02
+}
+
+@mixin color-carbon {
+  color: #3b3b3b
+}
+
+@mixin color-rust {
+  color: #db473d;
+}
+
+@mixin color-action {
+  color: #f53b2e;
+}
+
+@mixin color-base {
   color: #ffffff;
-  text-shadow: 0.5px 0.5px #4F4F4F;
-  }
 }
 
-@mixin core {
-  border: 1px solid #ffffff;
-  color: #272727;
-  text-shadow: 0.5px 0.5px #F5F5F5;
-  background-image: linear-gradient(to bottom, #CCCCCC, #f5f5f5);
-  background-image: -webkit-linear-gradient(top, #CCCCCC, #f5f5f5); 
-  border-radius: 2px;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
+// ***** ------ [ TREATMENT MIXINS ] ------ *** //
+
+@mixin light-text {
+  text-shadow: 0.5px 0.5px #000000;
 }
 
-// ************************************************************************ //
+@mixin dark-text {
+  text-shadow: 0.5px 0.5px #ffffff;
+}
+
+@mixin mid-text {
+  text-shadow: 0.5px 0.5px #cccccc;
+}
+
+@mixin grey-text {
+  text-shadow: 0.5px 0.5px #464646;
+}
+
+@mixin fade {
+  -webkit-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
+}
+
+@mixin left-in {
+  -webkit-transition: left 0.6s ease-in;
+  transition: left 0.6s ease-in;
+}
+
+@mixin fade-fast {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+@mixin right-in {
+  -webkit-transition: right 0.6s ease-in;
+  transition: right 0.6s ease-in;
+}
+
+@mixin flip {
+  -webkit-perspective: 300px;
+  -ms-perspective: 300px;
+  perspective: 300px;
+  -webkit-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@mixin toggle {
+  width: 0;
+  height: 0;
+}
+
+// ***** ------ [ WIDTH MIXINS ]------ *** //
+
+$base-width: percentage(64/320);
+
+.swatch-one {
+  width: $base-width
+}
+
+.swatch-two {
+  width: $base-width * 2
+}
+
+.swatch-three {
+  width: $base-width * 3
+}
+
+.swatch-four {
+  width: $base-width * 4
+}
+
+.swatch-five {
+  width: $base-width * 5
+}
+
+// ***** ------ [ HEIGHT MIXINS ] ------ ********************* //
+
+$base-height: percentage(80/480);
+
+.line-one {
+  height: $base-height
+}
+
+.line-two {
+  height: $base-height * 2
+}
+
+.line-three {
+  height: $base-height * 3
+}
+
+.line-four {
+  height: $base-height * 4
+}
+
+.line-five {
+  height: $base-height * 5
+}
+
+.line-six {
+  height: $base-height * 6
+}
+
+@mixin swipe-height {
+  line-height: normal;
+  padding: $base-width/2;
+}
+
 // ***** ------ [ BACKGROUND MIXINS ] ------ ***************** //
-// ********************************************************** //
 
 $color-dark: #232323;
 $color-light: #dedede;
@@ -184,9 +449,7 @@ $color-brand: #5cb85c;
   background-position: 33% 20%;  
 }
 
-// ************************************************************************ //
 // ***** ------ [ COLOR MIXINS ] ------ ********************** //
-// ********************************************************** //
 
 @mixin color-brand {
   color: #5cb85c;
@@ -228,9 +491,7 @@ $color-brand: #5cb85c;
   color: #ffffff;
 }
 
-// ************************************************************************ //
 // ***** ------ [ TREATMENT MIXINS ] ------ ****************** //
-// ********************************************************** //
 
 @mixin light-text {
   text-shadow: 0.5px 0.5px #000000;
@@ -242,62 +503,6 @@ $color-brand: #5cb85c;
 
 @mixin mid-text {
   text-shadow: 0.5px 0.5px #cccccc;
-}
-
-// ************************************************************************ //
-// ***** ------ [ HEIGHT MIXINS ] ------ ********************* //
-// ********************************************************** //
-
-$base-height: percentage(80/480);
-
-.line-one {
-  height: $base-height
-}
-
-.line-two {
-  height: $base-height * 2
-}
-
-.line-three {
-  height: $base-height * 3
-}
-
-.line-four {
-  height: $base-height * 4
-}
-
-.line-five {
-  height: $base-height * 5
-}
-
-.line-six {
-  height: $base-height * 6
-}
-
-// ************************************************************************ //
-// ***** ------ [ WIDTH MIXINS ] ------ ********************** //
-// ********************************************************** //
-
-$base-width: percentage(64/320);
-
-.swatch-one {
-  width: $base-width
-}
-
-.swatch-two {
-  width: $base-width * 2
-}
-
-.swatch-three {
-  width: $base-width * 3
-}
-
-.swatch-four {
-  width: $base-width * 4
-}
-
-.swatch-five {
-  width: $base-width * 5
 }
 
 a {

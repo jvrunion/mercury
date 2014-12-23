@@ -17,13 +17,13 @@ tags: [Mercury]
         </p>
     </div>
 </div>
-<div class="content boundary">
-    <div class="content-wrapper is-center">
-        <h1 class="content-head">
+<div class="line-five">
+    <div class="is-center">
+        <h1>
             Quicksilver Results
         </h1>
-        <div class="fill edge is-center">
-            <div class="swatch-five edge">
+        <div class="edge">
+            <div class="swatch-two">
                 <h3>
                     Prototyping
                 </h3>
@@ -36,7 +36,7 @@ tags: [Mercury]
                 </p>
                 <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
-            <div class="swatch-five">
+            <div class="swatch-two">
                 <h3>
                     Responsive
                 </h3>
@@ -75,7 +75,7 @@ tags: [Mercury]
                 <button class="pure-button">More <i class="fa fa-angle-double-right"></i></button>
             </div>
         </div>
-        <div class="fill edge is-center">
+        <div class="edge is-center">
             <a href="#" data-event="label">
                 <h1 class="power">
                     crafted from:
