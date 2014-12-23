@@ -79,7 +79,7 @@ If you are comfortable with Git as well as NPM, Bower and SASS this project can 
 
 ``config/compass.rb``
 
-###Options:
+#####Options:
 
 Add Bower:
 
@@ -89,7 +89,7 @@ Add Google Fonts:
 
 ``add_import_path "http://fonts.googleapis.com/css?"``
 
-###Set this to the root of your project when deployed:
+#####Set this to the root of your project when deployed:
 
 - Application Path:
 
