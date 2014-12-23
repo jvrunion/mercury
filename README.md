@@ -1,9 +1,13 @@
-Mercury
+Mercury (Quicksilver Coding)
 ===============================
 
-Mercury is a front end asset pipeline which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5.  Pre built for rapid prototyping and mobile first design it takes the .  
+Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5. 
 
-Responsive out of the box and scalable, it is a lighting fast UX/UI assembly that coverts into a deployable front end package that is easily integrated with any back end.
+Pre built for rapid prototyping and mobile first design it takes the pain and frustration out of starting out a project for rapid deployment.  
+
+Responsive out of the box and scalable, i's' lighting fast UI (based on PURE) converts static assets into a deployable front end package that is easily integrated with any back end.
+
+If you are interested in the future of the web and want to contribute feel free to fork away!
 
 #Install Dependencies
 
@@ -22,13 +26,13 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ``gem install rdsicount``
 
-###Clone this repo:
+###Clone
 
 ``git clone https://github.com/jvrunion/mercury.git``
 
 ``cd mercury``
 
-###NPM Install:
+###NPM Install
 
 ``npm install``
 
@@ -40,7 +44,9 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ``=> Now point to http://localhost:4000``
 
-Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler that you will fall in love with.
+Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  It uses PURE from yahoo instead of Bootstrap because it's much smaller footprint makes it light and easy to work with.
+
+If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler-plate that you will fall in love with.
 
 ##Basic Jekyll Structure:
 
