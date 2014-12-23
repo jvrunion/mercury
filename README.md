@@ -1,7 +1,9 @@
 Mercury
 ===============================
 
-Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, HTML5 pre built front end asset bundle for rapid prototyping and mobile first design and delivery concepts.  Responsive out of the box and scalable, it is a lighting fast UX/UI assembly that coverts into a deployable front end package that is easily integrated with any back end.
+Mercury is a front end asset pipeline which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5.  Pre built for rapid prototyping and mobile first design it takes the .  
+
+Responsive out of the box and scalable, it is a lighting fast UX/UI assembly that coverts into a deployable front end package that is easily integrated with any back end.
 
 ####Install Dependencies
 
@@ -11,6 +13,8 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 - [Bower](http://bower.io/)
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
+
+###If you already have Ruby:"
 
 ``gem install jekyll``
 
@@ -36,8 +40,26 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 
 ``=> Now point to http://localhost:4000``
 
-Based upon
-==========
+# Require any additional compass plugins here.
+
+``config/compass.rb''
+
+####Options:
+
+add_import_path "bower_components"
+add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"
+
+##### Set this to the root of your project when deployed:
+
+``
+http_path = "/"
+css_dir = "/css"
+sass_dir = "/_sass"
+images_dir = "img"
+javascripts_dir = "js"
+``
+
+####Based upon
 
 - [Pure](http://purecss.io/base/)
 - [Jekyll](http://jekyllrb.com/docs/home/)
