@@ -3,7 +3,6 @@ Mercury
 
 Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, HTML5 pre built front end asset bundle for rapid prototyping and mobile first design and delivery concepts.  Responsive out of the box and scalable, it is a lighting fast UX/UI assembly that coverts into a deployable front end package that is easily integrated with any back end.
 
-
 ####Install Dependencies
 
 - [Node](http://nodejs.org/)
@@ -13,15 +12,10 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
 
-#####If You Do Not Already Have NPM Or Ruby You Will Need Them.
-
-- [Node](http://nodejs.org/)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
-
-#####Install Dependancies:
-
 ``gem install jekyll``
+
 ``gem install jekyll-compass``
+
 ``gem install rdsicount``
 
 #####Clone this repo:
@@ -38,16 +32,16 @@ Front End Asset Pipeline - SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuer
 
 ``grunt``
 
-#####You are now up and running:
+#####You are now up and running!:
 
 ``=> Now point to http://localhost:4000``
 
 Based upon
 ==========
 
-*Pure - Docs at (http://purecss.io/base/)
-*Jekyll - Docs at (http://jekyllrb.com/docs/home/)
-*Grunt - Docs at (http://gruntjs.com/getting-started)
-*Compass - Docs at http://compass-style.org/reference/compass/)
-*Jekyll Grunt - GitHub Account (https://github.com/dannygarcia/grunt-jekyll)
-*Jekyll Pure - GitHub Account (https://github.com/brickgao/jekyll-pure)
+- Pure: (http://purecss.io/base/)
+- Jekyll: (http://jekyllrb.com/docs/home/)
+- Grunt: (http://gruntjs.com/getting-started)
+- Compass: http://compass-style.org/reference/compass/)
+- Jekyll Grunt: (https://github.com/dannygarcia/grunt-jekyll)
+- Jekyll Pure: (https://github.com/brickgao/jekyll-pure)
