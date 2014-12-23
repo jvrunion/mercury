@@ -14,7 +14,7 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
 
-######If you already have Ruby
+##If you already have Ruby
 
 ``gem install jekyll``
 
@@ -22,58 +22,58 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ``gem install rdsicount``
 
-######Clone this repo:
+###Clone this repo:
 
 ``git clone https://github.com/jvrunion/mercury.git``
 
 ``cd mercury``
 
-######NPM Install:
+###NPM Install:
 
 ``npm install``
 
-######Start Jekyll with Grunt:
+###Start Jekyll with Grunt:
 
 ``grunt``
 
-######You are now up and running!:
+###You are now up and running!:
 
 ``=> Now point to http://localhost:4000``
 
 Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler that you will fall in love with.
 
-#####Require any additional compass plugins here.
+##Require any additional compass plugins here.
 
-``config/compass.rb''
+``config/compass.rb``
 
-######Options:
+###Options:
 
-**Add Bower:**
+Add Bower:
 
 ``add_import_path "bower_components"``
 
-**Add Google Fonts:**
+Add Google Fonts:
 
 ``add_import_path "http://fonts.googleapis.com/css?"``
 
-####Set this to the root of your project when deployed:
+###Set this to the root of your project when deployed:
 
-**Application Path:**
+Application Path:
 ``http_path = "/"``
 
-**CSS Deployed Directory:**
+CSS Deployed Directory:
 ``css_dir = "/css"``
 
-**SASS Deployed Directory:**
+SASS Deployed Directory:
 ``sass_dir = "/_sass"``
 
-**IMAGES Deployed:**
+IMAGES Deployed:
 ``images_dir = "img"``
 
 **JS Deployed:**
 ``javascripts_dir = "js"``
 
-####Based upon the following open source projects:
+###Based upon the following open source projects:
 
 - [Pure](http://purecss.io/base/)
 - [Jekyll](http://jekyllrb.com/docs/home/)
