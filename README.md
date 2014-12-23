@@ -40,31 +40,36 @@ Responsive out of the box and scalable, it is a lighting fast UX/UI assembly tha
 
 ``=> Now point to http://localhost:4000``
 
-# Require any additional compass plugins here.
+### Require any additional compass plugins here.
 
 ``config/compass.rb''
 
 ####Options:
 
-*add_import_path "bower_components"
-*add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"
+####Add Bower:
+
+**add_import_path "bower_components"**
+
+####Add Google Fonts:
+
+**add_import_path "http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700"**
 
 ##### Set this to the root of your project when deployed:
 
 **Application Path:**
-- http_path = "/"
+``http_path = "/"``
 
 **CSS Deployed Directory:**
-- css_dir = "/css"
+``css_dir = "/css"``
 
 **SASS Deployed Directory:**
-- sass_dir = "/_sass"
+``sass_dir = "/_sass"``
 
 **IMAGES Deployed:**
-- images_dir = "img"
+``images_dir = "img"``
 
 **JS Deployed:**
-- javascripts_dir = "js"
+``javascripts_dir = "js"``
 
 ####Based upon
 
