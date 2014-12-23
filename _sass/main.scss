@@ -1,0 +1,967 @@
+// * -- [ IMPORT ] -- * //
+
+@import url('mixins.scss');
+
+// *** ------ [ MIXINS ] ------ *** //
+
+@mixin brand-font {
+  font-family: "museo-sans-rounded", "helvetica neue", "arial"
+}
+
+@mixin trim {
+  margin: 3% 0 3% 0;
+  padding: 0 5% 0 5%;
+}
+
+@mixin dark-shade {
+  background-color: #343434;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(233, 233, 233, 0.57));
+  border: 1px solid rgba(98, 98, 98, 0.75);
+  position: relative;
+  @include color-carbon;
+  @include light-text;
+  @include brand-font;
+  input {
+    @include color-rust;
+  }
+}
+
+@mixin set-tag {
+  border: 1px solid rgba(222, 222, 222, 0.17);
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  position: relative;
+  line-height: 2.77em;
+  &.carbon {
+    border-bottom: 1px solid rgba(72, 72, 72, 0.39);
+    p {
+      font-size: 12px;
+    }
+  }
+  &.brand {
+    border-bottom: 1px solid #fff;
+    color: #45939F;
+  }
+  &.chrome {
+    border-bottom: 1px solid #cecece;
+  }
+  &.mid {
+    border-bottom: 1px solid #666;
+  }
+  &.light {
+
+  }
+  &.black {
+    border-bottom: 1px solid #000;
+  }
+  &.action {
+    border-bottom: 1px solid #CB2F24;
+  }
+}
+
+
+@mixin inline {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0
+}
+
+@mixin absolute {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+@mixin relative {
+  position: relative;
+  padding: 0;
+  margin: 0
+}
+
+@mixin zero-margin {
+  margin: 0
+}
+
+@mixin zero-padding {
+  padding: 0b
+}
+
+@mixin float-left {
+  float: left
+}
+
+@mixin break-float {
+  clear: both
+}
+
+@mixin max-up {
+  height: 100;
+}
+
+@mixin max-right {
+  width: 100;
+}
+
+@mixin simple-shade {
+  box-shadow: -5px 15px 85px 10px rgba(54, 54, 54, 0.67);
+}
+
+@mixin right-shade {
+  box-shadow: 30px 45px 55px 10px rgba(0, 0, 0, 0.27); 
+}
+
+@mixin simple-scale {
+  -webkit-transform: matrix(1.606,0,0,1.492,0,0);
+  -moz-transform: matrix(1.606,0,0,1.492,0px,0px);
+  -ms-transform: matrix(1.606,0,0,1.492,0,0);
+  -o-transform: matrix(1.606,0,0,1.492,0,0);
+  transform: matrix(1.606,0,0,1.492,0,0); 
+}
+
+//- SASS CUSTOM PACKAGES FOR SELF IDENTIFY -/
+
+@mixin sass-pack {
+  text-shadow: 1px 1px #B75438;
+  font-size: 1em;  
+  letter-spacing: normal;
+}
+
+@mixin brand-pack {
+  text-shadow: 1px 1px #4C925D;
+  text-transform: none;
+  font-size: 1em;  
+  letter-spacing: normal;  
+}
+
+@mixin angular-pack {
+  background-color: #45939F;;
+  text-shadow: 1px 1px #45939F;
+  text-transform: none;  
+  padding: 1.15em;
+  font-size: 1em;
+  line-height: 1.75em;  
+  letter-spacing: normal;
+}
+
+// *** ------ [ PADDING MIXINS ] ------ *** //
+
+@mixin root-padding {
+  padding: 15px
+}
+
+@mixin btn-padding {
+  padding: 5px 15px
+}
+
+@mixin common-padding {
+  padding: 20px
+}
+
+@mixin large-padding {
+  padding: 35px
+}
+
+@mixin hero-padding {
+  padding: 5%
+}
+
+@mixin search-padding {
+  padding: 15px 0 10px 0;
+}
+
+@mixin root-margin {
+  margin: 15px;
+}
+
+@mixin common-margin {
+  margin: 20px;
+}
+
+@mixin large-margin {
+  margin: 35px
+}
+
+@mixin fill {
+  box-sizing: border-box;
+  margin: 0 5% 0 5%;
+  padding: 2% 0 2% 0;
+  line-height: 1.5em;
+}
+
+@mixin no-pad-top {
+  padding-top: 0
+}
+
+@mixin no-margin-top {
+  margin-top: 0
+}
+
+// ***** ------ [ FORM MIXINS ] ------ *** //
+
+@mixin field {
+  margin: 3% 5%;
+  padding: 2%;
+  border-radius: 6px;
+  box-sizing: border-box;
+  &.brand {
+    background-color: #5cb85c;
+    border: 1px solid transparent;
+  }
+}
+
+@mixin text-box {
+  width: 55%;
+  height: 25px;
+  padding: 2px 8px;
+  margin: 0 0 2%;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+  background-color: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #f5f5f5);
+  background-image: linear-gradient(to bottom, #e0e0e0, #f5f5f5);
+  &.small-field {
+    width: 20%;
+  }
+  &.large-field {
+    width: 75%
+  }
+}
+
+@mixin form-label {
+  color: #000;
+  margin: 2% 1% 1%;
+  font-weight: 600;
+  &.sign-in {
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px #4F4F4F;
+  }
+}
+
+@mixin core {
+  border: 1px solid #ffffff;
+  color: #272727;
+  text-shadow: 0.5px 0.5px #F5F5F5;
+  background-image: linear-gradient(to bottom, #CCCCCC, #f5f5f5);
+  background-image: -webkit-linear-gradient(top, #CCCCCC, #f5f5f5);
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+// ***** ------ [ BACKGROUND MIXINS ] ------ *** //
+
+// **** [ SWATCH COLORS ] ------ *** //
+
+
+$color-brand: #45939F;
+$color-light: #dedede;
+$color-chrome: #d0d0d0;
+$color-chrome-dark: #757575;
+$color-mid: #757575;
+$color-dark: #232323;
+$color-black: #081f02;
+$color-carbon: #3b3b3b;
+$color-rust: #db473d;
+$color-action: #f53b2e;
+$color-base: #ffffff;
+$color-dark: #232323;
+$color-light: #dedede;
+$color-brand: #45939F;
+$color-cool: #45939F;
+
+@mixin color-hover($color) {
+  &:hover {
+    background-color: darken($color, 75%);
+    @include fade;
+    cursor: pointer;
+  }
+}
+
+@mixin color-def($color) {
+  background-color: $color;
+  @include color-hover($color);
+}
+
+@mixin back-dark {
+  @include color-def($color-dark)
+}
+
+@mixin back-mid {
+  @include color-def($color-mid)
+}
+
+@mixin back-brand {
+  @include color-def($color-brand)
+}
+
+@mixin back-light {
+  @include color-def($color-light)
+}
+
+@mixin back-rust {
+  @include color-def($color-rust)
+}
+
+@mixin back-chrome {
+  background-color: #d0d0d0
+}
+
+@mixin back-chrome-dark {
+  background-color: #757575
+}
+
+@mixin back-black {
+  background-color: #081f02
+}
+
+@mixin back-rust {
+  background-color: #db473d
+}
+
+@mixin back-action {
+  background-color: #f53b2e
+}
+
+@mixin back-carbon {
+  background-color: #222222;
+  background-image: -webkit-linear-gradient(top, #222222, #313131); 
+  background-image: linear-gradient(to bottom, #222222, #313131);
+}
+
+@mixin back-carbon-brand {
+  background-color: #439940
+}
+
+@mixin back-brand-switch {
+  background-color: #5bce58
+}
+
+@mixin core-image {
+  background-repeat: no-repeat;
+  background-size: 300% auto;
+  background-position: 33% 20%;
+}
+
+// ***** ------ [ COLOR MIXINS ] ------ *** //
+
+@mixin color-brand {
+  color: #45939F
+}
+
+@mixin color-light {
+  color: #dedede
+}
+
+@mixin color-chrome {
+  color: #d0d0d0
+}
+
+@mixin color-chrome-dark {
+  color: #757575
+}
+
+@mixin color-mid {
+  color: #757575
+}
+
+@mixin color-dark {
+  color: #232323
+}
+
+@mixin color-black {
+  color: #081f02
+}
+
+@mixin color-carbon {
+  color: #3b3b3b
+}
+
+@mixin color-rust {
+  color: #db473d;
+}
+
+@mixin color-action {
+  color: #f53b2e;
+}
+
+@mixin color-base {
+  color: #ffffff;
+}
+
+// ***** ------ [ TREATMENT MIXINS ] ------ *** //
+
+@mixin light-text {
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+@mixin dark-text {
+  text-shadow: 0.5px 0.5px #ffffff;
+}
+
+@mixin mid-text {
+  text-shadow: 0.5px 0.5px #cccccc;
+}
+
+@mixin grey-text {
+  text-shadow: 0.5px 0.5px #464646;
+}
+
+@mixin fade {
+  -webkit-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
+}
+
+@mixin left-in {
+  -webkit-transition: left 0.6s ease-in;
+  transition: left 0.6s ease-in;
+}
+
+@mixin fade-fast {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+@mixin right-in {
+  -webkit-transition: right 0.6s ease-in;
+  transition: right 0.6s ease-in;
+}
+
+@mixin flip {
+  -webkit-perspective: 300px;
+  -ms-perspective: 300px;
+  perspective: 300px;
+  -webkit-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@mixin toggle {
+  width: 0;
+  height: 0;
+}
+
+// ***** ------ [ HEIGHT MIXINS ] ------ *** //
+
+$base-height: percentage(80/480);
+
+.fill-one {
+  height: $base-height
+}
+
+.fill-two {
+  height: $base-height * 2
+}
+
+.fill-three {
+  height: $base-height * 3
+}
+
+.fill-four {
+  height: $base-height * 4
+}
+
+.fill-five {
+  height: $base-height * 5
+}
+
+.fill-six {
+  height: $base-height * 6
+}
+
+// ***** ------ [ WIDTH MIXINS ]------ *** //
+
+$base-width: percentage(64/320);
+
+.swatch-one {
+  width: $base-width
+}
+
+.swatch-two {
+  width: $base-width * 2
+}
+
+.swatch-three {
+  width: $base-width * 3
+}
+
+.swatch-four {
+  width: $base-width * 4
+}
+
+.swatch-five {
+  width: $base-width * 5
+}
+
+.foundation .swatch-fixed-footer {
+  width: 50%;
+  bottom: 0;
+  opacity: 0.89;
+  position: absolute;
+  left: 25%;
+  height: 25px;
+  border: 1px solid #ECECEC;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+
+.fill-split-left {
+  padding-left: $base-width/2;
+}
+
+.fill-split-right {
+  padding-right: $base-width/2;
+}
+
+.fill-one-left {
+  padding-left: $base-width;
+}
+
+.fill-one-right {
+  padding-right: $base-width;
+}
+
+.fill-two-left {
+  padding-left: $base-width*2;
+}
+
+.fill-two-right {
+  padding-right: $base-width*2;
+}
+
+@mixin swipe-height {
+  line-height: normal;
+  padding: $base-width/2;
+}
+
+// ************************************************************************ //
+// ******  [ DEFAULT SELECTORS ]  *******************  //
+// ************************************************* //
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 13.3px;
+  font-weight: 300;
+  line-height: 1.65em;
+  overflow: hidden;
+}
+
+a {
+  @include color-brand;
+  text-decoration: none;
+  &:hover {
+    @include color-rust;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-sans-rounded", "helvetica neue", "arial";
+  font-weight: 200;
+  letter-spacing: -0.535;
+/*  text-transform: uppercase;*/
+}
+
+h1 {
+  font-size: 3.77em;
+  line-height: 3.55em;
+}
+
+h2 {
+  font-size: 2.85em
+}
+
+h3 {
+  font-size: 1.65em
+}
+
+h4 {
+  font-size: .85em
+}
+
+ul {
+  list-style: none;
+  margin: 20px 0 0 1%;
+  line-height: 1.75em;
+}
+
+a {
+  @include color-brand;
+  text-decoration: none;
+  &:hover {
+    @include color-rust;
+  }
+}
+
+.dark-form {
+  margin: 0;
+  label {
+    @include brand-font
+  }
+  input {
+    background: rgba(0, 0, 0, 0.77);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-weight: 100;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 0 0 .5em .5em;
+    width: 35%;
+    font-size: 20px;
+    top: -4px;
+    @include color-brand;
+    @include light-text;
+    @include brand-font;
+  }
+  button {
+    background-color: #55b55c;
+    background-image: linear-gradient(to bottom, #55b55c, #266b19);
+    border: 1px solid rgba(42, 42, 42, 0.81);
+    position: relative;
+    border-radius: 0 0 15px 0;
+    font-weight: 400;
+    width: 7%;
+    min-width: 40px;
+    height: 3.5em;
+    right: 6px;
+    top: -2px;
+    @include color-chrome;
+    @include light-text;
+    @include brand-font
+  }
+}
+
+.foundation {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  @include dark-text;
+  @include back-carbon;
+  @include brand-font;
+  section {
+    @include float-left;
+    &.boundary {
+      @include back-chrome;      
+      left: 1px;
+      bottom: 1px;
+      p {
+        font-size: 1em;
+      }
+      h1, h2 {
+        @include light-text;
+      }
+      form {
+        .text-box {
+          @include text-box
+        }
+        .form-label {
+          @include form-label
+        }
+      }
+      .swatch-four.line-two {
+        @include back-dark;
+        @include field;
+        button {
+          @include btn-padding;
+        }
+      }
+    }
+    &.id {
+      h1, h2 {
+        @include color-base;
+        @include light-text
+      }
+      @include core-image;
+      .shade {
+        h1 {
+          line-height: 1em
+        }
+        h3 {
+          @include light-text;
+          font-weight: 600;
+        }
+      }
+    }      
+    &.user {
+      .sign-in {
+        @include back-carbon;
+        @include color-light;
+        @include light-text;
+        @include no-pad-top;
+        @include no-margin-top;
+        &:hover {
+          @include back-mid;
+          @include color-carbon;
+          @include dark-text;       
+        }
+        cursor: pointer;
+        width: 100%;
+        padding: 15px 0;  
+      }
+      .sign-up {
+        @include back-action;
+        @include color-light;
+        @include light-text;
+        @include no-margin-top;
+        padding: 18px;
+        cursor: pointer;
+        .headline-footer {
+          @include back-brand
+        }
+        &:hover {
+          @include back-chrome;
+          @include color-carbon;
+          @include dark-text;
+        }
+      }      
+
+    }
+    &.hero {
+      @include back-mid;
+      @include color-light;
+      @include light-text;
+      img {
+        box-shadow: inset 0 0 40px 20px #202020;
+        padding-top: 0;
+        border-radius: 7px;
+        border: 1px solid #555;
+        box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.07);
+      }
+      p {
+        font-weight: 200;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-top: 1%;
+        min-height: 16.666%;
+        li {
+          @include float-left;
+          @include color-mid;
+          padding-top: 20px;
+          text-shadow: none;
+          opacity: 0.25;
+          i {
+            font-size: 1.95em;
+            cursor: pointer;
+          }
+          &:hover {
+            @include color-carbon;
+            opacity: 1.0;
+            @include fade-fast;
+            @include simple-scale;         
+          }
+        }
+      }
+    }
+  }
+}
+
+// *** ---- [ HELPERS ] ---- *** /
+
+.grab-left {
+  @include float-left
+}
+
+.fill {
+  @include fill
+}
+
+.core {
+  @include core
+}
+
+.center {
+  text-align: center
+}
+
+.left {
+  text-align: left
+}
+
+.right {
+  text-align: right
+}
+
+// *** ----[ PADDING ] ---- *** /
+
+.base-padding {
+  @include root-padding
+}
+
+.common-padding {
+  @include common-padding
+}
+
+.great-padding {
+  @include large-padding
+}
+
+.hero-padding {
+  @include hero-padding
+}
+
+.clear-top {
+  @include no-pad-top
+}
+
+// *** ---- [ MARGINS ] ---- *** /
+
+.base-margin {
+  @include root-margin
+}
+
+.floor-margin {
+  @include common-margin
+}
+
+.great-margin {
+  @include large-margin
+}
+
+// *** ---- [ BACKGROUNDS ] ---- *** /
+
+.bg-dark {
+  @include back-black
+}
+
+.bg-brand {
+  @include back-brand
+}
+
+.bg-light {
+  @include back-light
+}
+
+.bg-mid {
+  @include back-mid
+}
+
+.bg-chrome {
+  @include back-chrome
+}
+
+.bg-action {
+  @include back-action
+}
+
+.bg-rust {
+  @include back-rust
+}
+
+.bg-chrome-dark {
+  @include back-chrome-dark
+}
+
+.simple-shade { 
+  @include simple-shade 
+}
+
+// *** ----[ COLORS ] ---- *** /
+
+.font-dark {
+  @include color-dark
+}
+
+.font-brand {
+  @include color-brand
+}
+
+.font-light {
+  @include color-light
+}
+
+.font-mid {
+  @include color-mid
+}
+
+.font-chrome {
+  @include color-chrome
+}
+
+.font-action {
+  @include color-action
+}
+
+.font-chrome-dark {
+  @include color-chrome-dark
+}
+
+.font-rust {
+  @include color-rust
+}
+
+.font-carbon {
+  @include color-carbon
+}
+
+.core-reset {
+  background-color: #232323;
+}
+
+// *** ---- [ TREATMENTS ] ---- *** /
+
+.text-light {
+  @include light-text
+}
+
+.text-mid {
+  @include mid-text
+}
+
+.text-dark {
+  @include dark-text
+}
+
+.grey-text { @include grey-text }
+
+.edge { @include trim }
+
+.dark-edge { @include dark-shade }
+
+.right-shade { @include right-shade }
+
+.ll-ogo {
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 5;
+}
+
+.ll-ogo-o {
+  @include color-rust
+}
+
+.sass-pack {
+  @include sass-pack
+}
+
+.brand-pack {
+  @include brand-pack
+}
+
+.angular-pack {
+  @include angular-pack
+}
+
+.tag {
+  @include set-tag
+}
+
+.set-tag {
+  @include set-tag
+}
+
+.swipe-height {
+  @include swipe-height
+}
+

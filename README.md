@@ -18,15 +18,17 @@ If you are interested in the future of the web and want to contribute feel free 
 - [Grunt](http://gruntjs.com/)
 - [Compass](http://compass-style.org/)
 
-##If you already have Ruby ==== >
+##Install Gems
 
 ``gem install jekyll``
 
 ``gem install jekyll-compass``
 
+``compass init``
+
 ``gem install rdsicount``
 
-###Clone
+###Clone Repo
 
 ``git clone https://github.com/jvrunion/mercury.git``
 
@@ -36,7 +38,7 @@ If you are interested in the future of the web and want to contribute feel free 
 
 ``npm install``
 
-###Start Jekyll with Grunt:
+###Start with Grunt:
 
 ``grunt``
 

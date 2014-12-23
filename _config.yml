@@ -1,6 +1,6 @@
 name: Mercury
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 exclude: ["README.md", "Gruntfile.js", "node_modules", "config.rb", "package.json", "LICENSE-MIT", "bower.json"]
 gems:
