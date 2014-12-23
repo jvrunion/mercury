@@ -24,31 +24,27 @@ If you are interested in the future of the web and want to contribute feel free 
 
 ##Install Gems
 
-	``gem install jekyll``
-
-	``gem install jekyll-compass``
-
-	``compass init``
-
-	``gem install rdsicount``
+	gem install jekyll
+	gem install jekyll-compass
+	gem install rdsicount
+	compass init
 
 ###Clone Repo
 
-	``git clone https://github.com/jvrunion/mercury.git``
-
-	``cd mercury``
+	git clone https://github.com/jvrunion/mercury.git
+	cd mercury
 
 ###NPM Install
 
-	``npm install``
+	npm install
 
 ###Start with Grunt:
 
-	``grunt``
+	grunt
 
 ###You are now up and running!:
 
-	``===> Now point to http://localhost:4000``
+	===> Now point to http://localhost:4000
 
 Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  It uses PURE from yahoo instead of Bootstrap because it's much smaller footprint makes it light and easy to work with.
 
