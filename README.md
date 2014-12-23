@@ -1,5 +1,7 @@
-Mercury (Quicksilver Coding)
+Mercury
 ===============================
+
+**(Quicksilver Coding)**
 
 Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5. 
 
@@ -53,7 +55,7 @@ If you are comfortable with Git as well as NPM, Bower and SASS this project can 
 ##Basic Jekyll Structure:
 
 <pre>
-<code class="language-bash" data-lang="bash">.
+<code class="language-bash" data-lang="bash">
 ├── _config.yml
 ├── _drafts
 <span class="p">|</span>   ├── begin-with-the-crazy-ideas.textile
@@ -93,11 +95,11 @@ Add Google Fonts:
 
 ``http_path = "/"``
 
-- CSS Deployed Directory:
+- CSS Deployed:
 
 ``css_dir = "/css"``
 
-- SASS Deployed Directory:
+- SASS Deployed:
 
 ``sass_dir = "/_sass"``
 
