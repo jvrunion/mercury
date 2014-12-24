@@ -2,7 +2,7 @@
 
 @import url(../bower_components/pure/pure-min.css);
 
-@import url('mixins.scss');
+@import url('mixins.css');
 
 menu, ol, ul {
   border: 1px solid rgb(244, 244, 244);
@@ -70,7 +70,7 @@ a {
   width: 100%;
 }
 
-a.pure-data-service {
+/*a.pure-data-service {
   float: left;
   margin: 0 0 -1px 0;
   padding: 15px;
@@ -143,7 +143,7 @@ a.pure-data-service {
       transition: all 0.2s ease-in;
     }
   }
-}
+}*/
 
 .data-hidden-service {
   display: none;
@@ -345,7 +345,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.35em;
+  font-size: 1.75em;
   margin: 1.45em 0;
   color: #f53217;
   line-height: 2.2em;
@@ -360,12 +360,12 @@ h3 {
 }
 
 h4 {
-  font-size: 1.55em;
+  font-size: 1.15em;
   margin: 1.45em 0;
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1em;
   margin: 1.45em 0;
 }
 
@@ -405,7 +405,7 @@ h2 {
   &.post-title, &.page-title {
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-size: 1.57rm;
+    font-size: 1.57em;
   }
   &.post-title a {
     color: rgb(245, 50, 23);
@@ -417,16 +417,24 @@ h2 {
   }
 }
 
-code, kbd, pre, samp {
-  font-family: "Oxygen";
+kbd, pre, samp {
   font-size: 1em;
   color: #F01029;
-  margin-right: 8px;
+  margin: 3em 0;
   background: rgba(240, 240, 240, 0.5);
-  padding: 3px 8px;
+  padding: 1em 2em;
   border-radius: 3px;
   border: 1px solid rgba(226, 226, 226, 0.58);
 }
+
+code {
+  font-family: "Consolas";
+  font-size: 1em;
+  line-height: 1.35em;
+  text-shadow: 1px 1px #FFFFFF;
+}
+
+
 
 .hybrid-page {
   margin: 0 auto;
@@ -1598,4 +1606,12 @@ article.page {
 
 .page section.edge {
   padding-top: 0;
+}
+
+blockquote {
+  margin: 1em 40px;
+  background: rgba(206, 206, 206, 0.12);
+  padding: 1em;
+  border: 1px dotted rgba(51, 51, 51, 0.15);
+  color: #323232;
 }

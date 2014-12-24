@@ -94,100 +94,35 @@
                 
             </header>
             <div class = "post-description">
-                <h1>BASE <i class="fa fa-html5 fade-in page-heading"></i></h1>
+                <h1>SASS <i class="fa fa fa-css3 fade-in page-heading"></i></h1>
 
-<h4>TYPOGRAPHY</h4>
+<p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
 
-<h4>HEADINGS</h4>
+<h2>Mixins</h2>
 
-<p>Headings run from 1 to 6 in decreasing size. Font sizes are defined in <code>em</code>.</p>
+<p>Some things in CSS are a bit tedious to write, especially with CSS3 and the many vendor prefixes that exist. A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. A good use of a mixin is for vendor prefixes. Here's an example for border-radius.</p>
 
-<h1>Heading 1</h1>
+<h3>SCSS SYNTAX</h3>
 
-<h2>Heading 2</h2>
+<pre><code>@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
 
-<h3>Heading 3</h3>
+.box { @include border-radius(10px); }
+</code></pre>
 
-<h4>Heading 4</h4>
+<p>To create a mixin you use the @mixin directive and give it a name. We've named our mixin border-radius. We're also using the variable $radius inside the parentheses so we can pass in a radius of whatever we want. After you create your mixin, you can then use it as a CSS declaration starting with @include followed by the name of the mixin. When your CSS is generated it'll look like this:</p>
 
-<h5>Heading 5</h5>
-
-<h6>#Heading 6</h6>
-
-<h4>LISTS</h4>
-
-<p>Lists come in different forms. There are unordered lists, ordered lists, and definition lists. Normalize provides basic styling and cross-browser consistency for these lists. You can style these further in your specific application. If you're looking to use lists to make menus, check out <a href="/menus/">Menu CSS</a>.</p>
-
-<h5>UNORDERED LIST</h5>
-
-<ul>
-    <li><span class="list-label">list item 1</span> - Cosmonauts warp on mineral at astral city!</li>
-    <li><span class="list-label">list item 1</span> - The adventure is a ugly transformator.
-        <ul>
-            <li><span class="list-label">list item 2</span> - Why does the teleporter harvest?</li>
-            <li><span class="list-label">list item 2</span> - Chemical paralysis lead to the definition.
-                <ul>
-                    <li><span class="list-label">list item 3</span> - Seismic disconnections lead to the core.</li>
-                    <li><span class="list-label">list item 3</span> - It is a cold future, sir.</li>
-                </ul>
-            </li>
-            <li><span class="list-label">list item 2</span></li>
-            <li><span class="list-label">list item 2</span></li>
-        </ul>
-    </li>
-    <li><span class="list-label">list item 1</span></li>
-    <li><span class="list-label">list item 1</span></li>
-</ul>
-
-
-<h5>ORDERED LIST</h5>
-
-<ol>
-    <li><span class="list-label">list item 1</span></li>
-    <li><span class="list-label">list item 1</span>
-        <ol>
-            <li><span class="list-label">list item 2</span></li>
-            <li><span class="list-label">list item 2</span>
-                <ol>
-                    <li><span class="list-label">list item 3</span></li>
-                    <li><span class="list-label">list item 3</span></li>
-                </ol>
-            </li>
-            <li><span class="list-label">list item 2</span></li>
-            <li><span class="list-label">list item 2</span></li>
-        </ol>
-    </li>
-    <li><span class="list-label">list item 1</span></li>
-    <li><span class="list-label">list item 1</span></li>
-</ol>
-
-
-<h4>DEFINITION LISTS</h4>
-
-<dl>
-    <dt>Definition term</dt>
-    <dd>Definition description</dd>
-
-    <dt>Definition term</dt>
-    <dd>Definition description</dd>
-    <dd>Definition description</dd>
-
-    <dt>Definition term</dt>
-    <dt>Definition term</dt>
-    <dd>Definition description</dd>
-</dl>
-
-
-<h4>BOCKQUOTES</h4>
-
-<p>Blockquotes encompass text that is meant to represent a quotation. By default, blockquotes look like regular text, except that they are indented. This gives you the freedom to set your own styles on top. Here's a default one:</p>
-
-<blockquote>
-    "The definition of insanity is dong the same thing over and over again expecting different results" - <span class="quote-from">Albert Einstein</span>
-</blockquote>
-
-
-
+<pre><code>.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+</code></pre>
 
             </div>
         </section>

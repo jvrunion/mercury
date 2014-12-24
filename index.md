@@ -83,11 +83,6 @@ tags: [Mercury]
             </a>
             <ul class="pure-power-list">
                 <li class="power-image">
-                    <a data-provider="bower" href="http://bower.io/">
-                        <img class="grey-scale ghost img-bower" src="img/bower-logo.png" alt="Bower">
-                    </a>
-                </li>
-                <li class="power-image">
                     <a  data-provider="jekyll" href="http://jekyllrb.com/">
                         <img class="grey-scale ghost img-jekyll" src="img/jekyll.png" alt="Jekyll">
                     </a>
@@ -98,18 +93,8 @@ tags: [Mercury]
                     </a>
                 </li>
                 <li class="power-image">
-                    <a  data-provider="github"href="https://github.com/">
-                        <img class="grey-scale ghost img-git" src="img/git-original.png" alt="GitHub">
-                    </a>
-                </li>
-                <li class="power-image">
                     <a  data-provider="pure" href="http://purecss.io/">
                         <img class="grey-scale ghost img-pure" src="img/pure.png" alt="Pure">
-                    </a>
-                </li>
-                <li class="power-image">
-                    <a data-provider="node" href="http://nodejs.org/">
-                        <img class="grey-scale ghost img-node" src="img/node-bg.png" alt="Node">
                     </a>
                 </li>
             </ul>

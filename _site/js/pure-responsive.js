@@ -2,13 +2,13 @@
 (function(window, document) {
 
     var layout = document.getElementById('layout'),
-        menu = document.getElementById('menu'),
-        menuLink = document.getElementById('menuLink');
+    menu = document.getElementById('menu'),
+    menuLink = document.getElementById('menuLink');
 
     function toggleClass(element, className) {
         var classes = element.className.split(/\s+/),
-            length = classes.length,
-            i = 0;
+        length = classes.length,
+        i = 0;
 
         for (; i < length; i++) {
             if (classes[i] === className) {
