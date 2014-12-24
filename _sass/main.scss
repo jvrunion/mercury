@@ -297,7 +297,6 @@ footer.active-toggle .footer-toggle-control {
   background: rgb(51, 51, 51);
   color: rgb(87, 87, 87);
   text-shadow: 1px 1px rgb(0, 0, 0);
-  font-size: 1.15em;
 }
 
 .pure-menu li {
@@ -335,7 +334,7 @@ footer.active-toggle .footer-toggle-control {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 700;
+  font-weight: 100;
   font-family: "Montserrat";
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -372,7 +371,11 @@ h5 {
 
 .pure-hybrid {
   h1 {
-    color: rgba(7, 17, 26, 0.8);
+    font-weight: 900;
+    color: #000;
+    font-family: "Oxygen";
+    letter-spacing: .1em;
+    font-size: 2.85em;
   }
   h2 {
 
@@ -412,6 +415,17 @@ h2 {
       text-decoration: none;
     }
   }
+}
+
+code, kbd, pre, samp {
+  font-family: "Oxygen";
+  font-size: 1em;
+  color: #F01029;
+  margin-right: 8px;
+  background: rgba(240, 240, 240, 0.5);
+  padding: 3px 8px;
+  border-radius: 3px;
+  border: 1px solid rgba(226, 226, 226, 0.58);
 }
 
 .hybrid-page {
@@ -488,7 +502,8 @@ h1.content-subhead {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1em;
-  font-family: "Montserrat";
+  font-family: "Oxygen";
+  color: #171717;
 }
 
 .post-description h1 i {
@@ -504,7 +519,7 @@ h1.content-subhead {
 }
 
 .teaser-more {
-  color: rgb(37, 83, 117);
+  color: #D53030;
   font-size: 3.5em;
   -webkit-transition: opacity 2.0s ease-in;
   -moz-transition: opacity 2.0s ease-in;
@@ -1112,6 +1127,7 @@ footer {
 
 body {
   color: rgb(161, 161, 161);
+  font-family: "Oxygen";
 }
 
 .pure-img-responsive {
@@ -1338,11 +1354,14 @@ h1, h3, h4, h5, h6, label {
   }
 }
 
+button.pure-button:hover {
+  
+}
 .pure-hybrid .pure-button {
   padding: 0.5em 2em;
   border-radius: 5px;
-  background-color: rgb(238, 49, 15);
-  color: rgb(255, 255, 255);
+  background-color: #1179A6;
+  color: white;
 }
 
 .pure-paginator .pure-button {

@@ -8,8 +8,6 @@ tags: [Base]
 
 ####TYPOGRAPHY
 
-To keep Pure lean and extensible, we do not add any typographic styles over the foundational layer provided by Normalize. This means that you get headings with different sizes, blockquotes, lists, definition lists, and more, but their styles are minimal and easy to override.
-
 ####HEADINGS
 
 Headings run from 1 to 6 in decreasing size. Font sizes are defined in <code>em</code>.
@@ -90,11 +88,4 @@ Blockquotes encompass text that is meant to represent a quotation. By default, b
     "The definition of insanity is dong the same thing over and over again expecting different results" - <span class="quote-from">Albert Einstein</span>
 </blockquote>
 
-####ADDRESSES
 
-<address>
-    <a href="https://github.com/tilomitra">Tilo Mitra</a><br>
-    <a href="https://github.com/ericf">Eric Ferraiuolo</a><br>
-    <a href="https://github.com/msweeney">Matt Sweeney</a><br>
-    <a href="https://github.com/jconniff">Jeff Conniff</a><br>
-</address>

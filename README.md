@@ -40,11 +40,11 @@ If you are interested in the future of the web and want to contribute feel free 
 
 	$ grunt
 
-###You are now up and running!:
+###You are now up and running!
 
 	===> Now point to http://localhost:4000
 
-Mercury is mainly built on the Jekyll platform and integrates easily into a Git versioning workflow.  It uses PURE from yahoo instead of Bootstrap because it's much smaller footprint makes it light and easy to work with.
+Mercury is mainly built on the Jekyll Platform and integrates easily into any Git versioning workflow.  It uses PURE from yahoo instead of Bootstrap because it's much smaller footprint makes it light and easy to work with.
 
 If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler-plate that you will fall in love with.
 
