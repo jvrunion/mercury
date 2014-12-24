@@ -319,8 +319,8 @@ h5 {
   font-weight: 100;
   color: #FC0909;
   font-family: "Oxygen";
-  letter-spacing: .1em;
-  font-size: 3em;
+  letter-spacing: .135em;
+  font-size: 2.35em;
   line-height: 3.5em;
 }
 /* line 315, ../_sass/main.scss */
@@ -1724,12 +1724,14 @@ blockquote {
   margin: 1em 40px;
   background: rgba(206, 206, 206, 0.12);
   padding: 1em;
-  color: rgba(22, 70, 87, 0.85);
+  color: rgba(242, 8, 26, 0.75);
   border-radius: 4px;
   font-size: 1.15em;
+  box-shadow: inset 0 10px 10px rgba(174, 174, 174, 0.1);
+  text-shadow: 1px 1px #fff;
 }
 
-/* line 1543, ../_sass/main.scss */
+/* line 1545, ../_sass/main.scss */
 img.bounding {
   max-width: 100%;
 }
