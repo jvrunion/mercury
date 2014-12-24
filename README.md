@@ -3,8 +3,6 @@
 Mercury
 ===============================
 
-**(Quicksilver Coding)**
-
 Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5. 
 
 Pre built for rapid prototyping and mobile first design it takes the pain and frustration out of starting out a project for blazing deployments.  
@@ -109,41 +107,41 @@ JS:
 
 	javascripts_dir = "js"
 
-##Swatcher
+##Boundary
 
-A swatch refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
-
-####Boundary
+A boundary refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
 
 Declares an area that exists as contstant to another area.
 
-	<section class="boundary">
-		You're new swatch area.
+	<section class="boundary-three line-two">
+		You're new boundary area.
 	</section>
 
-####Fill 
+####Boundary 
 
 This class uses units of 1-5.
 
     Calculation: $base-width: percentage(64/320);
     
-    Example: .swatch-two { width: $base-width * 2 }
+    Example: .boundary-two { width: $base-width * 2 }
  
-####Set
+####Line
 
 This class uses units of 1-8.
 
     Calculation: $base-height: percentage(80/480);
     
-    Example: .fill-two { height: $base-height * 2 }
+    Example: .line-two { height: $base-height * 2 }
 
 ####Edge
 
-This make a standard presentation box with paddings and margins.
+Standard presentation box with paddings and margins.
 
-####Brand
+	.edge {
+		margin: 3.35% 5.35%;
+		padding: 5.35% 3.35%;
+	}
 
-Delivers a package to decorate the swatch
 
 ###Based upon the following open source projects:
 
