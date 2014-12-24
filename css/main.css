@@ -559,7 +559,7 @@ h1.content-subhead {
   margin: 0 auto;
   padding: 0;
   width: 80%;
-  height: 65%;
+  height: 50%;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -ms-transition: all 0.2s ease-in;
@@ -589,7 +589,7 @@ h2.splash-subhead {
   font-family: "Oxygen";
   font-weight: 100;
   color: rgba(22, 70, 87, 0.85);
-  font-size: 1.85em;
+  font-size: 1em;
 }
 
 /* line 560, ../_sass/main.scss */
@@ -1538,7 +1538,7 @@ h1, h3, h4, h5, h6, label {
 /* line 1395, ../_sass/main.scss */
 .content-wrapper {
   position: absolute;
-  top: 87%;
+  top: 47.4%;
   z-index: 2;
   min-height: 12%;
   width: 80%;

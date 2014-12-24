@@ -526,7 +526,7 @@ h1.content-subhead {
   margin: 0 auto;
   padding: 0;
   width: 80%;
-  height: 65%;
+  height: 50%;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -ms-transition: all 0.2s ease-in;
@@ -554,7 +554,7 @@ h2.splash-subhead {
   font-family: "Oxygen";
   font-weight: 100;
   color: rgba(22, 70, 87, 0.85);
-  font-size: 1.85em;
+  font-size: 1em;
 }
 
 .splash-container.splash-combo-respond.active {
@@ -1394,13 +1394,13 @@ button.pure-button:hover {
 
 .content-wrapper {
   position: absolute;
-  top: 87%;
+  top: 47.4%;
   z-index: 2;
   min-height: 12%;
   width: 80%;
   left: 20%;
   background: white;
-  box-shadow: -10px 0 35px 10px rgba(11, 38, 55, 0.33)  
+  box-shadow: -10px 0 35px 10px rgba(11, 38, 55, 0.33);
 }
 
 .content-head {
