@@ -70,81 +70,6 @@ a {
   width: 100%;
 }
 
-/*a.pure-data-service {
-  float: left;
-  margin: 0 0 -1px 0;
-  padding: 15px;
-  max-width: 100%;
-  width: 25%;
-  height: 100px;
-  border: 1px solid;
-  border-top-color: rgb(218, 218, 218);
-  border-right-color: rgb(228, 228, 228);
-  border-bottom-color: rgb(211, 211, 211);
-  border-left-color: rgb(255, 255, 255);
-  background: rgb(247, 247, 247);
-  background-color: rgb(254, 254, 254);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(254, 254, 254)), to(rgb(230, 230, 230)));
-  background-image: -webkit-linear-gradient(top, rgb(254, 254, 254), rgb(230, 230, 230));
-  background-image: -moz-linear-gradient(top, #fefefe, #e6e6e6);
-  background-image: -o-linear-gradient(top, #fefefe, #e6e6e6);
-  background-image: linear-gradient(to bottom, rgb(254, 254, 254), rgb(230, 230, 230));
-  color: rgb(255, 42, 2);
-  text-shadow: 1px 1px rgb(255, 255, 255);
-  &:hover {
-    min-height: 298px;
-    max-height: 298px;
-    border: 1px solid rgb(10, 24, 32);
-    border-bottom-color: rgb(97, 119, 129);
-    background: rgb(44, 65, 80);
-    box-shadow: none;
-    color: rgb(255, 255, 255);
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-  }
-  li {
-    position: relative;
-    top: 20%;
-    left: 0%;
-    text-align: center;
-    text-shadow: 1px 1px rgb(255, 255, 255);
-    font-weight: 700;
-    font-size: .95em;
-    font-family: "Oxygen";
-    line-height: 1.25em;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-  }
-  &:hover li {
-    top: 3%;
-    text-align: left;
-    text-shadow: 1px 1px rgb(0, 0, 0);
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    &.data-hidden-service {
-      display: block;
-      color: rgb(236, 236, 236);
-      text-shadow: 1px 1px rgb(0, 0, 0);
-      font-weight: 100;
-      font-size: .75em;
-      -webkit-transition: all 0.2s ease-in;
-      -moz-transition: all 0.2s ease-in;
-      -ms-transition: all 0.2s ease-in;
-      -o-transition: all 0.2s ease-in;
-      transition: all 0.2s ease-in;
-    }
-  }
-}*/
-
 .data-hidden-service {
   display: none;
   color: rgb(255, 255, 255);
@@ -193,7 +118,7 @@ a {
   #menu {
     .pure-menu {
       ul, .menu-item-divided {
-/*        border-top: 1px solid rgba(0, 0, 0, 0.15);*/
+
       }
     }
     .pure-menu-selected, .pure-menu-heading {
@@ -241,14 +166,12 @@ a {
     background: rgb(248, 247, 247);
     color: rgb(247, 29, 9);
     text-shadow: 1px 1px rgb(255, 255, 255);
-/*    font-size: 1.15em;*/
   }
   &.active {
     background: rgba(7, 17, 26, 0.8);
     color: #E2E2E2;
     border-bottom: 1px solid rgba(254, 254, 254, 0);
     border-top: 1px solid rgba(101, 101, 101, 0);
-/*    font-size: 1.15em;*/
     line-height: 1.35em;
     text-shadow: 1px 1px rgb(0, 0, 0);
   }
@@ -320,7 +243,6 @@ footer.active-toggle .footer-toggle-control {
       box-shadow: inset 0 15px 25px rgb(219, 219, 219);
       border-top: 1px solid rgb(204, 204, 204);
       border-bottom: 1px solid rgb(228, 228, 228);
-/*      font-size: 1.15em;*/
     }
   }
   .splash-container {
@@ -1612,6 +1534,11 @@ blockquote {
   margin: 1em 40px;
   background: rgba(206, 206, 206, 0.12);
   padding: 1em;
-  border: 1px dotted rgba(51, 51, 51, 0.15);
-  color: #323232;
+  color: rgba(22, 70, 87, 0.85);
+  border-radius: 4px;
+  font-size: 1.15em;
+}
+
+img.bounding {
+  max-width: 100%;
 }
