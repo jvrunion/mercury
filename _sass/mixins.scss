@@ -156,7 +156,7 @@
   margin-top: 0
 }
 
-// **** [ SWATCH COLORS ] ------ *** //
+// **** [ boundary COLORS ] ------ *** //
 
 $color-brand: #45939F;
 $color-light: #dedede;
@@ -356,23 +356,23 @@ $color-cool: #45939F;
 
 $base-width: percentage(64/320);
 
-.swatch-one {
+.boundary-one {
   width: $base-width
 }
 
-.swatch-two {
+.boundary-two {
   width: $base-width * 2
 }
 
-.swatch-three {
+.boundary-three {
   width: $base-width * 3
 }
 
-.swatch-four {
+.boundary-four {
   width: $base-width * 4
 }
 
-.swatch-five {
+.boundary-five {
   width: $base-width * 5
 }
 

@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<article class="edge">
-    <div class="swatch-five">
-        <section class="fill-one">
-            <section class="edge">
-                <header class = "post-header">
-                    {% if page.title %}
-                    <h2 class="post-title">{{ post.title }}</h2>
-                    {% endif %}
-                </header>
-                <div class = "post-description">
-                    {{ content }}
-                </div>
-            </section>
+<article class="page">
+    <div class="boundary-five">
+        <section class="edge">
+            <header class = "post-header">
+                {% if page.title %}
+                <h2 class="post-title">{{ post.title }}</h2>
+                {% endif %}
+            </header>
+            <div class = "post-description">
+                {{ content }}
+            </div>
         </section>
     </div>
 </article>

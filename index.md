@@ -6,9 +6,9 @@ tags: [Mercury]
 <div class="splash-container splash-combo-respond">
     <div class="splash">
         <h1 class="splash-head fade-in page-hero">Mercury</h1>
-        <p class="splash-subhead">
+        <h2 class="splash-subhead fade-in">
             SASS.JEKYLL.GRUNT.COMPASS.BOUNDARY
-        </p>
+        </h2>
         <p>
             <a href="https://twitter.com/dc_coder" class="pure-button pure-button-primary" title="Follow Me on Twitter!">
                 @dc_coder
@@ -23,7 +23,7 @@ tags: [Mercury]
             The Quick and The Dead
         </h1>
         <div>
-            <div class="swatch-five">
+            <div class="boundary-five">
                 <h3>
                     Prototyping
                 </h3>
@@ -36,7 +36,7 @@ tags: [Mercury]
                 </p>
                 <button class="pure-button">More</button>
             </div>
-            <div class="swatch-five">
+            <div class="boundary-five">
                 <h3>
                     Responsive
                 </h3>
@@ -49,7 +49,7 @@ tags: [Mercury]
                 </p>
                 <button class="pure-button">More</button>
             </div>
-            <div class="swatch-five">
+            <div class="boundary-five">
                 <h3>
                     Modular
                 </h3>
@@ -62,7 +62,7 @@ tags: [Mercury]
                 </p>
                 <button class="pure-button">More</button>
             </div>
-            <div class="swatch-five">
+            <div class="boundary-five">
                 <h3>
                     Workflows
                 </h3>
