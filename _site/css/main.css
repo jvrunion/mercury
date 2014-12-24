@@ -201,7 +201,7 @@ a:hover, a:focus {
 }
 /* line 195, ../_sass/main.scss */
 .pure-hybrid #menu .pure-menu ul, .pure-hybrid #menu .pure-menu .menu-item-divided {
-  border-top: 1px solid #545454;
+  /*        border-top: 1px solid rgba(0, 0, 0, 0.15);*/
 }
 /* line 199, ../_sass/main.scss */
 .pure-hybrid #menu .pure-menu-selected, .pure-hybrid #menu .pure-menu-heading {
@@ -253,7 +253,7 @@ a:hover, a:focus {
   background: #f8f7f7;
   color: #f71d09;
   text-shadow: 1px 1px white;
-  font-size: 1.15em;
+  /*    font-size: 1.15em;*/
 }
 /* line 246, ../_sass/main.scss */
 .pure-hybrid #menu a.active {
@@ -261,7 +261,7 @@ a:hover, a:focus {
   color: #E2E2E2;
   border-bottom: 1px solid rgba(254, 254, 254, 0);
   border-top: 1px solid rgba(101, 101, 101, 0);
-  font-size: 1.15em;
+  /*    font-size: 1.15em;*/
   line-height: 1.35em;
   text-shadow: 1px 1px black;
 }
@@ -341,7 +341,7 @@ footer.active-toggle .footer-toggle-control {
   box-shadow: inset 0 15px 25px #dbdbdb;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #e4e4e4;
-  font-size: 1.15em;
+  /*      font-size: 1.15em;*/
 }
 /* line 326, ../_sass/main.scss */
 .pure-hybrid .splash-container {
@@ -369,7 +369,7 @@ h1 {
 /* line 347, ../_sass/main.scss */
 h2 {
   font-size: 1.75em;
-  margin: 1.45em 0;
+  margin: .75em 0;
   color: #f53217;
   line-height: 2.2em;
   font-family: "Oxygen";
@@ -1344,7 +1344,7 @@ body {
 }
 /* line 1228, ../_sass/main.scss */
 #menu .pure-menu .menu-item-divided {
-  border-top: 1px solid #454545;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 /* line 1232, ../_sass/main.scss */
 #menu .pure-menu li a:hover, #menu .pure-menu li a:focus {

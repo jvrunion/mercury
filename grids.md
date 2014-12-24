@@ -11,28 +11,28 @@ A boundary refers to a block that is at the highest level in the DOM tree.  All 
 Declares an area that exists as contstant to another area.
 
     <section class="boundary-three line-two">
-        You're new boundary area.
+        Your new boundary area.
     </section>
 
-####Boundary 
+##Boundary 
 
-This class uses units of 1-5.
+###This class uses units of 1-5.
 
     Calculation: $base-width: percentage(64/320);
     
     Example: .boundary-two { width: $base-width * 2 }
  
-####Line
+##Line
 
-This class uses units of 1-8.
+###This class uses units of 1-8.
 
     Calculation: $base-height: percentage(80/480);
     
     Example: .line-two { height: $base-height * 2 }
 
-####Edge
+##Edge
 
-Standard presentation box with paddings and margins.
+###Standard presentation box with paddings and margins.
 
     .edge {
         margin: 3.35% 5.35%;
