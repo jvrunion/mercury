@@ -3,8 +3,6 @@
 Mercury
 ===============================
 
-**(Quicksilver Coding)**
-
 Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5. 
 
 Pre built for rapid prototyping and mobile first design it takes the pain and frustration out of starting out a project for blazing deployments.  
@@ -111,12 +109,12 @@ JS:
 
 ##Boundary
 
-A swatch refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
+A boundary refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
 
 Declares an area that exists as contstant to another area.
 
-	<section class="boundary-three">
-		You're new swatch area.
+	<section class="boundary-three line-two">
+		You're new boundary area.
 	</section>
 
 ####Boundary 
@@ -137,12 +135,13 @@ This class uses units of 1-8.
 
 ####Edge
 
+Standard presentation box with paddings and margins.
+
 	.edge {
 		margin: 3.35% 5.35%;
 		padding: 5.35% 3.35%;
 	}
 
-This make a standard presentation box with paddings and margins.
 
 ###Based upon the following open source projects:
 
