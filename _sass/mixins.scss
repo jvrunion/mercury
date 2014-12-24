@@ -348,6 +348,10 @@ $color-cool: #45939F;
   height: 0;
 }
 
+@mixin slide-up {
+  transition: bottom .3s;
+}
+
 // ***** ------ [ WIDTH MIXINS ]------ *** //
 
 $base-width: percentage(64/320);

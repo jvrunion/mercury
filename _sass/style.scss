@@ -191,7 +191,7 @@ a.pure-data-service {
   #menu {
     .pure-menu {
       ul, .menu-item-divided {
-        border-top: 1px solid rgb(207, 207, 207);
+        border-top: 1px solid #545454;
       }
     }
     .pure-menu-selected, .pure-menu-heading {
@@ -217,8 +217,8 @@ a.pure-data-service {
   margin: 0;
   margin-left: 0;
   background-color: #000;
-  color: #666;
-  text-shadow: 1px 1px #232323;
+  color: rgba(102, 102, 102, 0.54);
+  text-shadow: 1px 1px #000000;
   font-weight: 700;
   font-size: 1.25em;
   font-family: Montserrat;
@@ -241,7 +241,7 @@ a.pure-data-service {
   }
   &.active {
     background: rgba(7, 17, 26, 0.8);
-    color: #E02C2C;
+    color: #E2E2E2;
     border-bottom: 1px solid rgba(254, 254, 254, 0);
     border-top: 1px solid rgba(101, 101, 101, 0);
     font-size: 1em;
@@ -320,7 +320,12 @@ footer.active-toggle .footer-toggle-control {
     }
   }
   .splash-container {
-    background: rgb(143, 143, 143);
+    background: #929FAC;
+    border-bottom: 20px solid #F4F4F4;
+    box-shadow: 0 0 50px 20px #cecece;
+    color: rgba(255, 255, 255, 0.51);
+    font-size: .85em;
+    text-shadow: 1px 1px rgba(55, 108, 128, 0.05);
   }
 }
 
@@ -343,7 +348,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.35em;
+  font-family: "Oxygen";
+  font-weight: 100;
   margin: 1.45em 0;
 }
 
@@ -372,13 +379,6 @@ h5 {
   }
   h5 {
 
-  }
-  p {
-    position: relative;
-    top: 5%;
-    font-size: .9em;
-    font-family: "Arial";
-    line-height: 1.55em;
   }
   .content-head {
     margin: 1.5em auto 1em;
@@ -421,6 +421,10 @@ h2 {
     letter-spacing: 0.1em;
     font-weight: 700;
     line-height: 1.1em;
+    transition-property: bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;    
   }
   h3.content-subhead {
     margin: 20px 0;
@@ -578,18 +582,18 @@ h1.content-subhead {
   transition: all 0.2s ease-in;
   .splash-head {
     margin: 0 auto;
-    padding: 1em .55em;
+    padding: .25em .55em;
     width: 100%;
     height: auto;
-    border: 1px solid rgb(56, 64, 73);
-    border-bottom: 1px solid rgb(59, 83, 100);
+    border: 1px solid #384049;
+    border-bottom: 20px solid #F4F4F4;
     border-radius: 0;
     background: rgba(7, 17, 26, 0.8);
-    box-shadow: inset 0 10px 35px rgb(0, 0, 0);
-    text-shadow: 1px 1px rgb(11, 43, 71);
-    font-size: 2.75em;
-    line-height: 2.25em;
-    color: rgb(255, 255, 255);
+    box-shadow: inset 0 10px 35px black;
+    text-shadow: 1px 1px #0b2b47;
+    font-size: 4em;
+    line-height: 4.25em;
+    color: white;
     letter-spacing: .35em;
   }
 }
@@ -673,26 +677,6 @@ h1.content-subhead {
   color: rgb(121, 121, 121);
 }
 
-.pure-hybrid p {
-  &.splash-subhead {
-    color: rgba(39, 44, 46, 0.5);
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
-    font-weight: 700;
-    font-size: 1.35em;
-    opacity: 0.8;
-    font-family: "Montserrat";
-    padding: 0 27%;
-    line-height: 1.25em;
-    letter-spacing: 0.15em;
-    margin: .55em 0 1.55em 0;
-  }
-  position: relative;
-  top: 5%;
-  font-size: 1.35em;
-  font-family: "Arial";
-  line-height: 1.55em;
-  margin-bottom: 35px;
-}
 
 .fa.fa-chevron-circle-right.teaser-more {
   font-size: .9em;
@@ -706,6 +690,7 @@ h1.content-subhead {
   min-height: 50%;
   width: 80%;
   background: rgb(255, 255, 255);
+  overflow: hidden;
 }
 
 .hybrid-no-left-panel {
@@ -756,8 +741,18 @@ h1.content-subhead {
   width: 100%;
 }
 
-.hybrid-no-left-panel.combo-pin {
+.pin {
   left: 0;
+}
+
+.content-wrapper.full-width {
+  width: 100%;
+  left: 0;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;  
 }
 
 .content-wrapper .pure-g {
@@ -937,8 +932,8 @@ i.fa-github {
   &.fa-chevron-up, &.fa-chevron-down {
     position: relative;
     left: 2px;
-    color: rgb(98, 98, 98);
-    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: #FFFFFF;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -1014,7 +1009,7 @@ footer {
     left: 0;
     padding: 0;
     width: 100%;
-    height: 65%;
+    height: 60%;
   }
 
   #layout.pure-hybrid .content .content-wrapper {
@@ -1090,6 +1085,16 @@ footer {
 
   .hybrid-no-left-panel {
     display: none;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    left: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;      
   }
 
   #layout.pure-hybrid #menu.combo-respond-left.combo-hide.active {
@@ -1200,7 +1205,7 @@ body {
   background: rgb(255, 255, 255);
   -webkit-overflow-scrolling: touch;
   a {
-    padding: 0.6em 0 0.6em 0.6em;
+    padding: 0.6em 0 0.6em 1.68em;
     border: none;
     color: #999;
   }
@@ -1210,10 +1215,10 @@ body {
     ul {
       border: none;
       background: transparent;
-      border-top: 1px solid #333;
+      border-top: 1px solid #454545
     }
     .menu-item-divided {
-      border-top: 1px solid #333;
+      border-top: 1px solid #454545
     }
     li a {
       &:hover, &:focus {
@@ -1464,7 +1469,8 @@ h1, h3, h4, h5, h6, label {
   top: 87%;
   z-index: 2;
   min-height: 12%;
-  width: 100%;
+  width: 80%;
+  left: 20%;
   background: white;
 }
 
@@ -1576,10 +1582,5 @@ h1, h3, h4, h5, h6, label {
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: 10px;
-  background: rgba(153, 153, 153, 0);
-  font-size: 6em;
+  font-size: 10em;
 }

@@ -1,9 +1,4 @@
 
-/*  Pure script to assign variables to
- *  floating left panel to mimic IOS
- *  style navigation
- */
-
 (function(window, document) {
 
     var layout = document.getElementById('layout'),
@@ -40,45 +35,6 @@
 
 }(this, this.document));
 
-/*  setting data attributes to
- *  be used late with a data store
- */
-
-var dataProvider = document.querySelectorAll("[data-provider]");
-var dataEvent = document.querySelectorAll("[data-event]");
-var dataService = document.querySelectorAll("[data-service]");
-
-for (var i = dataProvider.length - 1; i >= 0; i--) {
-    dataProvider[i].addEventListener('click', function(e) {
-        e.preventDefault();
-        var makeProviderDynamic = this.innerHTML;
-        alert("I have logged this elements innerHTML in console as " + makeProviderDynamic);
-        console.log(makeProviderDynamic);
-    });
-}
-
-for (var i = dataEvent.length - 1; i >= 0; i--) {
-    dataEvent[i].addEventListener('click', function(e) {
-        e.preventDefault();
-        var makeEventDynamic = this.innerHTML;
-        alert("I have logged this elements innerHTML in console as " + makeEventDynamic);
-        console.log(makeEventDynamic);
-    });
-}
-
-for (var i = dataService.length - 1; i >= 0; i--) {
-    dataService[i].addEventListener('click', function(e) {
-        e.preventDefault();
-        var makeServiceDynamic = this.innerHTML;
-        alert("I have logged this elements innerHTML in console as " + makeServiceDynamic);
-        console.log(makeServiceDynamic);
-    });
-}
-
-/*  YUI menu constructor scripts
- *  @ TODO: need to make call only from
- *  the menus page
- */
 
 var Y = YUI({
     fetchCSS: false,
@@ -103,12 +59,6 @@ var Y = YUI({
 
 $(document).ready(function() {
 
-    /*
-     *  set active left panel tabs
-     *  using window location to determine
-     *  active state
-     */
-
     var lowerTrigger = $('.footer-toggle-control');
 
     $(lowerTrigger).on('click', function() {
@@ -119,11 +69,6 @@ $(document).ready(function() {
         $(footerControlIcon).toggleClass('fa-chevron-down');
     });
 
-    /*
-     *  set active left panel tabs
-     *  using window location to determine
-     *  active state
-     */
 
     $('.hybrid-no-left-panel').on('click', function() {
         $('.hybrid-no-left-panel i').toggleClass('fa-chevron-up');
@@ -135,14 +80,13 @@ $(document).ready(function() {
         $('.footer-toggle-control').toggleClass('active');
         $('#layout').toggleClass('full-width');
         $('.hybrid-combo-article').toggleClass('full-width');
-
     });
 
-    /*
-     *  set active left panel tabs
-     *  using window location to determine
-     *  active state
-     */
+    $('.combo-pin').on('click', function(){
+        $('.content-wrapper').toggleClass('full-width');
+        $(this).toggleClass('pin');
+    });
+
 
     function checkAttr (){
 
