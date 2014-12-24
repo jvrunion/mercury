@@ -1,4 +1,4 @@
-![Mercury](/img/brand.png "Mercury")
+![Mercury](/img/brand-v2.png "Mercury")
 
 Mercury
 ===============================
