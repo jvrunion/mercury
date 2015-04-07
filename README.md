@@ -24,7 +24,7 @@ If you are interested in the future of the web and want to contribute feel free 
 
 	$ gem install jekyll
 	$ gem install jekyll-compass
-	$ gem install rdsicount
+	$ gem install rdiscount
 	$ compass init
 
 ###Clone Repo
