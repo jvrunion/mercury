@@ -1,12 +1,7 @@
-
 @import "compass/reset";
-
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Oxygen:400,300,700|Montserrat:400,700);
-
 @import url(../bower_components/pure/pure-min.css);
-
 @import url('mixins.css');
-
 @import url('font-awesome.css');
 
 * {
@@ -38,7 +33,7 @@ h1 {
   font-family: "Oxygen";
   letter-spacing: .135em;
   font-size: 2.35em;
-  line-height: 3.5em;  
+  line-height: 3.5em;
 }
 
 h2 {
@@ -107,7 +102,7 @@ h2 {
     transition-property: bottom;
     transition-duration: 0.3s;
     transition-timing-function: initial;
-    transition-delay: initial;    
+    transition-delay: initial;
   }
   h3.content-subhead {
     margin: 20px 0;
@@ -189,8 +184,8 @@ dt {
 dd {
   margin: 0 0 0 0;
   background: rgba(221, 221, 221, 0.33);
-  padding: 10px 0 10px 40px;}
-
+  padding: 10px 0 10px 40px;
+}
 
 a {
   color: rgb(245, 50, 23);
@@ -247,7 +242,7 @@ a {
 .pure-hybrid #menu a {
   border-bottom: 1px solid transparent;
   border-top: 1px solid transparent;
-  font-size: 1.15em;  
+  font-size: 1.15em;
   &:hover {
     background: rgb(248, 247, 247);
     color: rgb(247, 29, 9);
@@ -541,7 +536,6 @@ h2.splash-subhead {
   color: rgb(121, 121, 121);
 }
 
-
 .fa.fa-chevron-circle-right.teaser-more {
   font-size: .9em;
 }
@@ -616,7 +610,7 @@ h2.splash-subhead {
   -moz-transition: all 0.2s ease-in;
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;  
+  transition: all 0.2s ease-in;
 }
 
 .content-wrapper .pure-g {
@@ -781,7 +775,7 @@ footer.active-toggle .footer-toggle-control {
     font-size: 2.0em;
     color: #fff;
     text-shadow: none;
-    font-weight: 500;    
+    font-weight: 500;
   }
 }
 
@@ -1197,23 +1191,46 @@ body {
   background: #111;
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .fade-in {
-  opacity:0; 
-  -webkit-animation:fadeIn ease-in 1; 
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
 
-  -webkit-animation-fill-mode:forwards;  
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 .fade-in.page-heading {
@@ -1236,7 +1253,7 @@ body {
 
 .fade-in.two {
   -webkit-animation-delay: 1.2s;
-  -moz-animation-delay:1.2s;
+  -moz-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
 
@@ -1265,7 +1282,7 @@ article.page {
   padding: 5.35% 3.35%;
 }
 
-.pin+article.page {
+.pin + article.page {
   padding-left: 0;
 }
 
@@ -1297,11 +1314,9 @@ img.bounding {
   border-right: 1px solid #5a5a5a;
   border-bottom: 1px solid #5a5a5a;
   border-radius: 4px;
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, .5);
   text-shadow: 1px 1px #252525;
 }
-
-
 
 .classic-git:before {
   color: #f82e08;
@@ -1423,7 +1438,7 @@ pre {
     font-size: 2.0em;
     color: #fff;
     text-shadow: none;
-    font-weight: 500;    
+    font-weight: 500;
   }
 
   .hybrid-no-left-panel {
@@ -1437,7 +1452,7 @@ pre {
     -moz-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;      
+    transition: all 0.2s ease-in;
   }
 
   #layout.pure-hybrid #menu.combo-respond-left.combo-hide.active {
