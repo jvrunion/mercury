@@ -1,14 +1,13 @@
-
-(function(window, document) {
+(function (window, document) {
 
     var layout = document.getElementById('layout'),
-    menu = document.getElementById('menu'),
-    menuLink = document.getElementById('menuLink');
+        menu = document.getElementById('menu'),
+        menuLink = document.getElementById('menuLink');
 
     function toggleClass(element, className) {
         var classes = element.className.split(/\s+/),
-        length = classes.length,
-        i = 0;
+            length = classes.length,
+            i = 0;
 
         for (; i < length; i++) {
             if (classes[i] === className) {
@@ -24,7 +23,7 @@
         element.className = classes.join(' ');
     }
 
-    menuLink.onclick = function(e) {
+    menuLink.onclick = function (e) {
         var active = 'active';
 
         e.preventDefault();
@@ -57,11 +56,11 @@ var Y = YUI({
 
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     var lowerTrigger = $('.footer-toggle-control');
 
-    $(lowerTrigger).on('click', function() {
+    $(lowerTrigger).on('click', function () {
         var footerNode = $('footer');
         var footerControlIcon = $('.footer-toggle-control i');
 
@@ -70,7 +69,7 @@ $(document).ready(function() {
     });
 
 
-    $('.hybrid-no-left-panel').on('click', function() {
+    $('.hybrid-no-left-panel').on('click', function () {
         $('.hybrid-no-left-panel i').toggleClass('fa-chevron-up');
         $('.combo-respond-left').toggleClass('combo-hide');
         $('.splash-combo-respond').toggleClass('combo-show');
@@ -82,13 +81,13 @@ $(document).ready(function() {
         $('.hybrid-combo-article').toggleClass('full-width');
     });
 
-    $('.combo-pin').on('click', function(){
+    $('.combo-pin').on('click', function () {
         $('.content-wrapper').toggleClass('full-width');
         $(this).toggleClass('pin');
     });
 
 
-    function checkAttr (){
+    function checkAttr() {
 
         var attr = window.location.pathname;
         var dashNode = '.dash-link';
@@ -119,6 +118,8 @@ $(document).ready(function() {
             $('.dashboard').addClass(dashContext);
         }
 
-    } checkAttr();
+    }
+
+    checkAttr();
 
 });
