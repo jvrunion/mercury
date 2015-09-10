@@ -24,7 +24,6 @@ tags: [Mercury]
                 <h1>
                     Prototyping
                 </h1>
-
                 <blockquote class="edge">
                     Prototypes will differ from the Production Model in 3 fundamental ways:
                 </blockquote>
@@ -113,10 +112,6 @@ tags: [Mercury]
                             </a>
                         </li>
                     </ul>
-                </div>
-                <div class="pure-u-1">
-                    <div class="posts">
-                    </div>
                 </div>
             </div>
         </div>

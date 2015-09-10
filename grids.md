@@ -8,7 +8,7 @@ tags: [Grids]
 
 A boundary refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
 
-Declares an area that exists as contstant to another area.
+Declares an area that exists as constant to another area.
 
     <section class="boundary-three line-two">
         Your new boundary area.
@@ -32,7 +32,7 @@ Declares an area that exists as contstant to another area.
 
 ##Edge
 
-###Standard presentation box with paddings and margins.
+###Standard presentation box with padding and margins.
 
     .edge {
         margin: 3.35% 5.35%;
