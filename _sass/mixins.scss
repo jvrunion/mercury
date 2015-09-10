@@ -1,4 +1,3 @@
-
 @mixin trim {
   margin: 3% 0 3% 0;
   padding: 0 5% 0 5%;
@@ -55,11 +54,11 @@
 }
 
 @mixin max-up {
-  height: 100;
+  height: 100%;
 }
 
 @mixin max-right {
-  width: 100;
+  width: 100%;
 }
 
 @mixin simple-shade {
@@ -67,39 +66,39 @@
 }
 
 @mixin right-shade {
-  box-shadow: 30px 45px 55px 10px rgba(0, 0, 0, 0.27); 
+  box-shadow: 30px 45px 55px 10px rgba(0, 0, 0, 0.27);
 }
 
 @mixin simple-scale {
-  -webkit-transform: matrix(1.606,0,0,1.492,0,0);
-  -moz-transform: matrix(1.606,0,0,1.492,0px,0px);
-  -ms-transform: matrix(1.606,0,0,1.492,0,0);
-  -o-transform: matrix(1.606,0,0,1.492,0,0);
-  transform: matrix(1.606,0,0,1.492,0,0); 
+  -webkit-transform: matrix(1.606, 0, 0, 1.492, 0, 0);
+  -moz-transform: matrix(1.606, 0, 0, 1.492, 0, 0);
+  -ms-transform: matrix(1.606, 0, 0, 1.492, 0, 0);
+  -o-transform: matrix(1.606, 0, 0, 1.492, 0, 0);
+  transform: matrix(1.606, 0, 0, 1.492, 0, 0);
 }
 
 //- SASS CUSTOM PACKAGES FOR SELF IDENTIFY -/
 
 @mixin sass-pack {
   text-shadow: 1px 1px #B75438;
-  font-size: 1em;  
+  font-size: 1em;
   letter-spacing: normal;
 }
 
 @mixin brand-pack {
   text-shadow: 1px 1px #4C925D;
   text-transform: none;
-  font-size: 1em;  
-  letter-spacing: normal;  
+  font-size: 1em;
+  letter-spacing: normal;
 }
 
 @mixin angular-pack {
   background-color: #45939F;;
   text-shadow: 1px 1px #45939F;
-  text-transform: none;  
+  text-transform: none;
   padding: 1.15em;
   font-size: 1em;
-  line-height: 1.75em;  
+  line-height: 1.75em;
   letter-spacing: normal;
 }
 
@@ -229,7 +228,7 @@ $color-cool: #45939F;
 
 @mixin back-carbon {
   background-color: #222222;
-  background-image: -webkit-linear-gradient(top, #222222, #313131); 
+  background-image: -webkit-linear-gradient(top, #222222, #313131);
   background-image: linear-gradient(to bottom, #222222, #313131);
 }
 
@@ -415,18 +414,18 @@ $color-dark: #232323;
 $color-light: #dedede;
 $color-brand: #5cb85c;
 
-@mixin color-hover($color){
-  &:hover{
-    background-color: darken($color , 20%);
+@mixin color-hover($color) {
+  &:hover {
+    background-color: darken($color, 20%);
   }
 }
 
-@mixin color-def($color){
+@mixin color-def($color) {
   background-color: $color;
   @include color-hover($color);
 }
 
-@mixin dark {  
+@mixin dark {
   @include color-def($color-dark);
 }
 
@@ -442,15 +441,30 @@ $color-brand: #5cb85c;
   @include color-def($color-light);
 }
 
-@mixin chrome { background-color: #d0d0d0; }
-@mixin chrome-dark { background-color: #757575; }
-@mixin black { background-color: #081f02; }
-@mixin rust { background-color: #db473d; }
-@mixin action { background-color: #f53b2e; }
+@mixin chrome {
+  background-color: #d0d0d0;
+}
+
+@mixin chrome-dark {
+  background-color: #757575;
+}
+
+@mixin black {
+  background-color: #081f02;
+}
+
+@mixin rust {
+  background-color: #db473d;
+}
+
+@mixin action {
+  background-color: #f53b2e;
+}
+
 @mixin core-image {
   background-repeat: no-repeat;
   background-size: 300% auto;
-  background-position: 33% 20%;  
+  background-position: 33% 20%;
 }
 
 // ***** ------ [ COLOR MIXINS ] ------ ********************** //

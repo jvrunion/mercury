@@ -3,13 +3,11 @@
 Mercury
 ===============================
 
-Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3 Transitions, and HTML5. 
-
-Pre built for rapid prototyping and mobile first design it takes the pain and frustration out of starting out a project for blazing deployments.  
-
-Responsive out of the box and scalable, it's lighting fast UI (based on yahoo's PURE.io framework) converts static assets into a deployable front end package that is easily integrated with any back end.
-
-If you are interested in the future of the web and want to contribute feel free to fork away!
+Mercury is a front end asset framework which uses SASS, Compass, Jekyll, Ruby, NPM, Bower, Grunt, jQuery, CSS3
+Transitions, and HTML5. Pre built for rapid prototyping and mobile first design it takes the pain and frustration out
+ of starting out a project for blazing deployments. Responsive out of the box and scalable, it's lighting fast UI
+ (based on yahoo's PURE.io framework) converts static assets into a static directory that is easily
+ integrated with any back end. If you are interested in the future of the web and want to contribute feel free to fork away!
 
 #Install Dependencies
 
@@ -27,14 +25,12 @@ If you are interested in the future of the web and want to contribute feel free 
 	$ gem install rdiscount
 	$ compass init
 
-###Clone Repo
-
-	$ git clone https://github.com/jvrunion/mercury.git
-	$ cd mercury
-
 ###NPM Install
 
 	$ npm install
+
+###Bower Components
+    $ bower install
 
 ###Start with Grunt:
 
@@ -44,9 +40,8 @@ If you are interested in the future of the web and want to contribute feel free 
 
 	===> Now point to http://localhost:4000
 
-Mercury is mainly built on the Jekyll Platform and integrates easily into any Git versioning workflow.  It uses PURE from yahoo instead of Bootstrap because it's much smaller footprint makes it light and easy to work with.
-
-If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler-plate that you will fall in love with.
+Mercury is mainly built on the Jekyll Platform and integrates easily into any Git workflow.  It uses PURE from yahoo
+instead of Bootstrap because it's much smaller footprint makes it light and easy to work with. If you are comfortable with Git as well as NPM, Bower and SASS this project can be a boiler-plate that you will fall in love with.
 
 ##Basic Jekyll Structure:
 
@@ -109,9 +104,9 @@ JS:
 
 ##Boundary
 
-A boundary refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset their block dimension in ratio to this parent block's declartaion.  This is usefull when defining small area's with meaningfull and targeted content.
-
-Declares an area that exists as contstant to another area.
+A boundary refers to a block that is at the highest level in the DOM tree.  All of its children will be able to reset
+ their block dimension in ratio to this parent block's declaration.  This is useful when defining small area's with
+ meaningful and targeted content. Declares an area that exists as constant to another area.
 
 	<section class="boundary-three line-two">
 		You're new boundary area.
@@ -141,7 +136,6 @@ Standard presentation box with paddings and margins.
 		margin: 3.35% 5.35%;
 		padding: 5.35% 3.35%;
 	}
-
 
 ###Based upon the following open source projects:
 

@@ -1,0 +1,40 @@
+.boundary-one {
+  width: 20%; }
+
+.boundary-two {
+  width: 40%; }
+
+.boundary-three {
+  width: 60%; }
+
+.boundary-four {
+  width: 80%; }
+
+.boundary-five {
+  width: 100%; }
+
+.line-one {
+  height: 16.66667%; }
+
+.line-two {
+  height: 33.33333%; }
+
+.line-three {
+  height: 50.0%; }
+
+.line-four {
+  height: 66.66667%; }
+
+.line-five {
+  height: 83.33333%; }
+
+.line-six {
+  height: 100.0%; }
+
+a {
+  color: #5cb85c;
+  text-decoration: none; }
+  a:hover {
+    color: #db473d; }
+
+/*# sourceMappingURL=mixins.css.map */
