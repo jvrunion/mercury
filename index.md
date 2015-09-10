@@ -24,7 +24,7 @@ tags: [Mercury]
                 <h1>
                     Prototyping
                 </h1>
-                <img class="bounding fade-in one" src="img/prototype.jpg">
+                <!-- <img class="bounding fade-in one" src="img/prototype.jpg"> -->
                 <blockquote class="edge">
                     Prototypes will differ from the Production Model in 3 fundamental ways:
                 </blockquote>
